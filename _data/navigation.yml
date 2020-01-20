@@ -2,12 +2,12 @@
 main:
   - title: "Quick-Start Guide"
     url: https://sftth.github.io/docs/quick-start-guide/
-  - title: "Dev"
+  - title: "Category"
     url: /categories/
-  - title: "PE"
+  - title: "Archive"
     url: /page-archive/
-  - title: "springboot"
-    url: /springboot/
+  - title: "Dev"
+    url: /dev/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
