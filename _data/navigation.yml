@@ -2,6 +2,12 @@
 main:
   - title: "Quick-Start Guide"
     url: /docs/quick-start-guide/
+  - title: "Dev"
+    url: /categories/
+  - title: "PE"
+    url: /page-archive/
+  - title: "springboot"
+    url: /springboot/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -10,8 +16,3 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-  - title:"Dev"
-    url: /categories/
-  - title:"PE"
-    url: /page-archive/
-  - title:"springboot"
