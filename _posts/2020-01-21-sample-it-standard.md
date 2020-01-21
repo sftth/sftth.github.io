@@ -1,5 +1,5 @@
 ---
-title: "SW 개론"
+title: "SW Standard"
 date: 2020-01-17 08:26:28 -0400
 categories: sw
 sidebar:
