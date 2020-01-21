@@ -1,6 +1,6 @@
 ---
 title: "Book"
-layout: category
+layout: category-book
 permalink: /book/
 author_profile: false
 ---

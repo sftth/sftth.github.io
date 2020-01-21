@@ -1,6 +1,6 @@
 ---
 title: "PE"
-layout: category
+layout: category-pe
 permalink: /pe/
 author_profile: false
 ---
