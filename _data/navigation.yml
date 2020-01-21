@@ -26,5 +26,5 @@ it-sidebar:
          url: /it/sw/
        - title: HW
          url: /it/hw/
-       - title: 신기술
-         url: /it/newtech/
+       - title: Cloud
+         url: /it/cloud/
