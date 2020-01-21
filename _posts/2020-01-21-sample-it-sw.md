@@ -2,6 +2,8 @@
 title: "SW 개론"
 date: 2020-01-17 08:26:28 -0400
 categories: it-sw
+sidebar:
+  nav: "it-sidebar"
 ---
 # SW 개론 
 
