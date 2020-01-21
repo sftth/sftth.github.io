@@ -19,7 +19,7 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-  docs
+docs:
    - title: IT
      children: 
        - title: SW
