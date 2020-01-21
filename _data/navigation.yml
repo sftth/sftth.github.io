@@ -18,3 +18,13 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+  docs
+   - title: IT
+     children: 
+       - title: SW
+         url: /it/sw
+       - title: HW
+         url: /it/hw
+       - title: 신기술
+         url: /it/newtech
