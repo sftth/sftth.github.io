@@ -1,6 +1,6 @@
 ---
-title: "IT"
+title: "Book"
 layout: category
-permalink: /it/
+permalink: /book/
 author_profile: false
 ---
