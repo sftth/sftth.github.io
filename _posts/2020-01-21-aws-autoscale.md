@@ -7,4 +7,6 @@ sidebar:
 ---
 ## 1. AMI 생성
 1) 서비스 > EC2 선택 <br>
-![](https://github.com/sftth/cloud/blob/master/images/autoscaling001.png)
+<figure>
+  <img src="{{ '/assets/images/autoscaling001.png' | relative_url }}" alt="EC2 Icon">
+</figure>
