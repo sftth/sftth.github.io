@@ -1,13 +1,15 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://sftth.github.io/docs/quick-start-guide/
-  - title: "Category"
-    url: /categories/
-  - title: "Archive"
-    url: /page-archive/
+  - title: "IT"
+    url: /it/
   - title: "Dev"
     url: /dev/
+  - title: "PE"
+    url: /pe/
+  - title: "Book"
+    url: /book/
+  - title: "About"
+    url: /about/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
