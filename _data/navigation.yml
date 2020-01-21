@@ -18,8 +18,8 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-
-docs:
+#sidebar it category links
+it-sidebar:
    - title: IT
      children: 
        - title: SW
