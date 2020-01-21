@@ -7,6 +7,8 @@ layout: archive
 <section class="taxonomy__section">
   <div class="entries-{{ page.entries_layout | default: 'list' }}">
     {% for post in site.categories['it'] %}
+    {% include archive-single.html type=page.entries_layout %}
+    {% endfor %}
     {% for post in site.categories['sw'] %}
     {% include archive-single.html type=page.entries_layout %}
     {% endfor %}
