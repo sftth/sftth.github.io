@@ -1,6 +1,6 @@
 ---
-title: "PE"
+title: "About"
 layout: category
-permalink: /pe/
+permalink: /about/
 author_profile: false
 ---
