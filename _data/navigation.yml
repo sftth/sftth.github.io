@@ -23,8 +23,8 @@ it-sidebar:
    - title: IT
      children: 
        - title: SW
-         url: /it/sw
+         url: /it/sw/
        - title: HW
-         url: /it/hw
+         url: /it/hw/
        - title: 신기술
-         url: /it/newtech
+         url: /it/newtech/
