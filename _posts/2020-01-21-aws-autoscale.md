@@ -5,6 +5,7 @@ categories: cloud
 sidebar:
   nav: "newtech-sidebar"
 ---
+
 # 1. AMI 생성
 ### 1.1 서비스 > EC2 선택
 ![EC2](/assets/images/autoscaling001.png)
@@ -12,6 +13,8 @@ sidebar:
 ![Menu](/assets/images/autoscaling002.png)
 ### 1.3 이미지 > AMI > AMI 생성 확인
 ![Menu](/assets/images/autoscaling003.png)
+
+
 # 2. Load Balancer 생성
 ### 2.1 로드 밸런싱 > 로드밴런서 > 로드 밸런서 생성
 ![Menu](/assets/images/autoscaling004.png)
@@ -20,7 +23,7 @@ sidebar:
 
 | 구분      | 항목                 | 입력값                                 |
 | --------- | -------------------- | -------------------------------------- |
-| 기본구성  | 이름                 | LB-AutoScale-Proxy                     |
+| 기본구성  | 이름                 | LB-AS                     |
 |           | 체계                 | 내부                                   |
 | 리스너    | 로드 밸런서 프로토콜 | TCP                                    |
 |           | 로드 밸런서 포트     | 8109                                   |
@@ -52,3 +55,64 @@ sidebar:
 ![Menu](/assets/images/autoscaling010.png)
 ### 2.7 검토 > 생성 > 닫기 선택
 ![Menu](/assets/images/autoscaling011.png)
+
+
+# 3. AutoScaling 구성
+### 3.1 AUTO SCALING > 시작 구성 > 시작 구성 생성 버튼 선택
+- 내 AMI에서 "AMI-Tomcat-Redis" AMI 선택
+  ![Menu](/assets/images/autoscaling012.png)
+
+- 인스턴스 유형 선택
+  
+  - t2.micro 선택
+  
+- 세부 정보 구성 선택 <br>
+![Menu](/assets/images/autoscaling013.png)
+  
+  | 구분           | 항목      | 값                                   |
+  | -------------- | --------- | ------------------------------------ |
+  | 시작 구성 생성 | 이름      | Autoscale-Tomcat-Redis               |
+  |                | 구매 옵션 | 스팟 인스턴스 요청 체크 안 함        |
+  |                | IAM 역할  | 없음                                 |
+  |                | 모니터링  | CloudWatch 세부 모니터링 활성화 체크 |
+  | 고급 세부 정보 | -         | 프로토 타입으므로 default 설정 유지  |
+  
+- 스토리지 추가 선택 <br>
+![Menu](/assets/images/autoscaling014.png)
+- 보안 그룹 구성 선택 <br>
+![Menu](/assets/images/autoscaling015.png)
+- 검토 > 시작 구성 생성 선택
+  
+### 3.2 Auto Scaling 그룹 생성
+| 구분                   | 항목               | 값                                                |
+| ---------------------- | ------------------ | ------------------------------------------------- |
+| Auto Scaling 그룹 생성 | 그룹 이름          | Autoscaling-Tomcat-Redis-Group                    |
+|                        | 시작 구성          | Autoscaling-Tomcat-Redis                          |
+|                        | 그룹 크기          | 시작 개수: 2 인스턴스                             |
+|                        | 네트워크           | (기본값)                                          |
+|                        | 서브넷             | ap-northeast-2a, ap-northeast-2b, ap-northeast-2c |
+| 고급 세부 정보         | 로드 밸런싱        | 하나 이상의 로드 밸런서에서 트래픽 수신           |
+|                        | 클래식 로드 밸런서 | 미설정                                            |
+|                        | 대상 그룹          | LB-AutoScale-Group                                |
+| 나머지 설정            | -                  | 프로토 타입으므로 default 유지                    |
+### 3.3 조정 정책 구성 선택 <br>
+![Menu](/assets/images/autoscaling016.png)
+
+| 구분           | 항목                | 값                                |
+| -------------- | ------------------- | --------------------------------- |
+| 조정 정책 구성 | 조정 정책을 사용... | 선택                              |
+| 그룹 크기 조정 | 조정 범위           | 2~4                               |
+|                | 이름                | Scale Group Size                  |
+|                | 지표 유형           | 평균 CPU 사용률(유형은 변경 가능) |
+|                | 대상 값             | 임의 설정                         |
+|                | 인스턴스 필요 시간  | 300                               |
+|                | 축소 비활성화       | 미설정                            |
+
+### 3.4 알림 구성은 미설정
+
+### 3.5 Tag 설정
+
+- Name : sftth322-dev-was-autoscale 
+
+### 3-6 검토 > Auto Scaling 그룹 생성 >  닫기
+![Menu](/assets/images/autoscaling017.png)
