@@ -39,6 +39,7 @@ sidebar:
  ![Menu](/assets/images/autoscaling007.png)
  - 실제 적용 시, 리스너에 "TLS(보안 TCP)" 추가하여 사용
  ![Menu](/assets/images/autoscaling008.png)
+
 ### 2.5 라우팅 구성 버튼 선택
 ![Menu](/assets/images/autoscaling009.png)
 
@@ -84,17 +85,17 @@ sidebar:
 - 검토 > 시작 구성 생성 선택
   
 ### 3.2 Auto Scaling 그룹 생성
-| 구분                   | 항목               | 값                                                |
+| 구분                    | 항목               | 값                                                |
 | ---------------------- | ------------------ | ------------------------------------------------- |
-| Auto Scaling 그룹 생성 | 그룹 이름          | Autoscaling-Tomcat-Redis-Group                    |
+| Auto Scaling 그룹 생성   | 그룹 이름          | Autoscaling-Tomcat-Redis-Group                    |
 |                        | 시작 구성          | Autoscaling-Tomcat-Redis                          |
 |                        | 그룹 크기          | 시작 개수: 2 인스턴스                             |
 |                        | 네트워크           | (기본값)                                          |
 |                        | 서브넷             | ap-northeast-2a, ap-northeast-2b, ap-northeast-2c |
-| 고급 세부 정보         | 로드 밸런싱        | 하나 이상의 로드 밸런서에서 트래픽 수신           |
+| 고급 세부 정보             | 로드 밸런싱        | 하나 이상의 로드 밸런서에서 트래픽 수신           |
 |                        | 클래식 로드 밸런서 | 미설정                                            |
 |                        | 대상 그룹          | LB-AutoScale-Group                                |
-| 나머지 설정            | -                  | 프로토 타입으므로 default 유지                    |
+| 나머지 설정               | -                  | 프로토 타입으므로 default 유지                    |
 
 ### 3.3 조정 정책 구성 선택 <br>
 ![Menu](/assets/images/autoscaling016.png)
