@@ -3,7 +3,7 @@ title: "AWS Autoscaling"
 date: 2020-01-21 11:00:00 +0800
 categories: cloud
 sidebar:
-  nav: "newtech-sidebar"
+  nav: "it-sidebar"
 ---
 
 # 1. AMI 생성
