@@ -268,7 +268,7 @@ jekyll-archives:
      category: archive-taxonomy
 #     tag: archive-taxonomy
    permalinks:
-     category: /:name/
+     category: /:categories/:name/
 #     tag: /tags/:name/
 
 
