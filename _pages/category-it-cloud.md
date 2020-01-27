@@ -1,5 +1,5 @@
 ---
-title: "New Tech"
+title: "Cloud"
 layout: category-it-cloud
 permalink: /it/cloud/
 author_profile: false
