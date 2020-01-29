@@ -1,5 +1,5 @@
 ---
-title: "AWS Autoscaling 환경에서 CICD를 위한 Jenkins구성"
+title: "AWS Autoscaling - CICD를 위한 Jenkins구성"
 date: 2020-01-29 11:00:00 +0800
 categories: cloud
 sidebar:
