@@ -6,7 +6,9 @@ sidebar:
   nav: "it-sidebar"
 ---
 
-## Jenkins 플러그인 설치
+Autoscale 환경의 인스턴스에 최신 소스를 반영하는 문제는 고민거리이다. 인스턴스는 동적으로 생성과 소멸이 일어나기 때문이다. 때문에 소스 반영을 위한 고정된 목적지를 알 수가 없다. 이 포스팅은 Jenkins을 활용하여 해당 문제 해결 방법을 제시한다. 
+
+## Plugin
 
 ### 1. Jenkins > Jenkins 관리 > 플러그인 관리
 
@@ -16,7 +18,7 @@ sidebar:
 
    ![Jenkins](/assets/images/autoscaling-jenkins002.png)
 
------------------------------------------------------------
+
 ## war 파일을 S3업로드하기 위한 Job생성
 
 ### 1. 새로운Item > Maven project
