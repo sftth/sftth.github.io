@@ -1,5 +1,5 @@
 ---
-title: "AWS Autoscaling"
+title: "AWS Autoscaling - AWS 기본 설정"
 date: 2020-01-21 11:00:00 +0800
 categories: cloud
 sidebar:
