@@ -40,10 +40,10 @@ sidebar:
 - 소스 빌드는 Maven 기준으로 수행
 - 아래 정보를 Build 항목에 입력
 
-| 항목 | 설명 | 값 | 
-| ---- | --- | --- |
-| Root POM    | pom 파일 명 | pom.xml |
-| Goals and options | pom 옵션 | clean install package |
+  | 항목 | 설명 | 값 | 
+  | ---- | --- | --- |
+  | Root POM    | pom 파일 명 | pom.xml |
+  | Goals and options | pom 옵션 | clean install package |
 
 ### 4. 빌드 후 조치
 - 빌드 후 조치 항목 중 Publish artifacts to S3 Bucket을 선택
