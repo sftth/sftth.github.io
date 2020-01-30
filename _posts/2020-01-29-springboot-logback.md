@@ -100,27 +100,27 @@ springboot 환경에서 Log4j2는 slf4j 구현체 매칭 작업에 어려움이 
   
 - logback-spring.xml에 대한 간략한 설명은 아래 표로 정리
 
-| 구분            | 속성 | 설명                      |
-| ---             | --- | ---                       |
-| consoleAppender | -   | console 화면에 로그를 남김 | 
-|                 | layout | 출력 로그 포맷 설정 |
-|                 | pattern | 출력 로그 포맷 상세 |
-|                 | 예시    | %d{yyyy-MM-dd HH:mm:ss}:%-3relative]|
-|                 |         | 2020-01-30 13:50:23:2544] |
-|                 |         | [%thread]  |
-|                 |         | [main]     |
-|                 |         | %-5level   |
-|                 |         | INFO             |
-|                 |         | %logger{35} -    |
-|                 |         | com.test.package |
-|                 |         | %msg%n           |
-|                 |         | 출력메시지 \개행  |
-| appAppender     | -       | 파일에 로그를 남김|
-|                 | file    | 로그 파일 경로    |
-|                 | encoder | 로그 pattern 설정 |
-|                 | rollingPolicy      | 파일 롤링 정책 설정  |
-|                 | fileNamePattern    | 롤링 파일 생성 포맷  |
-|                 | timeBased...Policy | 시간/용량 기준 파일 롤링 정책 |
+  | 구분            | 속성 | 설명                      |
+  | ---             | --- | ---                       |
+  | consoleAppender | -   | console 화면에 로그를 남김 | 
+  |                 | layout | 출력 로그 포맷 설정 |
+  |                 | pattern | 출력 로그 포맷 상세 |
+  |                 | 예시    | %d{yyyy-MM-dd HH:mm:ss}:%-3relative]|
+  |                 |         | 2020-01-30 13:50:23:2544] |
+  |                 |         | [%thread]  |
+  |                 |         | [main]     |
+  |                 |         | %-5level   |
+  |                 |         | INFO             |
+  |                 |         | %logger{35} -    |
+  |                 |         | com.test.package |
+  |                 |         | %msg%n           |
+  |                 |         | 출력메시지 \개행  |
+  | appAppender     | -       | 파일에 로그를 남김|
+  |                 | file    | 로그 파일 경로    |
+  |                 | encoder | 로그 pattern 설정 |
+  |                 | rollingPolicy      | 파일 롤링 정책 설정  |
+  |                 | fileNamePattern    | 롤링 파일 생성 포맷  |
+  |                 | timeBased...Policy | 시간/용량 기준 파일 롤링 정책 |
 
 ## Test - Customizing
 - 소스를 재구동 하면 logback customizing 결과를 확인할 수 있음
