@@ -1,6 +1,6 @@
 ---
 title: "Springboot Logback 설정"
-date: 2020-01-28 11:00:00 +0800
+date: 2020-01-29 11:00:00 +0800
 categories: springboot
 sidebar:
   nav: "dev-sidebar"
@@ -23,6 +23,9 @@ springboot 환경에서 Log4j2는 slf4j 구현체 매칭 작업에 어려움이 
 - spring-boot-starter-web 하위에 logback 과 slf4j 관련 dependency가 포함되어 있음
 
   ![logback](/assets/images/springboot-logback001.png)
+
+![IAM](/assets/images/autoscaling304.png)
+
 
 - 참고로 slf4j는 로깅퍼사드(Facade)로 로거 API의 인터페이스 임.
 - 로깅 퍼사드는 로거의 선택을 자유롭게 사용할 수 있게 함.
