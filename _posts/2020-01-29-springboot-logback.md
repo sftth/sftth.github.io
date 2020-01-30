@@ -7,7 +7,7 @@ sidebar:
 ---
 springboot 환경에서 Log4j2는 slf4j 구현체 매칭 작업에 어려움이 있다. 단적으로 pom.xml에 slf4j를 설정하면 slf4j 인터페이스 구현체 설정이 되지 않아서 로그가 남지 않는 문제가 발생한다. 반면에 Logback은 springboot에서 기본적으로 제공되어 설정이 상대적으로 간편하다. 이번 포스팅은 그 간편한 Logback을 활용한 로그 작성 방법에 관한 것이다.
 
-## 기반
+## Base
 - 포스팅의 기반되는 프로젝트는 maven 기반 springboot 프로젝트.
 
 ## pom.xml
@@ -29,7 +29,7 @@ springboot 환경에서 Log4j2는 slf4j 구현체 매칭 작업에 어려움이 
 - 즉, 로깅 퍼사드를 slf4j로 하고 로거를 log4j2, logback 등으로 자유롭게 변경 가능함.
 - 스프링부트 로깅의 기본 매커니즘은 Commons Logging > SLF4j > Logback 호출 관계를 갖고 최종적으로 Logback이 로그를 남김 
 
-## 소스
+## Code
 - Logback 검증을 위한 소스를 구현
 
     ```java
@@ -48,10 +48,79 @@ springboot 환경에서 Log4j2는 slf4j 구현체 매칭 작업에 어려움이 
         }
     ```
 
+## Test - Default
 - 소스 구동 결과, 이미 처럼 로그가 생성 됨
 
   ![logback](/assets/images/springboot-logback002.png)
 
 ## Custermizing
+- 콘솔에서 로그 표출은 확인하였으나 이번에는 두 가지 사항을 적용함.
+   - 어플리케이션 로그는 파일로 남김
+   - 로그 문법을 필요에 맞게 수정 함
+- 위 두 가지 사항 적용을 위해 logback-spring.xml 파일을 작성함.
+   - 작성 경로: src/main/resources/logback-spring.xml
+   - 작성 샘플
+   ```xml
+   <?xml version="1.0" encoding="UTF-8"?>
+   <property name="LOG_PATH" value="C:/IDEA/logs" />
+   <configuration>
+       <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+           <layout class="ch.qos.logback.classic.PatternLayout">
+               <Pattern>%d{yyyy-MM-dd HH:mm:ss}:%-3relative][%thread] %-5level %logger{35} - %msg%n</Pattern>
+           </layout>
+       </appender>
+   
+       <appender name="appAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+           <file>${LOG_PATH}/app.log</file>
+           <encoder>
+               <pattern>[%d{yyyy-MM-dd HH:mm:ss}:%-3relative][%thread] %-5level %logger{35} - %msg%n</pattern>
+           </encoder>
+           <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+               <fileNamePattern>${LOG_PATH}/app.log.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+               <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                   <!-- or whenever the file size reaches 100MB -->
+                   <maxFileSize>5MB</maxFileSize>
+                   <!-- kb, mb, gb -->
+               </timeBasedFileNamingAndTriggeringPolicy>
+               <maxHistory>5</maxHistory>
+           </rollingPolicy>
+       </appender>
+      
+       <logger name="com.summit.whms" level="INFO">
+           <appender-ref ref="appAppender" />
+       </logger>
+   
+       <root level="ERROR">
+           <appender-ref ref="appAppender" />
+           <appender-ref ref="consoleAppender" />
+       </root>
+   </configuration>
+   ```
+- logback-spring.xml에 대한 간략한 설명은 아래 표로 정리
 
-## 검증
+| 구분            | 속성 | 설명                      |
+| ---             | --- | ---                       |
+| consoleAppender | -   | console 화면에 로그를 남김 | 
+|                 | layout | 출력 로그 포맷 설정 |
+|                 | pattern | 출력 로그 포맷 상세 |
+|                 | 예시    | %d{yyyy-MM-dd HH:mm:ss}:%-3relative]|
+|                 |         | 2020-01-30 13:50:23:2544] |
+|                 |         | [%thread]  |
+|                 |         | [main]     |
+|                 |         | %-5level   |
+|                 |         | INFO             |
+|                 |         | %logger{35} -    |
+|                 |         | com.test.package |
+|                 |         | %msg%n           |
+|                 |         | 출력메시지 \개행  |
+| appAppender     | -       | 파일에 로그를 남김|
+|                 | file    | 로그 파일 경로    |
+|                 | encoder | 로그 pattern 설정 |
+|                 | rollingPolicy      | 파일 롤링 정책 설정  |
+|                 | fileNamePattern    | 롤링 파일 생성 포맷  |
+|                 | timeBased...Policy | 시간/용량 기준 파일 롤링 정책 |
+
+## Test - Customizing
+- 소스를 재구동 하면 logback customizing 결과를 확인할 수 있음
+
+![logback](/assets/images/springboot-logback003.png)
