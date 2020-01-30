@@ -60,6 +60,7 @@ springboot 환경에서 Log4j2는 slf4j 구현체 매칭 작업에 어려움이 
 - 위 두 가지 사항 적용을 위해 logback-spring.xml 파일을 작성함.
    - 작성 경로: src/main/resources/logback-spring.xml
    - 작성 샘플
+   
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
    <property name="LOG_PATH" value="C:/IDEA/logs" />
@@ -96,6 +97,7 @@ springboot 환경에서 Log4j2는 slf4j 구현체 매칭 작업에 어려움이 
        </root>
    </configuration>
    ```
+  
 - logback-spring.xml에 대한 간략한 설명은 아래 표로 정리
 
 | 구분            | 속성 | 설명                      |

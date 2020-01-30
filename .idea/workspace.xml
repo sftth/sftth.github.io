@@ -4,6 +4,7 @@
     <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2020-01-29-springboot-logback.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-01-29-springboot-logback.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
       <workItem from="1577867449133" duration="5850000" />
       <workItem from="1580356687448" duration="1732000" />
       <workItem from="1580358503817" duration="245000" />
-      <workItem from="1580359225348" duration="1665000" />
+      <workItem from="1580359225348" duration="4580000" />
     </task>
     <task id="LOCAL-00001" summary="baseUrl modified">
       <created>1577871050713</created>
@@ -147,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580356981841</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="springboot-logback 포스트 업데이트">
+      <created>1580361374783</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1580361374783</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,25 +170,26 @@
     <MESSAGE value="LinkedIn 정보 수정" />
     <MESSAGE value="포스팅 - github page 활용" />
     <MESSAGE value="springboot-logback 포스트 이미지 에러 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot-logback 포스트 이미지 에러 수정" />
+    <MESSAGE value="springboot-logback 포스트 업데이트" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot-logback 포스트 업데이트" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Notifications" timestamp="1580358694591">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Notifications/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358694591" />
-    <state x="399" y="23" key="CommitChangelistDialog2" timestamp="1580356976927">
+    <state x="399" y="23" key="CommitChangelistDialog2" timestamp="1580371896599">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="399" y="23" key="CommitChangelistDialog2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580356976927" />
+    <state x="399" y="23" key="CommitChangelistDialog2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580371896599" />
     <state x="301" y="72" key="SettingsEditor" timestamp="1580358725494">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358725494" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1580356984153">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1580361379586">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580356984153" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580361379586" />
   </component>
   <component name="masterDetails">
     <states>
