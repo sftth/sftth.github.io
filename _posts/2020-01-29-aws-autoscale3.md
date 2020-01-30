@@ -45,6 +45,7 @@ Autoscale 환경에서 동적으로 기동하는 인스턴스는 시시각각 �
   Default region name: 
   Default output format:
   ```
+  
 ## 스크립트
 Autoscale의 대상이 WAS 서버이고 이를 AMI로 만든다는 가정 하에 Tomcat start 스크립트에 S3에 있는 war 파일을 가져오는 스크립트를 추가함.
 
