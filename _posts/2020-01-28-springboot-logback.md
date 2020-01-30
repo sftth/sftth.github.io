@@ -13,15 +13,16 @@ springboot 환경에서 Log4j2는 slf4j 구현체 매칭 작업에 어려움이 
 ## pom.xml
 - springboot의 pom.xml에 기본 설정된 logback 관련 dependency 확인.
 
-```xml
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-web</artifactId>
-</dependency>
-```
+    ```xml
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    ```
 
 - spring-boot-starter-web 하위에 logback 과 slf4j 관련 dependency가 포함되어 있음
-![logback](/assets/images/springboot-logback001.png)
+
+  ![logback](/assets/images/springboot-logback001.png)
 
 - 참고로 slf4j는 로깅퍼사드(Facade)로 로거 API의 인터페이스 임.
 - 로깅 퍼사드는 로거의 선택을 자유롭게 사용할 수 있게 함.
@@ -31,24 +32,25 @@ springboot 환경에서 Log4j2는 slf4j 구현체 매칭 작업에 어려움이 
 ## 소스
 - Logback 검증을 위한 소스를 구현
 
-```java
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-...
+    ```java
+    import org.slf4j.Logger;
+    import org.slf4j.LoggerFactory;
+    ...
 
-@Controller
-public class SignInController {
-    private static final Logger LOGGER = LoggerFactory.getLogger(SignInController.class);
+    @Controller
+    public class SignInController {
+        private static final Logger LOGGER = LoggerFactory.getLogger(SignInController.class);
 
-    @GetMapping("/signIn")
-    public String signInView(Model model) {
-        LOGGER.info("signInView is called");
-        return "mains/signIn";
-    }
-```
+        @GetMapping("/signIn")
+        public String signInView(Model model) {
+            LOGGER.info("signInView is called");
+            return "mains/signIn";
+        }
+    ```
 
 - 소스 구동 결과, 이미 처럼 로그가 생성 됨
-![logback](/assets/images/springboot-logback002.png)
+
+  ![logback](/assets/images/springboot-logback002.png)
 
 ## Custermizing
 
