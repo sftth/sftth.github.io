@@ -150,7 +150,7 @@ springboot 환경에서 Log4j2는 slf4j 구현체 매칭 작업에 어려움이 
 - profile을 적용하여 springboot 기동하여 검증
     - intelliJ에서 아래와 같이 설정 후 기동
     
-    ![logback](/assets/images/mm-responsive-feature.png)
+    ![logback](/assets/images/springboot-logback004.png)
     
     - jar 기동시 아래와 같이 설정 후 기동(실행 스프링부트가 test.jar인 경우)
     
