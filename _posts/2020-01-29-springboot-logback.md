@@ -24,9 +24,6 @@ springboot 환경에서 Log4j2는 slf4j 구현체 매칭 작업에 어려움이 
 
   ![logback](/assets/images/springboot-logback001.png)
 
-![IAM](/assets/images/autoscaling304.png)
-
-
 - 참고로 slf4j는 로깅퍼사드(Facade)로 로거 API의 인터페이스 임.
 - 로깅 퍼사드는 로거의 선택을 자유롭게 사용할 수 있게 함.
 - 즉, 로깅 퍼사드를 slf4j로 하고 로거를 log4j2, logback 등으로 자유롭게 변경 가능함.
