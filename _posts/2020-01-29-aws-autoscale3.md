@@ -45,7 +45,7 @@ Autoscale 환경에서 동적으로 기동하는 인스턴스는 시시각각 �
   Default region name: 
   Default output format:
   ```
-  
+
 ## 스크립트
 Autoscale의 대상이 WAS 서버이고 이를 AMI로 만든다는 가정 하에 Tomcat start 스크립트에 S3에 있는 war 파일을 가져오는 스크립트를 추가함.
 
@@ -55,7 +55,7 @@ rm -rf /sorc001/appadm/application/mainWebApp.war
 echo "2. artifact is deleted"
 
 echo "3. sync s3"
-aws s3 sync s3://sftth322-autoscale-artifact/target/ /sorc001/appadm/application
+aws s3 sync s3://XXXXXXX-artifact/target/ /sorc001/appadm/application
 sleep 5
 echo "4. sync s3 finished"
 echo "5. start tomcat"
