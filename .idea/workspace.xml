@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-01-29-springboot-logback.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-01-29-springboot-logback.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <workItem from="1577867449133" duration="5850000" />
       <workItem from="1580356687448" duration="1732000" />
       <workItem from="1580358503817" duration="245000" />
-      <workItem from="1580359225348" duration="5617000" />
+      <workItem from="1580359225348" duration="7401000" />
     </task>
     <task id="LOCAL-00001" summary="baseUrl modified">
       <created>1577871050713</created>
@@ -175,7 +175,35 @@
       <option name="project" value="LOCAL" />
       <updated>1580372060556</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="springboot-logback 포스트 1차 완료">
+      <created>1580372948628</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1580372948628</updated>
+    </task>
+    <task id="LOCAL-00017" summary="springboot-logback 포스트 1차 완료">
+      <created>1580373125862</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1580373125862</updated>
+    </task>
+    <task id="LOCAL-00018" summary="main 화면 수정">
+      <created>1580373567860</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1580373567860</updated>
+    </task>
+    <task id="LOCAL-00019" summary="_config.yml 정리">
+      <created>1580374608090</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1580374608090</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,25 +221,32 @@
     <MESSAGE value="springboot-logback 포스트 업데이트" />
     <MESSAGE value="springboot-logback 포스트 누락 이미지 최초 반영" />
     <MESSAGE value="springboot-logback 포스트 테이블 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot-logback 포스트 테이블 수정" />
+    <MESSAGE value="springboot-logback 포스트 1차 완료" />
+    <MESSAGE value="main 화면 수정" />
+    <MESSAGE value="_config.yml 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="_config.yml 정리" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Notifications" timestamp="1580358694591">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Notifications/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358694591" />
-    <state x="399" y="23" key="CommitChangelistDialog2" timestamp="1580373119337">
+    <state x="399" y="23" key="CommitChangelistDialog2" timestamp="1580374601660">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="399" y="23" key="CommitChangelistDialog2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580373119337" />
+    <state x="399" y="23" key="CommitChangelistDialog2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580374601660" />
+    <state x="459" y="127" width="692" height="605" key="NewModule_or_Project.wizard" timestamp="1580374286135">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="459" y="127" width="692" height="605" key="NewModule_or_Project.wizard/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580374286135" />
     <state x="301" y="72" key="SettingsEditor" timestamp="1580358725494">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358725494" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1580372950681">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1580374610219">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580372950681" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580374610219" />
   </component>
   <component name="masterDetails">
     <states>
