@@ -68,7 +68,7 @@
       <workItem from="1577867449133" duration="5850000" />
       <workItem from="1580356687448" duration="1732000" />
       <workItem from="1580358503817" duration="245000" />
-      <workItem from="1580359225348" duration="4729000" />
+      <workItem from="1580359225348" duration="5617000" />
     </task>
     <task id="LOCAL-00001" summary="baseUrl modified">
       <created>1577871050713</created>
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580371966166</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="springboot-logback 포스트 테이블 수정">
+      <created>1580372060556</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1580372060556</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,25 +192,26 @@
     <MESSAGE value="springboot-logback 포스트 이미지 에러 수정" />
     <MESSAGE value="springboot-logback 포스트 업데이트" />
     <MESSAGE value="springboot-logback 포스트 누락 이미지 최초 반영" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot-logback 포스트 누락 이미지 최초 반영" />
+    <MESSAGE value="springboot-logback 포스트 테이블 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot-logback 포스트 테이블 수정" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Notifications" timestamp="1580358694591">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Notifications/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358694591" />
-    <state x="399" y="23" key="CommitChangelistDialog2" timestamp="1580371960734">
+    <state x="399" y="23" key="CommitChangelistDialog2" timestamp="1580372051609">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="399" y="23" key="CommitChangelistDialog2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580371960734" />
+    <state x="399" y="23" key="CommitChangelistDialog2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580372051609" />
     <state x="301" y="72" key="SettingsEditor" timestamp="1580358725494">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358725494" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1580371967939">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1580372062423">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580371967939" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580372062423" />
   </component>
   <component name="masterDetails">
     <states>

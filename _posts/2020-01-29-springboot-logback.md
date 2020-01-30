@@ -126,3 +126,37 @@ springboot 환경에서 Log4j2는 slf4j 구현체 매칭 작업에 어려움이 
 - 소스를 재구동 하면 logback customizing 결과를 확인할 수 있음
 
 ![logback](/assets/images/springboot-logback003.png)
+
+## Profile
+- 로그 생성시 로컬,개발,운영 환경마다 다른 속성을 설정해야 할 필요 있음.
+- logback-spring.xml에 아래와 같이 profile 설정으로 해당 요건을 처리 가능
+
+    ```xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <configuration>
+        <springProfile name="win">
+            <property name="LOG_PATH" value="C:/IDEA/logs" />
+        </springProfile>
+        <springProfile name="mac">
+            <property name="LOG_PATH" value="/Users/Summit/IDE/dev/logs" />
+        </springProfile>
+        <springProfile name="dev">
+            <property name="LOG_PATH" value="/logs001/sftth318/springboot" />
+        </springProfile>
+    ... 중략
+    ```
+
+
+- profile을 적용하여 springboot 기동하여 검증
+    - intelliJ에서 아래와 같이 설정 후 기동
+    
+    ![logback](/assets/images/mm-responsive-feature.png)
+    
+    - jar 기동시 아래와 같이 설정 후 기동(실행 스프링부트가 test.jar인 경우)
+    
+    ```shell script
+    java -jar -Dspring.profiles.active=dev test.jar
+    ```
+## Summary
+포스팅의 내용 처럼 springboot의 logback은 설정이 용이하고 커스터마이징도 간편하다.
+더불어 환경별 동적 속성 변경은 profile 설정을 통해서 해결할 수 있다.     
