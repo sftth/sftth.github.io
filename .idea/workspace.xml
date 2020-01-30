@@ -68,7 +68,7 @@
       <workItem from="1577867449133" duration="5850000" />
       <workItem from="1580356687448" duration="1732000" />
       <workItem from="1580358503817" duration="245000" />
-      <workItem from="1580359225348" duration="8854000" />
+      <workItem from="1580359225348" duration="9641000" />
     </task>
     <task id="LOCAL-00001" summary="baseUrl modified">
       <created>1577871050713</created>
@@ -224,7 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580374944657</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Home Page Layout 변경">
+      <created>1580376217507</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1580376217508</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Home Page Layout 변경">
+      <created>1580376394417</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1580376394417</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,17 +259,18 @@
     <MESSAGE value="springboot-logback 포스트 1차 완료" />
     <MESSAGE value="main 화면 수정" />
     <MESSAGE value="_config.yml 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="_config.yml 정리" />
+    <MESSAGE value="Home Page Layout 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Page Layout 변경" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Notifications" timestamp="1580358694591">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Notifications/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358694591" />
-    <state x="399" y="23" key="CommitChangelistDialog2" timestamp="1580376211236">
+    <state x="399" y="23" key="CommitChangelistDialog2" timestamp="1580376387876">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="399" y="23" key="CommitChangelistDialog2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580376211236" />
+    <state x="399" y="23" key="CommitChangelistDialog2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580376387875" />
     <state x="459" y="127" width="692" height="605" key="NewModule_or_Project.wizard" timestamp="1580374286135">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -264,10 +279,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358725494" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1580376220673">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1580376395812">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580376220673" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580376395812" />
   </component>
   <component name="masterDetails">
     <states>
