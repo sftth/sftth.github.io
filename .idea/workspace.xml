@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="">
+    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="GIT-17 Profile 정보 추가하기&#10; - Social Sharing 정보 추가&#10;   - twitter&#10;   - facebook&#10; - Site Author name 수정&#10; - links url 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -69,7 +69,7 @@
       <workItem from="1580356687448" duration="1732000" />
       <workItem from="1580358503817" duration="245000" />
       <workItem from="1580359225348" duration="10931000" />
-      <workItem from="1580379878591" duration="4465000" />
+      <workItem from="1580379878591" duration="7732000" />
     </task>
     <task id="LOCAL-00001" summary="baseUrl modified">
       <created>1577871050713</created>
@@ -274,7 +274,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580380288443</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="GIT-14 블로그 main화면 레이아웃 변경&#10; - splash 레이아웃 적용&#10; - overla_image 적용&#10; - feature_row 적용(테스트용, 향후 수정 예정)">
+      <created>1580434530092</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1580434530092</updated>
+    </task>
+    <task id="LOCAL-00031" summary="GIT-17 Profile 정보 추가하기&#10; - Social Sharing 정보 추가&#10;   - twitter&#10;   - facebook&#10; - Site Author name 수정&#10; - links url 수정">
+      <created>1580436840822</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1580436840822</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,17 +320,19 @@
     <MESSAGE value="main 화면 수정" />
     <MESSAGE value="_config.yml 정리" />
     <MESSAGE value="Home Page Layout 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home Page Layout 변경" />
+    <MESSAGE value="GIT-14 블로그 main화면 레이아웃 변경&#10; - splash 레이아웃 적용&#10; - overla_image 적용&#10; - feature_row 적용(테스트용, 향후 수정 예정)" />
+    <MESSAGE value="GIT-17 Profile 정보 추가하기&#10; - Social Sharing 정보 추가&#10;   - twitter&#10;   - facebook&#10; - Site Author name 수정&#10; - links url 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="GIT-17 Profile 정보 추가하기&#10; - Social Sharing 정보 추가&#10;   - twitter&#10;   - facebook&#10; - Site Author name 수정&#10; - links url 수정" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Notifications" timestamp="1580358694591">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Notifications/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358694591" />
-    <state x="399" y="23" key="CommitChangelistDialog2" timestamp="1580434521659">
+    <state x="399" y="0" key="CommitChangelistDialog2" timestamp="1580436833710">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="399" y="23" key="CommitChangelistDialog2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580434521659" />
+    <state x="399" y="0" key="CommitChangelistDialog2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580436833710" />
     <state x="459" y="127" width="692" height="605" key="NewModule_or_Project.wizard" timestamp="1580374286135">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -325,10 +341,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358725494" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1580380290483">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1580436843469">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580380290483" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580436843469" />
   </component>
   <component name="masterDetails">
     <states>
