@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="GIT-16 Profile 정보 추가하기&#10;GIT-17 SNS정보 연동 추가하기&#10;&#10;- _config.yml 오류 수정">
-      <change afterPath="$PROJECT_DIR$/_posts/2020-01-31-jekyll-localsetup.md" afterDir="false" />
+    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-about.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/category-book.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-book.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-dev.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-dev.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-it.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-it.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-pe.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-pe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +71,7 @@
       <workItem from="1580358503817" duration="245000" />
       <workItem from="1580359225348" duration="10931000" />
       <workItem from="1580379878591" duration="14930000" />
-      <workItem from="1580456499683" duration="2431000" />
+      <workItem from="1580456499683" duration="2748000" />
     </task>
     <task id="LOCAL-00001" summary="baseUrl modified">
       <created>1577871050713</created>
@@ -325,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580443232727</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="GIT-16 Profile 정보 추가하기&#10; - 2Level 메뉴 상위에 Profile 표시 추가">
+      <created>1580459017242</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1580459017242</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,18 +363,19 @@
     <MESSAGE value="GIT-17 Profile 정보 추가하기&#10; - Site Author 수정" />
     <MESSAGE value="test" />
     <MESSAGE value="GIT-16 Profile 정보 추가하기&#10;GIT-17 SNS정보 연동 추가하기&#10;&#10;- _config.yml 오류 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="GIT-16 Profile 정보 추가하기&#10;GIT-17 SNS정보 연동 추가하기&#10;&#10;- _config.yml 오류 수정" />
+    <MESSAGE value="GIT-16 Profile 정보 추가하기&#10; - 2Level 메뉴 상위에 Profile 표시 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="GIT-16 Profile 정보 추가하기&#10; - 2Level 메뉴 상위에 Profile 표시 추가" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Notifications" timestamp="1580358694591">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Notifications/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358694591" />
-    <state x="511" y="0" key="CommitChangelistDialog2" timestamp="1580458955968">
+    <state x="511" y="0" key="CommitChangelistDialog2" timestamp="1580459353177">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
     <state x="399" y="0" key="CommitChangelistDialog2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580443226309" />
-    <state x="511" y="0" key="CommitChangelistDialog2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580458955968" />
+    <state x="511" y="0" key="CommitChangelistDialog2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580459353177" />
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1580442954168">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -387,10 +388,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358725494" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1580443234983">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="502" y="156" key="Vcs.Push.Dialog.v2" timestamp="1580459028556">
+      <screen x="0" y="0" width="2048" height="824" />
     </state>
     <state x="392" y="163" key="Vcs.Push.Dialog.v2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580443234983" />
+    <state x="502" y="156" key="Vcs.Push.Dialog.v2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580459028556" />
   </component>
   <component name="masterDetails">
     <states>

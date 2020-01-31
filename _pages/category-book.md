@@ -2,5 +2,5 @@
 title: "Book"
 layout: category-book
 permalink: /book/
-author_profile: true
+author_profile: false
 ---

@@ -2,7 +2,7 @@
 title: "IT"
 layout: category-it
 permalink: /it/
-author_profile: true
+author_profile: false
 sidebar:
   nav: "it-sidebar"
 ---
