@@ -4,7 +4,6 @@ date: 2020-01-28 11:00:00 +0800
 categories: springboot
 sidebar:
   nav: "dev-sidebar"
-toc: true
 ---
 # Session 확인을 위한 Interceptor 설정
 ## 1. 구현

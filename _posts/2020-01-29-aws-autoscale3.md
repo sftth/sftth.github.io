@@ -4,7 +4,6 @@ date: 2020-01-29 11:00:00 +0800
 categories: cloud
 sidebar:
   nav: "it-sidebar"
-toc: true
 ---
 
 Autoscale 환경에서 동적으로 기동하는 인스턴스는 시시각각 변화하는 소스의 최신 버전을 능동적으로 갱신하여 기동할 수 있어야 한다. 이를 위해 Autoscale에 사용할 AMI를 생성시, AMI의 대상이 되는 초기 인스턴스에 몇가지 설정이 필요하다. 이 포스트는 Autoscale 환경에서 능동적으로 소스를 갱신할 수 있는 AMI 구성 방법을 설명한다.
