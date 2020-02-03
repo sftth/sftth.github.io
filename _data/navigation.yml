@@ -21,15 +21,17 @@ main:
 #sidebar it category links
 it-sidebar:
    - title: IT
-     children: 
+     children:
        - title: SW
          url: /it/sw/
        - title: HW
          url: /it/hw/
        - title: Cloud
          url: /it/cloud/
+       - title: Tomcat
+         url: /it/tomcat/
 dev-sidebar:
    - title: DEV
-     children: 
+     children:
        - title: springboot
          url: /dev/springboot/
