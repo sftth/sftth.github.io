@@ -12,18 +12,23 @@ Tomcat은 기본적으로 Catalina.out이라는 파일에 로그를 쌓는다. �
 무한히 커지는 Catalina.out 파일 관리 방법에 관한 것이다. <p>
 
 ---
-## 가정 사항
+
+## 가정
 - 설명을 위해 Tomcat은 아래 경로에 설치 되었다고 가정 함.(이하 TOMCAT_HOME)
 
 ```shell script
+
 /engn001/tomcat/9.0/servers/ist_8180
+
 ```
 
 ## Path
 - Tomcat 에서 Catalina.out 파일 생성에 관한 설정은 아래 파일에 존재 함.
 
 ```shell script
+
 TOMCATHOME/bin/catalina.sh
+
 ```
 
 ## Catalina.out 제거
@@ -57,13 +62,17 @@ fi
 1. 별도의 인스턴스 구분 없는 경우
 
 ```shell script
+
 TOMCAT_HOME/conf/logging.properties
+
 ```
 
 2. 별도의 인스턴스를 사용하는 경우(인스턴스 경로가 TOMCAT_HOME/servers/ist_8180/ 인 경우)
 
 ```shell script
+
 TOMCAT_HOME/servers/ist_8180/conf/logging.properties
+
 ```
 
 ## Catalina.out 파일 Rolling
@@ -75,13 +84,16 @@ TOMCAT_HOME/servers/ist_8180/conf/logging.properties
 - 디렉토리 이동 및 파일 생성
 
 ```shell script
+
 [root@ ]# cd /etc/logrotate.d/
 [root@ logrotate.d]# vi tomcat
+
 ```
 
 - tomcat 파일 내부 스크립트 내용
 
 ```shell script
+
  /logs001/tomcat/9.0/ist_8180/server.log { // Catalina.out 로그파일 경로
  copytruncate                              // 기존 파일 백업 및 삭제
  daily                                     // 로그파일을 날짜별로 Rolling
@@ -91,18 +103,22 @@ TOMCAT_HOME/servers/ist_8180/conf/logging.properties
  notifempty                                // 로그파일 부재시 신규 생성 하지 않음
  dateext                                   // 순환된 로그파일 날짜 확장자
 }
+
 ```
 
 2. crontab에 tomcat 파일 등록
 
 - 파일 열기
 ```shell script
+
 [root@ logrotate.d]# vi /etc/crontab
+
 ```
 
 - crontab 작성
 
 ```shell script
+
 SHELL=/bin/bash
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
 MAILTO=root
@@ -118,6 +134,7 @@ MAILTO=root
 # |  |  |  |  |
 # *  *  *  *  * user-name  command to be executed
   0  0  *  *  *  root run-parts/etc/cron.daily
+
 ```
 3. 처리 프로세스
 - /etc/crontab 스케쥴 동작 > /etc/logrotate.conf 실행 > /etc/logrotate.d 참조 > tomcat 실행
@@ -126,14 +143,18 @@ MAILTO=root
 - 아래 스크립트를 수동 실행하여 설정이 잘 동작 하는지 확인
 
 ```shell script
+
 /usr/sbin/logrotate -f/etc/logrotate.conf
+
 ```
 
 5. 생성 결과 확인
 - 기존 Catalina.out은 압축되고 신규로 Catalina.out 파일 생성 확인
 
 ```shell script
+
 etc-user etc-user 0 Feb  3 07:34 Catalina.out
 etc-user etc-user 101491 Feb  3 07:03 Catalina.out-20200203.gz
+
 ```
 
