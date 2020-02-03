@@ -4,6 +4,7 @@ date: 2020-01-29 11:00:00 +0800
 categories: springboot
 sidebar:
   nav: "dev-sidebar"
+toc: true
 ---
 springboot 환경에서 Log4j2는 slf4j 구현체 매칭 작업에 어려움이 있다. 단적으로 pom.xml에 slf4j를 설정하면 slf4j 인터페이스 구현체 설정이 되지 않아서 로그가 남지 않는 문제가 발생한다. 반면에 Logback은 springboot에서 기본적으로 제공되어 설정이 상대적으로 간편하다. 이번 포스팅은 그 간편한 Logback을 활용한 로그 작성 방법에 관한 것이다.
 

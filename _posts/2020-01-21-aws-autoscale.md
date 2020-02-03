@@ -4,6 +4,7 @@ date: 2020-01-21 11:00:00 +0800
 categories: cloud
 sidebar:
   nav: "it-sidebar"
+toc: true
 ---
 
 # 1. AMI 생성
