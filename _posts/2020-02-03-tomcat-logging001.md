@@ -11,13 +11,11 @@ Tomcat은 기본적으로 Catalina.out이라는 파일에 로그를 쌓는다. �
 따라서 Tomcat 설치 후 Catalina.out 파일 관리를 위한 설정이 필요하다. 이 포스팅은 관리하지 않으면
 무한히 커지는 Catalina.out 파일 관리 방법에 관한 것이다. <p>
 
-## 가정
+## 기본사항
 - 설명을 위해 Tomcat은 아래 경로에 설치 되었다고 가정 함.(이하 TOMCAT_HOME)
 
-```shell script
-
+```sh
 /engn001/tomcat/9.0/servers/ist_8180
-
 ```
 
 ## Path
