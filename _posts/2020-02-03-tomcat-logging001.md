@@ -133,3 +133,13 @@ Tomcat은 기본적으로 Catalina.out이라는 파일에 로그를 쌓는다. �
     etc-user etc-user 101491 Feb  3 07:03 Catalina.out-20200203.gz
     ```
 
+- crontab 설정된 스케쥴 실행 로그
+    ```sh
+    Feb  4 00:40:01  CROND[5713]: (root) CMD (run-parts /etc/cron.daily)
+    Feb  4 00:40:01  run-parts(/etc/cron.daily)[5713]: starting logrotate
+    Feb  4 00:40:01  run-parts(/etc/cron.daily)[5723]: finished logrotate
+    Feb  4 00:40:01  run-parts(/etc/cron.daily)[5713]: starting man-db.cron
+    Feb  4 00:40:02  run-parts(/etc/cron.daily)[5736]: finished man-db.cron
+    Feb  4 00:40:02  run-parts(/etc/cron.daily)[5713]: starting mlocate
+    Feb  4 00:40:02  run-parts(/etc/cron.daily)[5747]: finished mlocate
+    ```
