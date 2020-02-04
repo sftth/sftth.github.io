@@ -143,3 +143,7 @@ Tomcat은 Catalina.out에 로그를 남긴다. 이 파일은 단일 파일로 �
     ```sh
     TOMCAT_HOME/servers/ist_8180/conf/logging.properties
     ```
+
+## 참고 자료
+
+logrotate.d 설정 및 cron 로그 확인: https://055055.tistory.com/6
