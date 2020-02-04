@@ -6,12 +6,6 @@ layout: archive
 <br>
 <section class="taxonomy__section">
   <div class="entries-{{ page.entries_layout | default: 'list' }}">
-    {% for post in site.categories['dev'] %}
-    {% include archive-single.html type=page.entries_layout %}
-    {% endfor %}
-    {% for post in site.categories['springboot'] %}
-    {% include archive-single.html type=page.entries_layout %}
-    {% endfor %}
     {% for post in site.categories['jekyll'] %}
     {% include archive-single.html type=page.entries_layout %}
     {% endfor %}

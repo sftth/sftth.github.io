@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_layouts/category-dev-jk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/category-dev-jekyll.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-01-21-aws-autoscale.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-01-21-aws-autoscale.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/category-dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/category-dev.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2020-01-31-jekyll-localsetup.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-01-31-jekyll-localsetup.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
     </list>
@@ -71,14 +74,7 @@
       <workItem from="1580358503817" duration="245000" />
       <workItem from="1580359225348" duration="10931000" />
       <workItem from="1580379878591" duration="14930000" />
-      <workItem from="1580456499683" duration="31881000" />
-    </task>
-    <task id="LOCAL-00013" summary="springboot-logback 포스트 업데이트">
-      <created>1580371905112</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1580371905112</updated>
+      <workItem from="1580456499683" duration="35382000" />
     </task>
     <task id="LOCAL-00014" summary="springboot-logback 포스트 누락 이미지 최초 반영">
       <created>1580371966166</created>
@@ -416,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580788276569</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="posting aws autoscale 리뉴얼">
+      <created>1580802031226</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1580802031226</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +472,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="springboot-logback 포스트 테이블 수정" />
     <MESSAGE value="springboot-logback 포스트 1차 완료" />
     <MESSAGE value="main 화면 수정" />
     <MESSAGE value="_config.yml 정리" />
@@ -494,18 +496,19 @@
     <MESSAGE value="post 폰트 사이즈 조정" />
     <MESSAGE value="post tomcat logging 리뉴얼" />
     <MESSAGE value="post aws autoscaling 기본 설정 리뉴얼" />
-    <option name="LAST_COMMIT_MESSAGE" value="post aws autoscaling 기본 설정 리뉴얼" />
+    <MESSAGE value="posting aws autoscale 리뉴얼" />
+    <option name="LAST_COMMIT_MESSAGE" value="posting aws autoscale 리뉴얼" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Notifications" timestamp="1580358694591">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Notifications/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358694591" />
-    <state x="511" y="0" key="CommitChangelistDialog2" timestamp="1580788271040">
+    <state x="511" y="0" key="CommitChangelistDialog2" timestamp="1580802024479">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
     <state x="399" y="0" key="CommitChangelistDialog2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580443226309" />
-    <state x="511" y="0" key="CommitChangelistDialog2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580788271040" />
+    <state x="511" y="0" key="CommitChangelistDialog2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580802024479" />
     <state x="118" y="88" width="1813" height="648" key="DiffContextDialog" timestamp="1580781421211">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
@@ -519,11 +522,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358725494" />
-    <state x="502" y="156" key="Vcs.Push.Dialog.v2" timestamp="1580788278389">
+    <state x="502" y="156" key="Vcs.Push.Dialog.v2" timestamp="1580802033514">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
     <state x="392" y="163" key="Vcs.Push.Dialog.v2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580443234983" />
-    <state x="502" y="156" key="Vcs.Push.Dialog.v2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580788278389" />
+    <state x="502" y="156" key="Vcs.Push.Dialog.v2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580802033514" />
     <state x="617" y="17" width="663" height="807" key="find.popup" timestamp="1580781892596">
       <screen x="0" y="0" width="2048" height="824" />
     </state>

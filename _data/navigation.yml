@@ -33,5 +33,7 @@ it-sidebar:
 dev-sidebar:
    - title: DEV
      children:
-       - title: springboot
+       - title: Springboot
          url: /dev/springboot/
+       - title: Jekyll
+         url: /dev/jekyll/
