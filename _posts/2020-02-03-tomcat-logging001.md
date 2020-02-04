@@ -125,19 +125,20 @@ Tomcat은 Catalina.out에 로그를 남긴다. 이 파일은 단일 파일로 �
         Feb  4 00:40:02  run-parts(/etc/cron.daily)[5713]: starting mlocate
         Feb  4 00:40:02  run-parts(/etc/cron.daily)[5747]: finished mlocate
         ```
+
 ## Appendix: catalina.YYYY.MM-DD.log 제거
 - Tomcat은 Catalina.out 파일과 더불어 catalina.YYYY.MM-DD.log 형태의 로그가 생성 됨.
 - 해당 로그는 1일 단위로 Rolling되지만 Tomcat에서 생성하는 로그 외에 응용로그(log4j2, logback)은 
 기록하지 못하므로 활용성이 낮음
 - 아래 경로에 존재하는 logging.properties 파일을 삭제하여 생성을 막음.
 
-1. 경로1: 별도의 인스턴스 구분 없는 경우
+  - 경로1: 별도의 인스턴스 구분 없는 경우
 
     ```sh
     TOMCAT_HOME/conf/logging.properties
     ```
 
-2. 경로2: 별도의 인스턴스를 사용하는 경우(인스턴스 경로가 TOMCAT_HOME/servers/ist_8180/ 인 경우)
+  - 경로2: 별도의 인스턴스를 사용하는 경우(인스턴스 경로가 TOMCAT_HOME/servers/ist_8180/ 인 경우)
     
     ```sh
     TOMCAT_HOME/servers/ist_8180/conf/logging.properties
