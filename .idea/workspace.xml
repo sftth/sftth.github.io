@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-02-03-tomcat-logging001.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-02-03-tomcat-logging001.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,14 +67,7 @@
       <workItem from="1580358503817" duration="245000" />
       <workItem from="1580359225348" duration="10931000" />
       <workItem from="1580379878591" duration="14930000" />
-      <workItem from="1580456499683" duration="18738000" />
-    </task>
-    <task id="LOCAL-00001" summary="baseUrl modified">
-      <created>1577871050713</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1577871050714</updated>
+      <workItem from="1580456499683" duration="19646000" />
     </task>
     <task id="LOCAL-00002" summary="make initial page for greeting 2020">
       <created>1577872164450</created>
@@ -413,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580774971795</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="신규 post 등록&#10;- Tomcat Catalina.out 설정 방법">
+      <created>1580777462926</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1580777462926</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,11 +461,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Notifications/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358694591" />
-    <state x="511" y="0" key="CommitChangelistDialog2" timestamp="1580774966884">
+    <state x="511" y="0" key="CommitChangelistDialog2" timestamp="1580777457202">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
     <state x="399" y="0" key="CommitChangelistDialog2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580443226309" />
-    <state x="511" y="0" key="CommitChangelistDialog2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580774966884" />
+    <state x="511" y="0" key="CommitChangelistDialog2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580777457202" />
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1580442954168">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -479,11 +478,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358725494" />
-    <state x="502" y="156" key="Vcs.Push.Dialog.v2" timestamp="1580774973806">
+    <state x="502" y="156" key="Vcs.Push.Dialog.v2" timestamp="1580777476592">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
     <state x="392" y="163" key="Vcs.Push.Dialog.v2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580443234983" />
-    <state x="502" y="156" key="Vcs.Push.Dialog.v2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580774973806" />
+    <state x="502" y="156" key="Vcs.Push.Dialog.v2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580777476592" />
   </component>
   <component name="masterDetails">
     <states>
