@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_archive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_archive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/vendor/breakpoint/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/vendor/breakpoint/_helpers.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,14 +67,7 @@
       <workItem from="1580358503817" duration="245000" />
       <workItem from="1580359225348" duration="10931000" />
       <workItem from="1580379878591" duration="14930000" />
-      <workItem from="1580456499683" duration="22037000" />
-    </task>
-    <task id="LOCAL-00006" summary="Test">
-      <created>1577886147614</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1577886147614</updated>
+      <workItem from="1580456499683" duration="22288000" />
     </task>
     <task id="LOCAL-00007" summary="SNS 정보 수정">
       <created>1577891077620</created>
@@ -412,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580780903819</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="폰트 사이즈 복구 중 에러 수정">
+      <created>1580781407600</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1580781407600</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="포스팅 - github page 활용" />
     <MESSAGE value="springboot-logback 포스트 이미지 에러 수정" />
     <MESSAGE value="springboot-logback 포스트 업데이트" />
     <MESSAGE value="springboot-logback 포스트 누락 이미지 최초 반영" />
@@ -490,23 +489,24 @@
     <MESSAGE value="폰트 사이즈 조정" />
     <MESSAGE value="폰트 사이즈 조정&#10;1em -&gt; 0.7em" />
     <MESSAGE value="폰트 사이즈 복구" />
-    <option name="LAST_COMMIT_MESSAGE" value="폰트 사이즈 복구" />
+    <MESSAGE value="폰트 사이즈 복구 중 에러 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="폰트 사이즈 복구 중 에러 수정" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Notifications" timestamp="1580358694591">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Notifications/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358694591" />
-    <state x="511" y="0" key="CommitChangelistDialog2" timestamp="1580780897132">
+    <state x="511" y="0" key="CommitChangelistDialog2" timestamp="1580781401195">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
     <state x="399" y="0" key="CommitChangelistDialog2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580443226309" />
-    <state x="511" y="0" key="CommitChangelistDialog2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580780897132" />
-    <state x="118" y="88" width="1813" height="648" key="DiffContextDialog" timestamp="1580781383765">
+    <state x="511" y="0" key="CommitChangelistDialog2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580781401195" />
+    <state x="118" y="88" width="1813" height="648" key="DiffContextDialog" timestamp="1580781421211">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580442954168" />
-    <state x="118" y="88" width="1813" height="648" key="DiffContextDialog/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580781383765" />
+    <state x="118" y="88" width="1813" height="648" key="DiffContextDialog/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580781421211" />
     <state x="459" y="127" width="692" height="605" key="NewModule_or_Project.wizard" timestamp="1580374286135">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -515,11 +515,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358725494" />
-    <state x="502" y="156" key="Vcs.Push.Dialog.v2" timestamp="1580780905693">
+    <state x="502" y="156" key="Vcs.Push.Dialog.v2" timestamp="1580781410548">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
     <state x="392" y="163" key="Vcs.Push.Dialog.v2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580443234983" />
-    <state x="502" y="156" key="Vcs.Push.Dialog.v2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580780905693" />
+    <state x="502" y="156" key="Vcs.Push.Dialog.v2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580781410548" />
     <state x="617" y="17" width="663" height="807" key="find.popup" timestamp="1580781078832">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
