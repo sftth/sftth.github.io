@@ -4,7 +4,11 @@
     <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_print.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_reset.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/vendor/breakpoint/_breakpoint.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/vendor/breakpoint/_breakpoint.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/vendor/breakpoint/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/vendor/breakpoint/_helpers.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +72,7 @@
       <workItem from="1580358503817" duration="245000" />
       <workItem from="1580359225348" duration="10931000" />
       <workItem from="1580379878591" duration="14930000" />
-      <workItem from="1580456499683" duration="20608000" />
-    </task>
-    <task id="LOCAL-00004" summary="Test">
-      <created>1577885778579</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1577885778579</updated>
+      <workItem from="1580456499683" duration="21662000" />
     </task>
     <task id="LOCAL-00005" summary="Test">
       <created>1577885911615</created>
@@ -413,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580779572704</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="폰트 사이즈 조정&#10;1em -&gt; 0.7em">
+      <created>1580779842026</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1580779842026</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,8 +433,43 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SNS 정보 수정" />
     <MESSAGE value="LinkedIn 정보 수정" />
     <MESSAGE value="포스팅 - github page 활용" />
     <MESSAGE value="springboot-logback 포스트 이미지 에러 수정" />
@@ -455,22 +494,24 @@
     <MESSAGE value="GIT-21 TOC(Table of content)메뉴 생성하기&#10; - toc 개별설정 삭제" />
     <MESSAGE value="신규 post 등록&#10;- Tomcat Catalina.out 설정 방법" />
     <MESSAGE value="폰트 사이즈 조정" />
-    <option name="LAST_COMMIT_MESSAGE" value="폰트 사이즈 조정" />
+    <MESSAGE value="폰트 사이즈 조정&#10;1em -&gt; 0.7em" />
+    <option name="LAST_COMMIT_MESSAGE" value="폰트 사이즈 조정&#10;1em -&gt; 0.7em" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Notifications" timestamp="1580358694591">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Notifications/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358694591" />
-    <state x="511" y="0" key="CommitChangelistDialog2" timestamp="1580779566119">
+    <state x="511" y="0" key="CommitChangelistDialog2" timestamp="1580779835850">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
     <state x="399" y="0" key="CommitChangelistDialog2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580443226309" />
-    <state x="511" y="0" key="CommitChangelistDialog2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580779566119" />
-    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1580442954168">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="511" y="0" key="CommitChangelistDialog2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580779835850" />
+    <state x="118" y="88" width="1813" height="648" key="DiffContextDialog" timestamp="1580780877957">
+      <screen x="0" y="0" width="2048" height="824" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580442954168" />
+    <state x="118" y="88" width="1813" height="648" key="DiffContextDialog/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580780877957" />
     <state x="459" y="127" width="692" height="605" key="NewModule_or_Project.wizard" timestamp="1580374286135">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -479,15 +520,15 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358725494" />
-    <state x="502" y="156" key="Vcs.Push.Dialog.v2" timestamp="1580779574707">
+    <state x="502" y="156" key="Vcs.Push.Dialog.v2" timestamp="1580779843747">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
     <state x="392" y="163" key="Vcs.Push.Dialog.v2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580443234983" />
-    <state x="502" y="156" key="Vcs.Push.Dialog.v2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580779574707" />
-    <state x="617" y="17" width="663" height="807" key="find.popup" timestamp="1580779811518">
+    <state x="502" y="156" key="Vcs.Push.Dialog.v2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580779843747" />
+    <state x="617" y="17" width="663" height="807" key="find.popup" timestamp="1580780631888">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
-    <state x="617" y="17" width="663" height="807" key="find.popup/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580779811518" />
+    <state x="617" y="17" width="663" height="807" key="find.popup/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580780631888" />
   </component>
   <component name="masterDetails">
     <states>
