@@ -21,7 +21,7 @@ Tomcat은 기본적으로 Catalina.out이라는 파일에 로그를 쌓는다. �
 ## Path
 - Tomcat 에서 Catalina.out 파일 생성에 관한 설정은 아래 파일에 존재 함.
 
-  ```shell script
+  ```sh
   TOMCATHOME/bin/catalina.sh
   ```
 
@@ -30,7 +30,7 @@ Tomcat은 기본적으로 Catalina.out이라는 파일에 로그를 쌓는다. �
 
 - 수정 전(Tomcat 설치 디렉토리 하위 logs 디렉토리에 파일 생성)
     
-    ```shell script
+    ```sh
     if [ -z "$CATALINA_OUT" ] ; then
       CATALINA_OUT="$CATALINA_BASE"/logs/catalina.out
     fi
@@ -38,7 +38,7 @@ Tomcat은 기본적으로 Catalina.out이라는 파일에 로그를 쌓는다. �
 
 - 수정 후(catalina.out 생성 제거)
 
-    ```shell script
+    ```sh
     if [ -z "$CATALINA_OUT" ] ; then
       CATALINA_OUT=/dev/null
     fi
@@ -51,13 +51,13 @@ Tomcat은 기본적으로 Catalina.out이라는 파일에 로그를 쌓는다. �
 
 1. 별도의 인스턴스 구분 없는 경우
 
-    ```shell script
+    ```sh
     TOMCAT_HOME/conf/logging.properties
     ```
 
 2. 별도의 인스턴스를 사용하는 경우(인스턴스 경로가 TOMCAT_HOME/servers/ist_8180/ 인 경우)
     
-    ```shell script
+    ```sh
     TOMCAT_HOME/servers/ist_8180/conf/logging.properties
     ```
 
@@ -69,14 +69,14 @@ Tomcat은 기본적으로 Catalina.out이라는 파일에 로그를 쌓는다. �
 
 - 디렉토리 이동 및 파일 생성
 
-    ```shell script
+    ```sh
     [root@ ]# cd /etc/logrotate.d/
     [root@ logrotate.d]# vi tomcat
     ```
 
 - tomcat 파일 내부 스크립트 내용
 
-    ```shell script
+    ```sh
      /logs001/tomcat/9.0/ist_8180/server.log { // Catalina.out 로그파일 경로
      copytruncate                              // 기존 파일 백업 및 삭제
      daily                                     // 로그파일을 날짜별로 Rolling
@@ -91,13 +91,13 @@ Tomcat은 기본적으로 Catalina.out이라는 파일에 로그를 쌓는다. �
 2. crontab에 tomcat 파일 등록
 
 - 파일 열기
-    ```shell script
+    ```sh
     [root@ logrotate.d]# vi /etc/crontab
     ```
 
 - crontab 작성
 
-    ```shell script
+    ```sh
     SHELL=/bin/bash
     PATH=/sbin:/bin:/usr/sbin:/usr/bin
     MAILTO=root
@@ -121,14 +121,14 @@ Tomcat은 기본적으로 Catalina.out이라는 파일에 로그를 쌓는다. �
 4. 검증 방법
 - 아래 스크립트를 수동 실행하여 설정이 잘 동작 하는지 확인
 
-    ```shell script
+    ```sh
     /usr/sbin/logrotate -f/etc/logrotate.conf
     ```
 
 5. 생성 결과 확인
 - 기존 Catalina.out은 압축되고 신규로 Catalina.out 파일 생성 확인
 
-    ```shell script
+    ```sh
     etc-user etc-user 0 Feb  3 07:34 Catalina.out
     etc-user etc-user 101491 Feb  3 07:03 Catalina.out-20200203.gz
     ```
