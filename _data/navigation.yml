@@ -37,3 +37,8 @@ dev-sidebar:
          url: /dev/springboot/
        - title: Jekyll
          url: /dev/jekyll/
+pe-sidebar:
+   - title: AI
+     children:
+       - title: TensorFlow
+         url: /ai/tensorflow/

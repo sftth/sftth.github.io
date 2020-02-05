@@ -1,7 +1,7 @@
 ---
 title: "PE"
-layout: category-pe
-permalink: /pe/
+layout: category-pe-tf
+permalink: /ai/tensorflow/
 author_profile: false
 sidebar:
   nav: "pe-sidebar"
