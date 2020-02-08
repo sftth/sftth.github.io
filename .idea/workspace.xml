@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2020-02-08-ai-tensorflow003.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-02-08-ai-tensorflow003.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-02-08-ai-tensorflow003.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2020-02-08-ai-tensorflow003.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="426">
-                <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+              <first_editor relative-caret-position="354">
+                <caret line="92" column="111" selection-start-line="92" selection-start-column="111" selection-end-line="92" selection-end-column="111" />
               </first_editor>
               <second_editor />
             </state>
@@ -26,11 +26,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-02-05-ai-tensorflow002.md">
+        <entry file="file://$PROJECT_DIR$/docs/_posts/2010-02-05-post-quote.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="248">
-                <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/_posts/2010-01-08-post-chat.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/_posts/2010-02-05-post-notice.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="125">
+                <caret line="29" selection-start-line="29" selection-end-line="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -85,6 +105,17 @@
             <path>
               <item name="sftth.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="sftth.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sftth.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sftth.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sftth.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sftth.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -168,14 +199,7 @@
       <workItem from="1580918364914" duration="3100000" />
       <workItem from="1581150736655" duration="5707000" />
       <workItem from="1581176163803" duration="2013000" />
-      <workItem from="1581180056786" duration="473000" />
-    </task>
-    <task id="LOCAL-00019" summary="_config.yml 정리">
-      <created>1580374608090</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1580374608090</updated>
+      <workItem from="1581180056786" duration="1649000" />
     </task>
     <task id="LOCAL-00020" summary="_config.yml 정리">
       <created>1580374736230</created>
@@ -513,11 +537,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581175368991</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="posting tensorflow tutorial 최초 반영">
+      <created>1581180796553</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1581180796556</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17800000" />
+    <option name="totallyTimeSpent" value="18976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1313" y="36" width="1280" height="795" extended-state="0" />
@@ -539,7 +570,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50403875" side_tool="true" visible="true" weight="0.23088235" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50403875" side_tool="true" weight="0.23088235" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49596122" visible="true" weight="0.23088235" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -629,7 +660,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="GIT-14 블로그 main화면 레이아웃 변경&#10; - splash 레이아웃 적용&#10; - overla_image 적용&#10; - feature_row 적용(테스트용, 향후 수정 예정)" />
     <MESSAGE value="GIT-17 Profile 정보 추가하기&#10; - Social Sharing 정보 추가&#10;   - twitter&#10;   - facebook&#10; - Site Author name 수정&#10; - links url 수정" />
     <MESSAGE value="GIT-17 Profile 정보 추가하기&#10; - index.html 문구 수정" />
     <MESSAGE value="GIT-17 Profile 정보 추가하기&#10; - Site Author 수정" />
@@ -654,7 +684,8 @@
     <MESSAGE value="posting tensorflow 최초 반영" />
     <MESSAGE value="posting tensorflow 수정 및 mac 환경 설치 추가" />
     <MESSAGE value="posting 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="posting 수정" />
+    <MESSAGE value="posting tensorflow tutorial 최초 반영" />
+    <option name="LAST_COMMIT_MESSAGE" value="posting tensorflow tutorial 최초 반영" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Notifications" timestamp="1580358694591">
@@ -783,11 +814,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/_posts/2010-02-05-post-quote.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/_posts/2010-01-08-post-chat.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/_posts/2010-02-05-post-notice.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="29" selection-start-line="29" selection-end-line="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-02-08-ai-tensorflow003.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="426">
-            <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+          <first_editor relative-caret-position="354">
+            <caret line="92" column="111" selection-start-line="92" selection-start-column="111" selection-end-line="92" selection-end-column="111" />
           </first_editor>
           <second_editor />
         </state>

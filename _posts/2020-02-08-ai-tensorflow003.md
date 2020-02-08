@@ -89,3 +89,11 @@ model.evaluate(x_test,  y_test, verbose=2)
 - 튜토리얼 실행 결과는 아래 동영상에서 확인이 가능합니다.
 
 [![asciicast](https://asciinema.org/a/oeD9M85vF9knhbZwvLWzyPdCs.svg)](https://asciinema.org/a/oeD9M85vF9knhbZwvLWzyPdCs)
+
+**Notice:** 튜토리얼을 수행 할 때 mac 에서는 python [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed 발생하는 경우가 있습다. 이 경우는 [https://krksap.tistory.com/1226](https://krksap.tistory.com/1226)를
+참고하여 조치합니다.
+{: .notice--info}
+
+```sh
+~/Applications/Python\ 3.6/Install\ Certificates.commnad
+```
