@@ -1,5 +1,5 @@
 ---
-title: "TensorFlow - 02.설(on Mac)"
+title: "TensorFlow - 02.설치(on Mac)"
 date: 2020-02-08 00:00:00 +0800
 categories: tensorflow
 sidebar:
@@ -11,15 +11,12 @@ Mac에는 기본적으로 Python이 설치되어 있습니다. 따라서 아래 
 Python 버전 확인 
 
 ```sh
-
 #python 2 버전 확인
 MacBook-Pro:~ $ python --version
 Python 2.7.16
-
 #python 3 버전 확인
 MacBook-Pro:~ $ python3 --version
 Python 3.6.1
-
 ```
 
 {: .notice--warning}
@@ -36,34 +33,20 @@ pip 20.0.2로 업그레이드가 필요하므로 pip package manager 버전 확�
 ```bash
 #pip3 설치경로의 권한 변경
 MacBook-Pro:Frameworks $ sudo chmod -R 775 /Library/Frameworks/Python.framework/
-
 #pip3 최신 설치
 MacBook-Pro:~ $ sudo curl https://bootstrap.pypa.io/get-pip.py | python3
-
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-100 1764k  100 1764k    0     0  2465k      0 --:--:-- --:--:-- --:--:-- 2465k
-Collecting pip
-  Using cached pip-20.0.2-py2.py3-none-any.whl (1.4 MB)
-Installing collected packages: pip
-  Attempting uninstall: pip
-    Found existing installation: pip 20.0.2
-    Uninstalling pip-20.0.2:
-      Successfully uninstalled pip-20.0.2
-  WARNING: The scripts pip, pip3 and pip3.6 are installed in '/Library/Frameworks/Python.framework/Versions/3.6/bin' which is not on PATH.
-  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
-Successfully installed pip-20.0.2
-
+#pip3.6 버전 확인
 MacBook-Pro:~ $ pip3.6 --version
-pip 20.0.2 from /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pip (python 3.6)
 ```
-macbook에 python이 여러 개 설치되어 있으면 pip 업그레이드 후, 버전 확인시 혼란이 올 수 있습니다. 
-원하는 버전이 표시되지 않거나 이전 버전이 유지되고 있는 것처럼 보일 수 있습니다. 
-그것은 실제 업그레이드한 버전이 아닌 다른 버전의 python에 대한 정보일 수 있습니. 그래서 위 스크립트 처럼 tensorflow에 사용 할 
-python3.6.1에 종속된 pip3.6을 명시하여 버전을 확인해야 정확히 tensorflow에 사용할 pip가 업그레드됐는지 확인이 가능하합니다.
+{: .notice--warning}
+***Note*** 여러 개의 python이 설치된 경우, pip 업그레이드 후, 버전 확인 시 혼란스러울 수 있습니다. 
+원하는 버전이 표시되지 않거나 이전 버전이 보일 수 있습니다. 그것은 실제 업그레이드한 버전이 아닌 다른 버전의 python에 대한 정보일 수 있습니다. 
+그래서 위 스크립트 처럼 tensorflow에 사용 할 python3.6.1에 종속된 pip3.6을 명시하여 버전을 확인해야 정확히 
+tensorflow에 사용할 pip가 업그레드됐는지 확인이 가능하합니다.
+{: .notice--warning}
 
 ### 2.2 Install tensorflow
-이제 mac 환경에 tensorflow의 기본적인 설치가 완료되었습니다. 다음 스크립트 실행하여 CPU 기반 Tensorflow를 설치합니.
+이제 mac 환경에 tensorflow의 기본적인 설치가 완료되었습니다. 다음 스크립트 실행하여 CPU 기반 Tensorflow를 설치합니다.
 
 ```bash
 # Current stable release for CPU and GPU
