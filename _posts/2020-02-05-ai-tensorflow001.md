@@ -1,5 +1,5 @@
 ---
-title: "TensorFlow2 - 01.설치"
+title: "TensorFlow2 - 01.설치(on Window)"
 date: 2020-02-05 00:00:00 +0800
 categories: tensorflow
 sidebar:
@@ -112,7 +112,7 @@ with tf.compat.v1.Session() as sess:
   h = tf.constant("Hello")
   w = tf.constant("World")
   hw = h + w
-  ans = sess.rin(hw)
+  ans = sess.run(hw)
   print(ans)
 ```
 
