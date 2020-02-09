@@ -31,12 +31,18 @@ it-sidebar:
        - title: Tomcat
          url: /it/tomcat/
 dev-sidebar:
-   - title: DEV
+   - title: Springboot
      children:
        - title: Springboot
          url: /dev/springboot/
+   - title: Jekyll
+     children:
        - title: Jekyll
          url: /dev/jekyll/
+   - title: Docker
+     children:
+       - title: Docker
+         url: /dev/docker/
 pe-sidebar:
    - title: AI
      children:
