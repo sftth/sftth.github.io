@@ -77,7 +77,10 @@ ssh 프록시 처리는 apache를 활용할 수 없고 다른 방법을 활용�
 - 설치 방법: apt-get install socat 설정
 
 ### 3.2 Port forwarding
-- socat tcp-listen:29418, reuseaddr, fork tcp:10.1.2.3:29418 &
+
+```shell script
+socat tcp-listen:29418, reuseaddr, fork tcp:10.1.2.3:29418 &
+```
 
 ### 3.3 Test
 - Client에서 ssh 호출 시, 성공 확인
