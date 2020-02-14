@@ -20,16 +20,24 @@ main:
   #   url: /sitemap/
 #sidebar it category links
 it-sidebar:
-   - title: IT
+   - title: SW
      children:
        - title: SW
          url: /it/sw/
+   - title: HW
+     children:
        - title: HW
          url: /it/hw/
+   - title: NewTech
+     children:
        - title: Cloud
          url: /it/cloud/
+   - title: Middleware
+     children:
        - title: Tomcat
          url: /it/tomcat/
+       - title: Apache
+         url: /it/apache/
 dev-sidebar:
    - title: Springboot
      children:
@@ -43,6 +51,10 @@ dev-sidebar:
      children:
        - title: Docker
          url: /dev/docker/
+   - title: CICD
+     children:
+       - title: 일반환경
+         url: /dev/cicd/general/
 pe-sidebar:
    - title: AI
      children:
