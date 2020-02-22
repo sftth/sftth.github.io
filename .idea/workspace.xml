@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2020-02-14-docker-basic004.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-02-22-docker-basic006.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-02-14-docker-basic004.md">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-02-22-docker-basic006.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="429">
-                <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <first_editor relative-caret-position="478">
+                <caret line="116" selection-start-line="116" selection-end-line="116" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-02-08-ai-tensorflow003.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="354">
+                <caret line="92" selection-start-line="92" selection-end-line="92" />
               </first_editor>
               <second_editor />
             </state>
@@ -53,23 +65,26 @@
         <option value="$PROJECT_DIR$/_pages/category-dev.md" />
         <option value="$PROJECT_DIR$/_posts/2020-02-09-docker-basic001.md" />
         <option value="$PROJECT_DIR$/_posts/2020-02-14-docker-basic004.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-02-15-docker-basic005.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-02-22-docker-basic006.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1357" />
-    <option name="y" value="195" />
-    <option name="width" value="1339" />
-    <option name="height" value="795" />
+    <option name="x" value="1166" />
+    <option name="y" value="69" />
+    <option name="width" value="1580" />
+    <option name="height" value="922" />
   </component>
   <component name="ProjectId" id="1X6BUzwP7AbvnPKYr7jxSsyG5pw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,16 +96,6 @@
               <item name="sftth.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="sftth.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sftth.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sftth.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sftth.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sftth.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sftth.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -112,6 +117,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -189,21 +196,9 @@
       <workItem from="1581150736655" duration="5707000" />
       <workItem from="1581176163803" duration="2013000" />
       <workItem from="1581180056786" duration="2115000" />
-      <workItem from="1581241011701" duration="7642000" />
-    </task>
-    <task id="LOCAL-00023" summary="Home Page Layout 변경">
-      <created>1580376217507</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1580376217508</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Home Page Layout 변경">
-      <created>1580376394417</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1580376394417</updated>
+      <workItem from="1581241011701" duration="9169000" />
+      <workItem from="1581749001401" duration="3331000" />
+      <workItem from="1582359984179" duration="3888000" />
     </task>
     <task id="LOCAL-00025" summary="Home Page Layout 변경">
       <created>1580376980061</created>
@@ -534,17 +529,31 @@
       <option name="project" value="LOCAL" />
       <updated>1581606838057</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="posting docker 4번째 포스트 최초 반영">
+      <created>1581609564557</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1581609564557</updated>
+    </task>
+    <task id="LOCAL-00073" summary="posting Dockerfile #1">
+      <created>1582358600756</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1582358600757</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27084000" />
+    <option name="totallyTimeSpent" value="35830000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1357" y="195" width="1339" height="795" extended-state="0" />
+    <frame x="1682" y="203" width="1580" height="922" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29760987" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25682706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -559,9 +568,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50501156" side_tool="true" visible="true" weight="0.23088235" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.49498844" visible="true" weight="0.23088235" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29120198" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50476193" side_tool="true" weight="0.22974607" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4952381" weight="0.22974607" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -650,8 +659,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
-    <MESSAGE value="GIT-16 Profile 정보 추가하기&#10;GIT-17 SNS정보 연동 추가하기&#10;&#10;- _config.yml 오류 수정" />
     <MESSAGE value="GIT-16 Profile 정보 추가하기&#10; - 2Level 메뉴 상위에 Profile 표시 추가" />
     <MESSAGE value="GIT-16 Profile 정보 추가하기&#10; - 2Level 메뉴 상위에 Profile 표시 삭제" />
     <MESSAGE value="GIT-16 Profile 정보 추가하기&#10; - 3Level 메뉴 상위에 Profile 표시 삭제" />
@@ -675,7 +682,9 @@
     <MESSAGE value="posting tensorflow tutorial SSL 조치사항 추가" />
     <MESSAGE value="posting docker 기본 최초 반영" />
     <MESSAGE value="posting docker ps ps -a 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="posting docker ps ps -a 추가" />
+    <MESSAGE value="posting docker 4번째 포스트 최초 반영" />
+    <MESSAGE value="posting Dockerfile #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="posting Dockerfile #1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Notifications" timestamp="1580358694591">
@@ -797,16 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-08-ai-tensorflow003.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="249">
-            <caret line="85" selection-start-line="85" selection-end-line="96" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/_posts/2010-02-05-post-quote.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -902,11 +901,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-15-docker-basic005.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="855">
+            <caret line="57" selection-start-line="57" selection-end-line="57" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-02-14-docker-basic004.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="429">
-            <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <first_editor relative-caret-position="270">
+            <caret line="18" selection-start-line="18" selection-end-line="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-10-docker-basic002.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-652" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-08-ai-tensorflow003.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="354">
+            <caret line="92" selection-start-line="92" selection-end-line="92" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-22-docker-basic006.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="478">
+            <caret line="116" selection-start-line="116" selection-end-line="116" />
           </first_editor>
           <second_editor />
         </state>
