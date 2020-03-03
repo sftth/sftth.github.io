@@ -57,6 +57,11 @@ dev-sidebar:
      children:
        - title: 일반환경
          url: /dev/cicd/general/
+   - title: IDE
+     children:
+       - title: Eclipse
+         url: /dev/ide/
+
 pe-sidebar:
    - title: AI
      children:
