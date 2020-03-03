@@ -1,7 +1,7 @@
 ---
 title: "Tomcat 로그설정 - Catalina.out 관리 방법 "
 date: 2020-01-21 11:00:00 +0800
-categories: Tomcat
+categories: tomcat
 sidebar:
   nav: "it-sidebar"
 ---
