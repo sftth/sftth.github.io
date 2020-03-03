@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/_posts/2020-03-01-springboot-dependency.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2020-03-01-springboot-intro.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-02-14-docker-basic005.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-02-14-docker-basic005.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2020-02-15-docker-basic005.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-02-15-docker-basic006.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2020-02-19-docker-basic006.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-02-19-docker-basic007.md" afterDir="false" />
     </list>
@@ -22,7 +20,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="389">
-                <caret line="104" column="3" lean-forward="true" selection-start-line="104" selection-start-column="3" selection-end-line="104" selection-end-column="3" />
+                <caret line="104" column="3" selection-start-line="104" selection-start-column="3" selection-end-line="104" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -191,14 +189,7 @@
       <workItem from="1581241011701" duration="9169000" />
       <workItem from="1581749001401" duration="3331000" />
       <workItem from="1582359984179" duration="26750000" />
-      <workItem from="1583209240031" duration="3089000" />
-    </task>
-    <task id="LOCAL-00032" summary="GIT-17 Profile 정보 추가하기&#10; - index.html 문구 수정">
-      <created>1580441453273</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1580441453273</updated>
+      <workItem from="1583209240031" duration="3351000" />
     </task>
     <task id="LOCAL-00033" summary="GIT-17 Profile 정보 추가하기&#10; - Site Author 수정">
       <created>1580442714825</created>
@@ -536,11 +527,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583197954180</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="WHMS-23 Docker image 만들기 Posting">
+      <created>1583213595804</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1583213595811</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61781000" />
+    <option name="totallyTimeSpent" value="62043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="23" width="1246" height="777" extended-state="6" />
@@ -647,7 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="GIT-21 TOC(Table of content)메뉴 생성하기&#10; - toc 글로벌 설정&#10; - toc_sticky 글로벌 설정" />
     <MESSAGE value="GIT-21 TOC(Table of content)메뉴 생성하기&#10; - toc 개별설정 삭제" />
     <MESSAGE value="신규 post 등록&#10;- Tomcat Catalina.out 설정 방법" />
     <MESSAGE value="폰트 사이즈 조정" />
@@ -672,7 +669,8 @@
     <MESSAGE value="posting Minikube 활용 쿠버네티스 설치" />
     <MESSAGE value="posting Minikube 서비스 생성" />
     <MESSAGE value="ide 카테고리 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="ide 카테고리 추가" />
+    <MESSAGE value="WHMS-23 Docker image 만들기 Posting" />
+    <option name="LAST_COMMIT_MESSAGE" value="WHMS-23 Docker image 만들기 Posting" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Notifications" timestamp="1580358694591">
@@ -1037,7 +1035,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="389">
-            <caret line="104" column="3" lean-forward="true" selection-start-line="104" selection-start-column="3" selection-end-line="104" selection-end-column="3" />
+            <caret line="104" column="3" selection-start-line="104" selection-start-column="3" selection-end-line="104" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
