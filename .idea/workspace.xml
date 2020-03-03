@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="posting Minikube 활용 쿠버네티스 설치">
+    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2020-03-01-springboot-dependency.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-03-01-springboot-intro.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-02-22-kubernetes001.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-02-22-kubernetes001.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-02-14-docker-basic005.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-02-14-docker-basic005.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-02-15-docker-basic005.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-02-15-docker-basic006.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-02-19-docker-basic006.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-02-19-docker-basic007.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,23 +18,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-02-22-kubernetes001.md">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-02-14-docker-basic005.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="135">
-                <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-02-23-kubernetes002.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="150">
-                <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <first_editor relative-caret-position="389">
+                <caret line="104" column="3" lean-forward="true" selection-start-line="104" selection-start-column="3" selection-end-line="104" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -67,17 +59,23 @@
         <option value="$PROJECT_DIR$/_posts/2020-02-22-docker-basic006.md" />
         <option value="$PROJECT_DIR$/_pages/category-dev-kubernetes.md" />
         <option value="$PROJECT_DIR$/_layouts/category-dev-kubernetes.html" />
+        <option value="$PROJECT_DIR$/docs/_posts/2010-03-07-post-link.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-02-22-kubernetes001.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-02-23-kubernetes002.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-02-28-kubernetes003.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-03-01-springboot-intro.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-03-01-springboot-dependency.md" />
         <option value="$PROJECT_DIR$/_layouts/category-dev.html" />
         <option value="$PROJECT_DIR$/_data/navigation.yml" />
-        <option value="$PROJECT_DIR$/docs/_posts/2010-03-07-post-link.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-02-23-kubernetes002.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-02-22-kubernetes001.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-02-15-docker-basic006.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-02-19-docker-basic007.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-02-14-docker-basic005.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="38" />
-    <option name="y" value="28" />
+    <option name="y" value="23" />
     <option name="width" value="1246" />
     <option name="height" value="777" />
   </component>
@@ -90,6 +88,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,16 +104,6 @@
             <path>
               <item name="sftth.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="sftth.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sftth.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sftth.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sftth.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sftth.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -122,7 +111,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -149,9 +137,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/_layouts" />
       <recent name="$PROJECT_DIR$/_pages" />
-      <recent name="$PROJECT_DIR$/_posts" />
       <recent name="D:\400_기술개발\430_GithubPages\_layouts" />
       <recent name="D:\400_기술개발\430_GithubPages\_pages" />
     </key>
@@ -202,42 +190,8 @@
       <workItem from="1581180056786" duration="2115000" />
       <workItem from="1581241011701" duration="9169000" />
       <workItem from="1581749001401" duration="3331000" />
-      <workItem from="1582359984179" duration="9203000" />
-    </task>
-    <task id="LOCAL-00027" summary="Home Page Layout 변경">
-      <created>1580378077212</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1580378077212</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Home Page Layout 변경">
-      <created>1580378188257</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1580378188257</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Home Page Layout 변경">
-      <created>1580380288443</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1580380288443</updated>
-    </task>
-    <task id="LOCAL-00030" summary="GIT-14 블로그 main화면 레이아웃 변경&#10; - splash 레이아웃 적용&#10; - overla_image 적용&#10; - feature_row 적용(테스트용, 향후 수정 예정)">
-      <created>1580434530092</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1580434530092</updated>
-    </task>
-    <task id="LOCAL-00031" summary="GIT-17 Profile 정보 추가하기&#10; - Social Sharing 정보 추가&#10;   - twitter&#10;   - facebook&#10; - Site Author name 수정&#10; - links url 수정">
-      <created>1580436840822</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1580436840822</updated>
+      <workItem from="1582359984179" duration="26750000" />
+      <workItem from="1583209240031" duration="3089000" />
     </task>
     <task id="LOCAL-00032" summary="GIT-17 Profile 정보 추가하기&#10; - index.html 문구 수정">
       <created>1580441453273</created>
@@ -547,17 +501,52 @@
       <option name="project" value="LOCAL" />
       <updated>1582988419337</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="posting Minikube 활용 쿠버네티스 설치">
+      <created>1582988520740</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1582988520740</updated>
+    </task>
+    <task id="LOCAL-00077" summary="posting Minikube 서비스 생성">
+      <created>1582990678061</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1582990678062</updated>
+    </task>
+    <task id="LOCAL-00078" summary="posting Minikube 서비스 생성">
+      <created>1582991347303</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1582991347303</updated>
+    </task>
+    <task id="LOCAL-00079" summary="posting Minikube 서비스 생성">
+      <created>1582992125853</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1582992125853</updated>
+    </task>
+    <task id="LOCAL-00080" summary="ide 카테고리 추가">
+      <created>1583197954180</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1583197954180</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41145000" />
+    <option name="totallyTimeSpent" value="61781000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="38" y="23" width="1246" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25282714" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3297342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -572,9 +561,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.27157003" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.27039275" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50476193" side_tool="true" weight="0.22974607" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4952381" weight="0.2794562" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4952381" weight="0.2880117" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -642,11 +631,6 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
-    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -663,8 +647,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="GIT-16 Profile 정보 추가하기&#10; - 3Level 메뉴 상위에 Profile 표시 삭제" />
-    <MESSAGE value="GIT-21 TOC(Table of content)메뉴 생성하기" />
     <MESSAGE value="GIT-21 TOC(Table of content)메뉴 생성하기&#10; - toc 글로벌 설정&#10; - toc_sticky 글로벌 설정" />
     <MESSAGE value="GIT-21 TOC(Table of content)메뉴 생성하기&#10; - toc 개별설정 삭제" />
     <MESSAGE value="신규 post 등록&#10;- Tomcat Catalina.out 설정 방법" />
@@ -686,9 +668,11 @@
     <MESSAGE value="posting docker ps ps -a 추가" />
     <MESSAGE value="posting docker 4번째 포스트 최초 반영" />
     <MESSAGE value="posting Dockerfile #1" />
-    <MESSAGE value="posting Minikube 활용 쿠버네티스 설치" />
     <MESSAGE value="posting kubernetes" />
-    <option name="LAST_COMMIT_MESSAGE" value="posting kubernetes" />
+    <MESSAGE value="posting Minikube 활용 쿠버네티스 설치" />
+    <MESSAGE value="posting Minikube 서비스 생성" />
+    <MESSAGE value="ide 카테고리 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="ide 카테고리 추가" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Notifications" timestamp="1580358694591">
@@ -826,16 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/_posts/2010-02-05-post-notice.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="435">
-            <caret line="29" selection-start-line="29" selection-end-line="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_pages/category-dev.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -873,30 +847,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-09-docker-basic001.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="98">
-            <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-02-11-docker-basic003.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-1806" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-15-docker-basic005.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="855">
-            <caret line="57" selection-start-line="57" selection-end-line="57" />
-          </first_editor>
           <second_editor />
         </state>
       </provider>
@@ -907,14 +861,6 @@
           <first_editor relative-caret-position="270">
             <caret line="18" selection-start-line="18" selection-end-line="18" />
           </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-10-docker-basic002.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-652" />
           <second_editor />
         </state>
       </provider>
@@ -933,20 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/category-dev.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/navigation.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -986,21 +918,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-23-kubernetes002.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-22-kubernetes001.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="150">
-            <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-22-kubernetes001.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-23-kubernetes002.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-28-kubernetes003.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="225">
+            <caret line="15" selection-start-line="15" selection-end-line="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-03-01-springboot-dependency.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="345">
+            <caret line="233" selection-start-line="233" selection-end-line="233" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-03-01-springboot-intro.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/_posts/2010-02-05-post-notice.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="420">
+            <caret line="28" selection-start-line="28" selection-end-line="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/navigation.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/category-dev.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/category-dev-ide.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-09-docker-basic001.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="200">
+            <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-15-docker-basic006.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-10-docker-basic002.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-292" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-19-docker-basic007.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-14-docker-basic005.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="389">
+            <caret line="104" column="3" lean-forward="true" selection-start-line="104" selection-start-column="3" selection-end-line="104" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
