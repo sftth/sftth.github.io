@@ -1,6 +1,7 @@
 ---
 title: "Dev"
-layout: category-dev
+layout: categories-dev
+#layout: posts-dev
 permalink: /dev/
 author_profile: false
 sidebar:
