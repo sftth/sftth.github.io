@@ -1,6 +1,6 @@
 ---
 title: "IT"
-layout: category-it
+layout: categories-it
 permalink: /it/
 author_profile: false
 sidebar:
