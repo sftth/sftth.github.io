@@ -1,5 +1,5 @@
 ---
-title: "IDE"
+title: "Eclipse"
 layout: category-dev-ide
 permalink: /dev/ide/
 author_profile: false

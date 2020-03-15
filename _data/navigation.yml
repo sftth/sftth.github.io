@@ -10,25 +10,18 @@ main:
     url: /book/
   - title: "About"
     url: /about/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+
 #sidebar it category links
 it-sidebar:
    - title: SW
      children:
-       - title: SW
+       - title: 오픈소스
          url: /it/sw/
    - title: HW
      children:
-       - title: HW
+       - title: 아두이노
          url: /it/hw/
-   - title: NewTech
+   - title: 신기술
      children:
        - title: Cloud
          url: /it/cloud/
@@ -39,7 +32,7 @@ it-sidebar:
        - title: Apache
          url: /it/apache/
 dev-sidebar:
-   - title: Springboot
+   - title: Framework
      children:
        - title: Springboot
          url: /dev/springboot/
@@ -47,7 +40,7 @@ dev-sidebar:
      children:
        - title: Jekyll
          url: /dev/jekyll/
-   - title: Docker
+   - title: 가상화
      children:
        - title: Docker
          url: /dev/docker/
@@ -55,8 +48,8 @@ dev-sidebar:
          url: /dev/kubernetes/
    - title: CICD
      children:
-       - title: 일반환경
-         url: /dev/cicd/general/
+       - title: Jenkins
+         url: /dev/jenkins/
    - title: IDE
      children:
        - title: Eclipse
