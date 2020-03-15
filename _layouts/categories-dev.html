@@ -18,9 +18,11 @@ layout: archive
   {% endfor %}
 
   {% if include == true %}
-  <a href="#{{ category[0] | slugify }}">
-    <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ category[1].size }}</span>
-  </a>
+    <li>
+      <a href="#{{ category[0] | slugify }}">
+        <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ category[1].size }}</span>
+      </a>
+    </li>
   {% endif %}
 
 {% endfor %}
