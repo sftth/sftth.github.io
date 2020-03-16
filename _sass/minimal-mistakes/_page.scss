@@ -71,6 +71,7 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
+  font-size: $type-size-5;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -105,7 +106,11 @@ body {
 		}
 	}
 
-  p,
+  p {
+    //font-size: 1em;
+    font-size: 0.7em;
+  }
+
   li,
   dl {
     font-size: 1em;
