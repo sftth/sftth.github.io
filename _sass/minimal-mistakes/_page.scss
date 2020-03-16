@@ -106,15 +106,29 @@ body {
 		}
 	}
 
-  p {
+  //p,
+  //li,
+  //dl {
+  //  //font-size: 1em;
+  //  font-size: 0.7em;
+  //}
+
+  p,
+  li {
     //font-size: 1em;
     font-size: 0.7em;
   }
 
+  li p {
+    font-size: 1.0em;
+  }
+
+.toc__menu {
   li,
   dl {
     font-size: 1em;
   }
+}
 
   /* paragraph indents */
   p {
