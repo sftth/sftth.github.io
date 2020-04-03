@@ -4,7 +4,7 @@
     <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="KUB-58 headless-server 최초 반영">
       <change afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-02-kubernetes016.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/pe/ai/2020-02-05-ai-tensorflow002.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/pe/ai/2020-02-05-ai-tensorflow002.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/pe/ai/2020-02-08-ai-tensorflow003.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/pe/ai/2020-02-08-ai-tensorflow003.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,25 +13,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-02-kubernetes016.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="381">
-                <caret line="181" column="18" selection-start-line="181" selection-start-column="18" selection-end-line="181" selection-end-column="18" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/pe/ai/2020-02-05-ai-tensorflow002.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="1305">
-                <caret line="87" selection-start-line="87" selection-end-line="87" />
+              <first_editor relative-caret-position="441">
+                <caret line="323" lean-forward="true" selection-start-line="323" selection-end-line="323" />
               </first_editor>
               <second_editor />
             </state>
@@ -59,7 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docs/_posts/2010-03-07-post-link.md" />
         <option value="$PROJECT_DIR$/_posts/2020-02-22-kubernetes001.md" />
         <option value="$PROJECT_DIR$/_posts/2020-02-23-kubernetes002.md" />
         <option value="$PROJECT_DIR$/_posts/2020-02-28-kubernetes003.md" />
@@ -108,16 +95,17 @@
         <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-01-kubernetes013.md" />
         <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-01-kubernetes014.md" />
         <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-01-kubernetes015.md" />
-        <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-02-kubernetes016.md" />
         <option value="$PROJECT_DIR$/_posts/pe/ai/2020-02-05-ai-tensorflow002.md" />
+        <option value="$PROJECT_DIR$/_posts/pe/ai/2020-02-08-ai-tensorflow003.md" />
+        <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-02-kubernetes016.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1280" />
-    <option name="y" value="-280" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="1410" />
+    <option name="y" value="-244" />
+    <option name="width" value="1665" />
+    <option name="height" value="1011" />
   </component>
   <component name="ProjectId" id="1X6BUzwP7AbvnPKYr7jxSsyG5pw" />
   <component name="ProjectLevelVcsManager">
@@ -128,6 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,7 +164,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -266,14 +254,8 @@
       <workItem from="1582359984179" duration="26750000" />
       <workItem from="1583209240031" duration="37601000" />
       <workItem from="1583560521557" duration="41671000" />
-      <workItem from="1584807248452" duration="54336000" />
-    </task>
-    <task id="LOCAL-00066" summary="posting 수정">
-      <created>1581171705311</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1581171705311</updated>
+      <workItem from="1584807248452" duration="54820000" />
+      <workItem from="1585871275101" duration="8860000" />
     </task>
     <task id="LOCAL-00067" summary="posting 수정">
       <created>1581175368991</created>
@@ -611,17 +593,24 @@
       <option name="project" value="LOCAL" />
       <updated>1585754615447</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="Tensorflow 수정">
+      <created>1585870485790</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1585870485791</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201225000" />
+    <option name="totallyTimeSpent" value="210569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-280" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1687966" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17092651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -742,7 +731,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="GIT-23 dev 메뉴 하위 카테고리별 size 표시 기능 추가" />
     <MESSAGE value="GIT-24 it 메뉴 하위 카테고리별 size 표시 기능 추가" />
     <MESSAGE value="GIT-25 pe 메뉴 하위 카테고리별 size 표시 기능 추가" />
     <MESSAGE value="GIT-23 li 태그 추가" />
@@ -767,7 +755,8 @@
     <MESSAGE value="KUB-56 loadbalancer 최초 반영" />
     <MESSAGE value="KUB-57 externalname 최초 반영" />
     <MESSAGE value="KUB-58 headless-server 최초 반영" />
-    <option name="LAST_COMMIT_MESSAGE" value="KUB-58 headless-server 최초 반영" />
+    <MESSAGE value="Tensorflow 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tensorflow 수정" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Notifications" timestamp="1580358694591">
@@ -803,16 +792,6 @@
     <state x="617" y="17" width="663" height="807" key="find.popup/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580781892596" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/dev/cicd/2020-02-12-cicd-series001.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/category-dev-jenkins.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1183,21 +1162,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-02-kubernetes016.md">
+    <entry file="file://$PROJECT_DIR$/_posts/pe/ai/2020-02-05-ai-tensorflow002.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="381">
-            <caret line="181" column="18" selection-start-line="181" selection-start-column="18" selection-end-line="181" selection-end-column="18" />
+          <first_editor relative-caret-position="-82">
+            <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="87" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/pe/ai/2020-02-05-ai-tensorflow002.md">
+    <entry file="file://$PROJECT_DIR$/_posts/pe/ai/2020-02-08-ai-tensorflow003.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1305">
-            <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <first_editor relative-caret-position="1148">
+            <caret line="97" column="17" lean-forward="true" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-02-kubernetes016.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="441">
+            <caret line="323" lean-forward="true" selection-start-line="323" selection-end-line="323" />
           </first_editor>
           <second_editor />
         </state>
