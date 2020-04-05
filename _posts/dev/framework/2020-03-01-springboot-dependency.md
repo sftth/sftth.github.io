@@ -1,6 +1,6 @@
 ---
-title: "Springboot 기초 - 3부 원리"
-date: 2020-01-29 11:00:00 +0800
+title: "Springboot #2 원리 - 자동 설정의 이해"
+date: 2020-03-01 11:00:00 +0800
 categories: springboot
 sidebar:
   nav: "dev-sidebar"
@@ -14,11 +14,7 @@ Springboot 소개
 
 ## 1.의존성 관리 이해 
 
-- 의존성 관리 참고
-
-[using-boot-dependency-management](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-dependency-management)
-
-
+- 의존성 관리 참고 [using-boot-dependency-management](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-dependency-management)
 - pom.xml에 기본적으로 **spring-boot-starter-web**, **spring-boot-starter-test** 설정만 수행
 - 버전 명시하지 않음, 명시하지 않은 의존성도 추가 된 것을 확인 할 수 있음
 - spring-boot-starter-parent의 parent인 spring-boot-dependencies의 dependencymanagement 영역에 정의되어 있음
@@ -47,7 +43,7 @@ Springboot 소개
 ### 2.1 버전관리 해주는 의존성 추가
 
 - dependency 설정에 <version> 명시 하지 않음
-- spring-boot-starter-parent에 설정된 기본 설정을 사용하겠다는 의
+- spring-boot-starter-parent에 설정된 기본 설정을 사용하겠다는 의미 
 
 ```sh 
 <dependency>
@@ -58,7 +54,7 @@ Springboot 소개
 
 ### 2.2 버전관리 안 해주는 의존성 추가
 
-- <version> 명시 함
+- ***version*** 명시 함
 
 ```sh 
 <dependency>
@@ -126,17 +122,62 @@ componentscan, autoconfiguration을 읽음
    - @Configuration @Repository @Service @Controller @RestController
 - 물론 스캔 영역이 아닌 패키지에 있는 경우는 스캔하지 않음.
 
-
 ### 3.4 @EnableAutoConfiguration 상세
 - spring-boot-autoconfigure lib 하위 META-INF의 spring.factories 읽음
 - spring.factories 에 org.springframework.boot.autoconfigure.EnableAutoConfiguration 설정 확인 
 - spring.factories 안에 있는 설정을 읽게 되고 설정에 @Configuration을 빈으로 등록함.
 - @ConditionalOnXxxYyyZzz은 조건에 따라 빈으로 등록 함.
 
+### 3.5 @ConditionalOnXxxYyyZzz 추가 설명
+
+- 예를 들어 WebMvcAutoConfiguration.class를 보면 아래와 같이 Conditional 어노테이션이 있음
+
+```java
+@ConditionalOnWebApplication(
+    type = Type.SERVLET
+) 
+@ConditionalOnClass({Servlet.class, DispatcherServlet.class, WebMvcConfigurer.class})
+@ConditionalOnMissingBean({WebMvcConfigurationSupport.class})
+@AutoConfigureOrder(-2147483638)
+@AutoConfigureAfter({DispatcherServletAutoConfiguration.class, TaskExecutionAutoConfiguration.class, ValidationAutoConfiguration.class})
+public class WebMvcAutoConfiguration {
+....
+```
+
+- @ConditionalOnWebApplication( type = Type.SERVLET ) 은 어플리케이션 타입이 Servelt 인 경우 WebMvcAutoConfiguration을 
+사용하겠다는 의미이므로 아래와 같이 어플리케이션의 타입을 변경하면 WebMvcAutoConfiguration을 사용하지 않게 되는 것
+
+```java
+@Configuration
+@Component
+public class Application {
+  public static void main(String[] args) {
+    SpringApplication application = new SpringApplication(Application.class);
+    application.setWebApplicationType(WebApplicationType.NONE);
+    application.run(args);
+  }
+}
+```
+
 ## 4. 자동설정 만들기
 - @EnableAutoConfiguration 이해를 위한 예제 프로젝트 제작
 
-### 4.1 pom.xml 설정
+### 4.1 Springboot 프로젝트 유형
+
+- 프로젝트 만들기에 앞서 Springboot에서 만들어지는 프로젝트 유형을 2가지로 나눔
+
+  - xxx-Spring-Boot-Autoconfigure : Autoconfig 설정
+  - xxx-Spring-Boot-Starter : pom.xml 이 핵심인 의존성 정의용
+
+- 위 프로젝트 구분 없이 만들때는 xxx-Spring-Boot-Stater로 만듬
+
+### 4.1 Springboot 프로젝트 만들기
+
+- summit-spring-boot-starter 라는 artifact를 갖는 프로젝트 만들기
+
+### 4.2 pom.xml 설정
+
+- 생성된 프로젝트 pom.xml에 아래 내용 설정 
 
 ```xml 
 <dependencies>
@@ -223,7 +264,7 @@ public class HolomanConfiguration {
 ### 4.3 spring.factories 생성
 - resources/META-INF 디렉토리 생성
 - META-INF 하위에 spring.factories 파일 생성
-- spring.factories에 EnableAutoConfiguration 설정
+- spring.factories에 EnableAutoConfiguration 설정을 위해 아래 내용 작성
 
 ```xml 
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
@@ -231,5 +272,53 @@ org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 ```
 ### 4.4 maven install 수행
 
+- Intellij의 메뉴 또는 콘솔을 이용하여 maven install 수행
+- 이렇게 되면 지금까지 작성한 summit-spring-boot-starter 프로젝트의 jar 파일이 생성되고
+다른 프로젝트에서 사용할 수 있도록 로컬 repository에 저장 됨
+
+![WHMS](/assets/images/springboot/WHMS53001.png)
+
+### 4.5 다른 프로젝트에 설정 및 활용 
+
+- repository에 저장된 jar를 다른 프로젝트 pom.xml에 설정하여 dependency 설정이 되는지 확인
+
+![WHMS](/assets/images/springboot/WHMS53002.png)
+
+- dependency 설정된 summit-spring-boot-starter 활용 예제를 작성함
+- 아래 경로에 따라 HolomanRunner 라는 java 파일을 작성
+```sh 
+com.summit.dev.springboot
+  +- holoman
+     +- HolomanRunner
+```
+
+- 작성 코드 
+
+```sh 
+package com.summit.dev.springboot.holoman;
+
+import me.summit.Holoman;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.ApplicationArguments;
+import org.springframework.boot.ApplicationRunner;
+import org.springframework.stereotype.Component;
+
+@Component
+public class HolomanRunner implements ApplicationRunner {
+
+    @Autowired
+    Holoman holoman;
+
+    @Override
+    public void run(ApplicationArguments args) throws Exception {
+        System.out.println(holoman);
+    }
+}
+```
+
+- 작성한 코드에 따라 로그에서 출력 결과 확인 
+
+![WHMS](/assets/images/springboot/WHMS53003.png)
 
 
+이로써 autoconfiguration 된 프로젝트를 dependency 설정하여 활용하는 예제가 완료됨
