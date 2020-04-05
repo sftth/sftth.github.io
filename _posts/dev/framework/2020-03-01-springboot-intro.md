@@ -1,5 +1,5 @@
 ---
-title: "Springboot 기초 - 2부 시작"
+title: "Springboot #1 시작 "
 date: 2020-03-01 11:00:00 +0800
 categories: springboot
 sidebar:
