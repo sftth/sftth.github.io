@@ -199,3 +199,5 @@ content-type: text/plain;charset=UTF-8
 content-length: 12
 date: Sun, 05 Apr 2020 14:07:59 GMT
 ```
+
+- 톰켓의 경우 톰켓 9버전대와 java 9+ 버전을 사용하면 별다른 설정없이 HTTP/2 설정 가능
