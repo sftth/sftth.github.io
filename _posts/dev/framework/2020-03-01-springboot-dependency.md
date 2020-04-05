@@ -1,6 +1,6 @@
 ---
 title: "Springboot #2 원리 - 자동 설정의 이해"
-date: 2020-03-01 11:00:00 +0800
+date: 2020-03-01 12:00:00 +0800
 categories: springboot
 sidebar:
   nav: "dev-sidebar"
