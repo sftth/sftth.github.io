@@ -31,6 +31,8 @@ it-sidebar:
          url: /it/tomcat/
        - title: Apache
          url: /it/apache/
+       - title: Java
+         url: /it/java/
 dev-sidebar:
    - title: Framework
      children:
