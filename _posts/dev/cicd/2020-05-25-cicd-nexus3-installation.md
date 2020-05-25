@@ -44,3 +44,5 @@ C:\sw\nexus-3.23.0-03-win64\nexus-3.23.0-03\bin
 ```xml 
 nexus.exe /run
 ```
+
+https://sftth323-util.s3.ap-northeast-2.amazonaws.com
