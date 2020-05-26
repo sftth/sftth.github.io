@@ -76,13 +76,12 @@ Window 10 플랫폼에 설치된 Nexus 3를 활용한 Private Docker Hub 사용�
 
 - docker 재시작
 
-**Info Notice:** 리눅스의 경우 
+리눅스의 경우 <br>
 
 - /etc/docker/daemon.json 파일 생성
 - insecure-registries 설정
 - service docker restart
 
-{: .notice--info}
 
 ### 6. docker push
 
