@@ -1,5 +1,5 @@
 ---
-title: "JVM 옵션"
+title: "Java - JVM 옵션"
 date: 2020-05-09 11:00:00 +0800
 categories: 
   - java
