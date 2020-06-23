@@ -33,6 +33,10 @@ it-sidebar:
          url: /it/apache/
        - title: Java
          url: /it/java/
+   - title: Architecture
+     children:
+       - title: MSA
+         url: /it/msa/
 dev-sidebar:
    - title: Framework
      children:
