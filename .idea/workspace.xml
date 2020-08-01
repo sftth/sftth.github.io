@@ -1,171 +1,238 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="WHMS-52 스프링부트 시작 최초 반영">
+      <change afterPath="$PROJECT_DIR$/_posts/it/architecture/2020-06-24-spring5msa-chap7-2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/it/architecture/2020-06-26-spring5msa-chap8.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/it/architecture/2020-06-28-spring5msa-chap10.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-03-01-springboot-dependency.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/2020-03-01-springboot-dependency.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minimal-mistakes-jekyll.gemspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_data/authors.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_data/navigation.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/404.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/archive-layout-with-content.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/category-archive.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/collection-archive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/edge-case.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/lorem-ipsum.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/markup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/page-a.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/page-archive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/page-b.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/portfolio-archive.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/post-archive-feature-rows.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/recipes-archive.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/sample-page.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/search.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/sitemap.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/splash-page.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/tag-archive.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/terms.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pages/year-archive.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pets/lhasa-apso.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_pets/tabby.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_portfolio/baz-boom-identity.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_portfolio/fizz-bang-identity.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_portfolio/foo-bar-website.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_portfolio/ginger-gulp-identity.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2009-05-15-edge-case-nested-and-mixed-lists.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2009-06-01-edge-case-many-tags.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2009-07-02-edge-case-many-categories.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2009-08-06-edge-case-no-body-content.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2009-09-05-edge-case-no-yaml-title.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2009-10-05-edge-case-multiline-excerpt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2009-10-05-edge-case-title-should-not-overflow-the-content-area.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2009-10-05-edge-case-very-long-title.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2010-01-07-post-modified.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2010-01-07-post-standard.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2010-01-08-post-chat.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2010-02-05-post-notice.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2010-02-05-post-quote.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2010-03-07-post-link.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2010-06-02-post-video-youtube.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2010-08-05-post-header-image-og-override.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2010-08-05-post-header-overlay-image-og-override.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2010-08-05-post-image-linked.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2010-08-05-post-image-standard.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2010-08-05-post-teaser-image-og-override.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2010-08-06-post-image-linked-caption.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2010-08-07-post-image-caption.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2010-09-09-post-gallery.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2010-09-10-post-twitter-embeds.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2010-10-25-post-future-date.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-02-layout-comments-disabled.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-02-layout-comments.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-02-layout-read-time-disabled.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-02-layout-read-time.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-02-layout-related-posts-disabled.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-02-layout-related-posts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-02-layout-sharing-disabled.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-02-layout-sharing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-03-layout-read-time-comments-sharing-related-posts-disabled.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-03-layout-table-of-contents-include-post.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-03-layout-table-of-contents-indent-post.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-03-layout-table-of-contents-post.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-03-layout-table-of-contents-sticky.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-14-layout-code-excerpt-generated.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-14-layout-excerpt-defined.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-14-layout-excerpt-generated.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-author-override.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-author-sidebar-disabled.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-header-image-external.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-header-image-horizontal.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-header-image-text-readability.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-header-image-vertical.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-header-overlay-color.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-header-overlay-image-tagline.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-header-overlay-image.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-more-tag.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-sidebar-custom.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-sidebar-nav-list.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-05-22-markup-text-readability-wide-page.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2012-05-22-markup-text-readability.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2013-01-05-markup-title-with-markup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2013-01-05-markup-title-with-special-characters.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2013-01-09-markup-text-alignment.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2013-01-10-markup-image-alignment.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2013-01-11-markup-html-tags-and-formatting.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2013-05-22-markup-more-images.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2013-08-16-markup-syntax-highlighting.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2016-02-24-welcome-to-jekyll.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2017-01-23-layout-header-video.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_posts/2017-11-28-post-exclude-search.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_recipes/chocolate-chip-cookies.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_recipes/oatmeal-cookies.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/_recipes/peanut-butter-cookies.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/3953273590_704e3899d5_m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/500x300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/bio-photo-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/bio-photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/facebook-share-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/foo-bar-identity-th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/foo-bar-identity.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/image-alignment-1200x4002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/image-alignment-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/image-alignment-300x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/image-alignment-580x300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/markup-syntax-highlighting-teaser.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-archive-grid-view-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-author-profile-reddit-color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-author-profile-reddit-gs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-author-sidebar-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-breadcrumbs-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-browser-mockups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-bundle-install.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-custom-sidebar-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-custom-sidebar-nav.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-customizable-feature.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-free-feature.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-gh-pages.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-github-copy-repo-url.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-github-edit-config.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-header-overlay-black-filter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-header-overlay-red-filter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-home-page-feature.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-home-post-pagination-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-layout-archive-taxonomy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-layout-archive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-layout-examples.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-layout-single-header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-layout-single-meta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-layout-single.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-layout-splash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-paragraph-indent-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-portfolio-collection-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-priority-plus-masthead.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-read-time-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-responsive-feature.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-single-header-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-single-header-overlay-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-single-header-overlay-fill-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-social-share-links-default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-social-share-links-reddit-color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-social-share-links-reddit-gs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-staticman-pr-webhook.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-susy-grid-overlay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-teaser-images-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-theme-fork-repo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-theme-post-600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-theme-post-750.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-toc-helper-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-twitter-card-summary-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-twitter-card-summary-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-ui-text-labels.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/page-header-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/page-header-og-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/page-header-overlay-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/page-header-teaser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/paragraph-indent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/paragraph-no-indent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-gallery-image-1-th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-gallery-image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-gallery-image-2-th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-gallery-image-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-gallery-image-3-th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-gallery-image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-gallery-image-4-th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-gallery-image-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/index.html" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/dev/framework/2020-03-01-springboot-dependency.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-52">
-                <caret line="291" column="21" lean-forward="true" selection-start-line="291" selection-start-column="21" selection-end-line="291" selection-end-column="21" />
-                <folding>
-                  <element signature="e#90#91#0" expanded="true" />
-                  <element signature="e#117#118#0" expanded="true" />
-                  <element signature="e#156#157#0" expanded="true" />
-                  <element signature="e#188#189#0" expanded="true" />
-                  <element signature="e#218#219#0" expanded="true" />
-                  <element signature="e#248#249#0" expanded="true" />
-                  <element signature="e#290#291#0" expanded="true" />
-                  <element signature="e#328#329#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>disqu</find>
-      <find>categories</find>
-      <find>archive__subtitle</find>
-      <find>type-size</find>
-      <find>entries-</find>
-      <find>archive__item-title</find>
-      <find>collection:</find>
-      <find>collections</find>
-      <find>posts</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/_posts/2020-03-01-springboot-intro.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-03-01-springboot-dependency.md" />
-        <option value="$PROJECT_DIR$/_layouts/category-dev.html" />
-        <option value="$PROJECT_DIR$/_posts/2020-02-19-docker-basic007.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-02-14-docker-basic005.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-02-15-docker-basic006.md" />
-        <option value="$PROJECT_DIR$/docs/_posts/2010-02-05-post-notice.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-03-04-docker-basic008.md" />
-        <option value="$PROJECT_DIR$/_posts/docker-basic011.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/_pages/category-it.md" />
-        <option value="$PROJECT_DIR$/_pages/category-pe.md" />
-        <option value="$PROJECT_DIR$/_layouts/posts-dev.html" />
-        <option value="$PROJECT_DIR$/_posts/2020-02-12-cicd-series001.md" />
-        <option value="$PROJECT_DIR$/_posts/dev/cicd/2020-02-12-cicd-series001.md" />
-        <option value="$PROJECT_DIR$/_layouts/categories-dev.html" />
-        <option value="$PROJECT_DIR$/_layouts/categories-pe.html" />
-        <option value="$PROJECT_DIR$/_pages/category-it-hw.md" />
-        <option value="$PROJECT_DIR$/_layouts/category-it-hw.html" />
-        <option value="$PROJECT_DIR$/_data/navigation.yml" />
-        <option value="$PROJECT_DIR$/_layouts/category-dev-cicd.html" />
-        <option value="$PROJECT_DIR$/_pages/category-dev-cicd.md" />
-        <option value="$PROJECT_DIR$/_pages/category-dev-jenkins.md" />
-        <option value="$PROJECT_DIR$/_pages/category-pe-tf.md" />
-        <option value="$PROJECT_DIR$/_layouts/categories-it.html" />
-        <option value="$PROJECT_DIR$/_sass/minimal-mistakes/_archive.scss" />
-        <option value="$PROJECT_DIR$/_pages/category-dev-docker.md" />
-        <option value="$PROJECT_DIR$/_pages/category-dev-ide.md" />
-        <option value="$PROJECT_DIR$/_dev/2020-02-12-cicd-series001.md" />
-        <option value="$PROJECT_DIR$/_dev/cicd/2020-02-12-cicd-series001.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/_layouts/collection-archive-dev.html" />
-        <option value="$PROJECT_DIR$/_pages/category-dev.md" />
-        <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-03-21-kubernetes007.md" />
-        <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-03-17-kubernetes004.md" />
-        <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-03-17-kubernetes005.md" />
-        <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-03-22-kubernetes008.md" />
-        <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-03-18-kubernetes006.md" />
-        <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-03-24-kubernetes009.md" />
-        <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-01-kubernetes010.md" />
-        <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-01-kubernetes011.md" />
-        <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-01-kubernetes012.md" />
-        <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-01-kubernetes013.md" />
-        <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-01-kubernetes014.md" />
-        <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-01-kubernetes015.md" />
-        <option value="$PROJECT_DIR$/_posts/pe/ai/2020-02-05-ai-tensorflow002.md" />
-        <option value="$PROJECT_DIR$/_posts/pe/ai/2020-02-08-ai-tensorflow003.md" />
-        <option value="$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-02-kubernetes016.md" />
-        <option value="$PROJECT_DIR$/_posts/pe/ai/2020-04-04-ai-tensorflow004.md" />
-        <option value="$PROJECT_DIR$/_posts/dev/framework/2020-03-01-springboot-intro.md" />
-        <option value="$PROJECT_DIR$/_posts/dev/framework/2020-03-01-springboot-dependency.md" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1281" />
-    <option name="y" value="-257" />
-    <option name="width" value="1919" />
-    <option name="height" value="1011" />
+    <option name="x" value="77" />
+    <option name="y" value="35" />
+    <option name="width" value="1184" />
+    <option name="height" value="573" />
   </component>
   <component name="ProjectId" id="1X6BUzwP7AbvnPKYr7jxSsyG5pw" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sftth.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sftth.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sftth.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sftth.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sftth.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sftth.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sftth.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sftth.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sftth.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sftth.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
@@ -186,6 +253,13 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts/it/architecture" />
+      <recent name="$PROJECT_DIR$/_pages" />
+      <recent name="$PROJECT_DIR$/_layouts" />
+      <recent name="$PROJECT_DIR$/_posts/it/middleware" />
+      <recent name="$PROJECT_DIR$/_posts/dev/framework" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts/dev/kubernetes" />
       <recent name="$PROJECT_DIR$/_dev" />
@@ -193,37 +267,6 @@
       <recent name="$PROJECT_DIR$/_posts/pe/ai" />
       <recent name="$PROJECT_DIR$/_posts/pe" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_posts/pe/ai" />
-      <recent name="$PROJECT_DIR$/_posts/dev/kubernetes" />
-      <recent name="$PROJECT_DIR$/_dev" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/_layouts" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -253,105 +296,20 @@
       <workItem from="1584807248452" duration="54820000" />
       <workItem from="1585871275101" duration="10213000" />
       <workItem from="1585964098817" duration="165000" />
-      <workItem from="1585986523728" duration="15524000" />
-    </task>
-    <task id="LOCAL-00070" summary="posting docker 기본 최초 반영">
-      <created>1581254526793</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1581254526795</updated>
-    </task>
-    <task id="LOCAL-00071" summary="posting docker ps ps -a 추가">
-      <created>1581606838057</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1581606838057</updated>
-    </task>
-    <task id="LOCAL-00072" summary="posting docker 4번째 포스트 최초 반영">
-      <created>1581609564557</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1581609564557</updated>
-    </task>
-    <task id="LOCAL-00073" summary="posting Dockerfile #1">
-      <created>1582358600756</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1582358600757</updated>
-    </task>
-    <task id="LOCAL-00074" summary="posting Minikube 활용 쿠버네티스 설치">
-      <created>1582389633124</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1582389633128</updated>
-    </task>
-    <task id="LOCAL-00075" summary="posting kubernetes">
-      <created>1582988419336</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1582988419337</updated>
-    </task>
-    <task id="LOCAL-00076" summary="posting Minikube 활용 쿠버네티스 설치">
-      <created>1582988520740</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1582988520740</updated>
-    </task>
-    <task id="LOCAL-00077" summary="posting Minikube 서비스 생성">
-      <created>1582990678061</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1582990678062</updated>
-    </task>
-    <task id="LOCAL-00078" summary="posting Minikube 서비스 생성">
-      <created>1582991347303</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1582991347303</updated>
-    </task>
-    <task id="LOCAL-00079" summary="posting Minikube 서비스 생성">
-      <created>1582992125853</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1582992125853</updated>
-    </task>
-    <task id="LOCAL-00080" summary="ide 카테고리 추가">
-      <created>1583197954180</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1583197954180</updated>
-    </task>
-    <task id="LOCAL-00081" summary="WHMS-23 Docker image 만들기 Posting">
-      <created>1583213595804</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1583213595811</updated>
-    </task>
-    <task id="LOCAL-00082" summary="파일 명 변경">
-      <created>1583213786315</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1583213786316</updated>
-    </task>
-    <task id="LOCAL-00083" summary="WHMS-24 Dockerfile 생성과 빌드 Posting">
-      <created>1583216707331</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1583216707332</updated>
+      <workItem from="1585986523728" duration="45681000" />
+      <workItem from="1587834146895" duration="598000" />
+      <workItem from="1588150432234" duration="3587000" />
+      <workItem from="1588602970085" duration="15764000" />
+      <workItem from="1590402923553" duration="361000" />
+      <workItem from="1592919793441" duration="8643000" />
+      <workItem from="1593236926862" duration="5024000" />
+      <workItem from="1593337622025" duration="927000" />
+      <workItem from="1593389237290" duration="738000" />
+      <workItem from="1593792321342" duration="322000" />
+      <workItem from="1593885012825" duration="1284000" />
+      <workItem from="1593960171889" duration="279000" />
+      <workItem from="1594054528363" duration="612000" />
+      <workItem from="1596292068712" duration="1754000" />
     </task>
     <task id="LOCAL-00084" summary="WHMS-29 WHMS-30 WHMS-32 WHMS-33&#10;도커 데몬 이해 포스팅">
       <created>1583424777045</created>
@@ -598,47 +556,109 @@
       <option name="project" value="LOCAL" />
       <updated>1586014036517</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="WHMS-53 스프링부트 자동설정의 이해 최초 반영">
+      <created>1586047518904</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1586047518904</updated>
+    </task>
+    <task id="LOCAL-00120" summary="WHMS-52 스프링부트 시작 수정">
+      <created>1586047542947</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1586047542947</updated>
+    </task>
+    <task id="LOCAL-00121" summary="WHMS-53 날짜수정">
+      <created>1586047638370</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1586047638370</updated>
+    </task>
+    <task id="LOCAL-00122" summary="WHMS-53 스프링부트 자동설정의 이해2 반영">
+      <created>1586072577421</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1586072577421</updated>
+    </task>
+    <task id="LOCAL-00123" summary="WHMS-54 내장웹서버 이해 추가">
+      <created>1586095901525</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1586095901525</updated>
+    </task>
+    <task id="LOCAL-00124" summary="WHMS-54 내장 웹 서버 이해 추가">
+      <created>1586098790321</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1586098790321</updated>
+    </task>
+    <task id="LOCAL-00125" summary="WHMS-55 스프링부트 활용 - SpringApplication">
+      <created>1586149354454</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1586149354458</updated>
+    </task>
+    <task id="LOCAL-00126" summary="WHMS-56 스프링부트 활용 - 외부 설정">
+      <created>1586149387529</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1586149387529</updated>
+    </task>
+    <task id="LOCAL-00127" summary="intellij 반영">
+      <created>1587834655235</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1587834655238</updated>
+    </task>
+    <task id="LOCAL-00128" summary="springframework gkrtmq">
+      <created>1588603439299</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1588603439301</updated>
+    </task>
+    <task id="LOCAL-00129" summary="contents added">
+      <created>1589012926423</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1589012926423</updated>
+    </task>
+    <task id="LOCAL-00130" summary="미반영 분 반영 완료">
+      <created>1592919957540</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1592919957541</updated>
+    </task>
+    <task id="LOCAL-00131" summary="MSA Category 최초 생성">
+      <created>1592920236498</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1592920236498</updated>
+    </task>
+    <task id="LOCAL-00132" summary="SWA-2 스프링클라우드 컨피그">
+      <created>1593006314413</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1593006314413</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227611000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1281" y="-257" width="1919" height="1011" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16728823" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Learn" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33370537" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50476193" side_tool="true" weight="0.22974607" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4952381" weight="0.2857143" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="SciView" order="7" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -656,12 +676,6 @@
         <entry key="1">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -680,35 +694,12 @@
                   </entry>
                 </map>
               </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
             </State>
           </value>
         </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -727,22 +718,9 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="GIT-27 GIT-28 GIT-29 _posts 디렉토리 내에 카타고리별로 디렉토리 분리" />
-    <MESSAGE value="GIT-27 hw category .md 및 layout 파일 추가" />
-    <MESSAGE value="GIT-27 GIT-28 GIT-29 메뉴별 카테고리 메뉴 리뉴얼" />
-    <MESSAGE value="GIT-27 GIT-28 GIT-29 카테고리 별 subtitle font size 조정" />
-    <MESSAGE value="docker, kubernetes 분리" />
-    <MESSAGE value="KUB-24 포스트 이미지 변경" />
-    <MESSAGE value="KUB-33 쿠버네티스 아키텍처 이해 최초 반영" />
-    <MESSAGE value="KUB-33 KUB-34 KUB-35 쿠버네티스 아키텍처 이해 최초 반영" />
-    <MESSAGE value="KUB-36 KUB-37 KUB-38 KUB-39 파드 이해 최초 반영" />
-    <MESSAGE value="타이틀 수정" />
-    <MESSAGE value="KUB-40 KUB-41 KUB-42 파드 컨테이너 유형 추가" />
-    <MESSAGE value="오류 수정" />
-    <MESSAGE value="KUB-45 KUB-46 KUB-47 KUB-48 KUB-49 KUB-50 KUB-51&#10;레플리케이션 컨트롤러와 레플리카셋 추가" />
-    <MESSAGE value="KUB-52 KUB-53 쿠버네티스 서비스 개념, 서비스 타입 최초 반영" />
     <MESSAGE value="KUB-54 clusterIP 타입 최초 반영" />
     <MESSAGE value="KUB-54 clusterIP 타입에서 다른 노드에 있는 pod와 통신이 안 되는 현상 반영" />
     <MESSAGE value="KUB-55 NodePort 최초 반영" />
@@ -754,465 +732,27 @@
     <MESSAGE value="KUB-60 KUB-61 KUB-62 인그레스 최초 반영" />
     <MESSAGE value="TensorFlow for Java 최초 반영" />
     <MESSAGE value="WHMS-52 스프링부트 시작 수정 사항 반영" />
-    <option name="LAST_COMMIT_MESSAGE" value="WHMS-52 스프링부트 시작 수정 사항 반영" />
+    <MESSAGE value="WHMS-53 스프링부트 자동설정의 이해 최초 반영" />
+    <MESSAGE value="WHMS-52 스프링부트 시작 수정" />
+    <MESSAGE value="WHMS-53 날짜수정" />
+    <MESSAGE value="WHMS-53 스프링부트 자동설정의 이해2 반영" />
+    <MESSAGE value="WHMS-54 내장웹서버 이해 추가" />
+    <MESSAGE value="WHMS-54 내장 웹 서버 이해 추가" />
+    <MESSAGE value="WHMS-55 스프링부트 활용 - SpringApplication" />
+    <MESSAGE value="WHMS-56 스프링부트 활용 - 외부 설정" />
+    <MESSAGE value="intellij 반영" />
+    <MESSAGE value="springframework gkrtmq" />
+    <MESSAGE value="contents added" />
+    <MESSAGE value="미반영 분 반영 완료" />
+    <MESSAGE value="MSA Category 최초 생성" />
+    <MESSAGE value="SWA-2 스프링클라우드 컨피그" />
+    <option name="LAST_COMMIT_MESSAGE" value="SWA-2 스프링클라우드 컨피그" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="392" y="88" key="#Notifications" timestamp="1580358694591">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="2042" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596296262080">
+      <screen x="1344" y="0" width="1920" height="1080" />
     </state>
-    <state x="392" y="88" key="#Notifications/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358694591" />
-    <state x="511" y="0" key="CommitChangelistDialog2" timestamp="1580802024479">
-      <screen x="0" y="0" width="2048" height="824" />
-    </state>
-    <state x="399" y="0" key="CommitChangelistDialog2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580443226309" />
-    <state x="511" y="0" key="CommitChangelistDialog2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580802024479" />
-    <state x="118" y="88" width="1813" height="648" key="DiffContextDialog" timestamp="1580781421211">
-      <screen x="0" y="0" width="2048" height="824" />
-    </state>
-    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580442954168" />
-    <state x="118" y="88" width="1813" height="648" key="DiffContextDialog/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580781421211" />
-    <state x="459" y="127" width="692" height="605" key="NewModule_or_Project.wizard" timestamp="1580374286135">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="459" y="127" width="692" height="605" key="NewModule_or_Project.wizard/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580374286135" />
-    <state x="301" y="72" key="SettingsEditor" timestamp="1580358725494">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="301" y="72" key="SettingsEditor/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580358725494" />
-    <state x="502" y="156" key="Vcs.Push.Dialog.v2" timestamp="1580802033514">
-      <screen x="0" y="0" width="2048" height="824" />
-    </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/1600.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1580443234983" />
-    <state x="502" y="156" key="Vcs.Push.Dialog.v2/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580802033514" />
-    <state x="617" y="17" width="663" height="807" key="find.popup" timestamp="1580781892596">
-      <screen x="0" y="0" width="2048" height="824" />
-    </state>
-    <state x="617" y="17" width="663" height="807" key="find.popup/2048.0.1280.680/0.0.2048.824@0.0.2048.824" timestamp="1580781892596" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/category.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/minimal-mistakes.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/docker-basic007/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="917">
-          <caret line="557" column="7" selection-start-line="557" selection-start-column="7" selection-end-line="557" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35267" selection-start-line="4" selection-start-column="35267" selection-end-line="4" selection-end-column="35267" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/archive-single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/_recipes/chocolate-chip-cookies.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/archive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/minimal-mistakes/_archive.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/categories-dev.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/collection-archive-dev.html" />
-    <entry file="file://$PROJECT_DIR$/docs/_recipes/oatmeal-cookies.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/_pets/lhasa-apso.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_dev/2020-02-12-cicd-series001.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="45">
-            <caret line="3" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/categories-it.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/posts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/category-dev-jekyll.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/_pets/tabby.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/category-dev-docker.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/category-dev-ide.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="150">
-            <caret line="10" selection-start-line="10" selection-end-line="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/_pages/pets.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="150">
-            <caret line="10" selection-start-line="10" selection-end-line="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/_pages/collection-archive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="209" column="34" selection-start-line="209" selection-start-column="34" selection-end-line="209" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="278" column="9" selection-start-line="278" selection-start-column="9" selection-end-line="278" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/collection-archive-dev.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_dev/cicd/2020-02-12-cicd-series001.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="450">
-            <caret line="30" selection-start-line="30" selection-end-line="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/category-dev.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="180">
-            <caret line="12" selection-start-line="12" selection-end-line="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/minimal-mistakes/_page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="359" column="28" selection-start-line="359" selection-start-column="28" selection-end-line="359" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/kubenetes/KUB24005.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/kubenetes/KUB24004.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/kubenetes/KUB24003.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/dev/kubernetes/2020-03-21-kubernetes007.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/dev/kubernetes/2020-03-17-kubernetes004.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/dev/kubernetes/2020-03-17-kubernetes005.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/dev/kubernetes/2020-03-18-kubernetes006.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="333">
-            <caret line="296" column="14" selection-start-line="296" selection-start-column="14" selection-end-line="296" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/dev/kubernetes/2020-03-22-kubernetes008.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="380">
-            <caret line="139" selection-start-line="139" selection-end-line="139" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/dev/kubernetes/2020-03-24-kubernetes009.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="357">
-            <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-01-kubernetes010.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-01-kubernetes012.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="231">
-            <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-01-kubernetes011.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-01-kubernetes013.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="19" selection-start-line="19" selection-end-line="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-01-kubernetes014.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="457">
-            <caret line="60" selection-start-line="60" selection-end-line="60" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/_posts/2010-02-05-post-notice.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="281">
-            <caret line="29" selection-start-line="29" selection-end-line="30" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-01-kubernetes015.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1018">
-            <caret line="84" selection-start-line="84" selection-end-line="84" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/pe/ai/2020-02-05-ai-tensorflow002.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-82">
-            <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="87" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/pe/ai/2020-02-08-ai-tensorflow003.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1148">
-            <caret line="97" column="17" lean-forward="true" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/pe/ai/2020-04-04-ai-tensorflow004.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="249">
-            <caret line="88" column="29" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/dev/kubernetes/2020-04-02-kubernetes016.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="60">
-            <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/dev/framework/2020-03-01-springboot-intro.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="324">
-            <caret line="196" column="12" selection-start-line="196" selection-start-column="12" selection-end-line="196" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/dev/framework/2020-03-01-springboot-dependency.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-52">
-            <caret line="291" column="21" lean-forward="true" selection-start-line="291" selection-start-column="21" selection-end-line="291" selection-end-column="21" />
-            <folding>
-              <element signature="e#90#91#0" expanded="true" />
-              <element signature="e#117#118#0" expanded="true" />
-              <element signature="e#156#157#0" expanded="true" />
-              <element signature="e#188#189#0" expanded="true" />
-              <element signature="e#218#219#0" expanded="true" />
-              <element signature="e#248#249#0" expanded="true" />
-              <element signature="e#290#291#0" expanded="true" />
-              <element signature="e#328#329#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <state x="2042" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596296262080" />
   </component>
   <component name="masterDetails">
     <states>
