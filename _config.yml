@@ -28,6 +28,8 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "sftth" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
+breadcrumb_home_label    : "Main"
+breadcrumb_separator     : "|"
 words_per_minute         : 200
 comments:
   provider               : disqus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -173,7 +175,7 @@ exclude:
   - Capfile
   - CHANGELOG
   - config
-  - Gemfile
+  - ffile
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
@@ -283,13 +285,13 @@ compress_html:
 collections:
   it:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:categories/:path/
   dev:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:categories/:path/
   pe:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:categories/:path/
 
 # Defaults
 defaults:

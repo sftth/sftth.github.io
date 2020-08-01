@@ -19,199 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="WHMS-52 스프링부트 시작 최초 반영">
-      <change afterPath="$PROJECT_DIR$/_posts/it/architecture/2020-06-24-spring5msa-chap7-2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/it/architecture/2020-06-26-spring5msa-chap8.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/it/architecture/2020-06-28-spring5msa-chap10.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="블로그 파일 정리">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minimal-mistakes-jekyll.gemspec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_data/authors.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_data/navigation.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/404.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/archive-layout-with-content.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/category-archive.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/collection-archive.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/edge-case.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/lorem-ipsum.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/markup.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/page-a.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/page-archive.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/page-b.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/portfolio-archive.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/post-archive-feature-rows.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/recipes-archive.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/sample-page.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/search.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/sitemap.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/splash-page.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/tag-archive.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/terms.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pages/year-archive.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pets/lhasa-apso.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_pets/tabby.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_portfolio/baz-boom-identity.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_portfolio/fizz-bang-identity.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_portfolio/foo-bar-website.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_portfolio/ginger-gulp-identity.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2009-05-15-edge-case-nested-and-mixed-lists.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2009-06-01-edge-case-many-tags.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2009-07-02-edge-case-many-categories.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2009-08-06-edge-case-no-body-content.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2009-09-05-edge-case-no-yaml-title.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2009-10-05-edge-case-multiline-excerpt.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2009-10-05-edge-case-title-should-not-overflow-the-content-area.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2009-10-05-edge-case-very-long-title.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2010-01-07-post-modified.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2010-01-07-post-standard.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2010-01-08-post-chat.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2010-02-05-post-notice.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2010-02-05-post-quote.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2010-03-07-post-link.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2010-06-02-post-video-youtube.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2010-08-05-post-header-image-og-override.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2010-08-05-post-header-overlay-image-og-override.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2010-08-05-post-image-linked.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2010-08-05-post-image-standard.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2010-08-05-post-teaser-image-og-override.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2010-08-06-post-image-linked-caption.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2010-08-07-post-image-caption.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2010-09-09-post-gallery.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2010-09-10-post-twitter-embeds.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2010-10-25-post-future-date.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-02-layout-comments-disabled.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-02-layout-comments.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-02-layout-read-time-disabled.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-02-layout-read-time.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-02-layout-related-posts-disabled.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-02-layout-related-posts.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-02-layout-sharing-disabled.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-02-layout-sharing.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-03-layout-read-time-comments-sharing-related-posts-disabled.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-03-layout-table-of-contents-include-post.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-03-layout-table-of-contents-indent-post.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-03-layout-table-of-contents-post.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-01-03-layout-table-of-contents-sticky.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-14-layout-code-excerpt-generated.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-14-layout-excerpt-defined.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-14-layout-excerpt-generated.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-author-override.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-author-sidebar-disabled.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-header-image-external.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-header-image-horizontal.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-header-image-text-readability.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-header-image-vertical.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-header-overlay-color.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-header-overlay-image-tagline.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-header-overlay-image.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-more-tag.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-sidebar-custom.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-03-15-layout-sidebar-nav-list.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-05-22-markup-text-readability-wide-page.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2012-05-22-markup-text-readability.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2013-01-05-markup-title-with-markup.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2013-01-05-markup-title-with-special-characters.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2013-01-09-markup-text-alignment.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2013-01-10-markup-image-alignment.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2013-01-11-markup-html-tags-and-formatting.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2013-05-22-markup-more-images.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2013-08-16-markup-syntax-highlighting.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2016-02-24-welcome-to-jekyll.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2017-01-23-layout-header-video.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_posts/2017-11-28-post-exclude-search.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_recipes/chocolate-chip-cookies.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_recipes/oatmeal-cookies.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/_recipes/peanut-butter-cookies.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/3953273590_704e3899d5_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/500x300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/bio-photo-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/bio-photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/facebook-share-example.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/foo-bar-identity-th.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/foo-bar-identity.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/image-alignment-1200x4002.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/image-alignment-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/image-alignment-300x200.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/image-alignment-580x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/markup-syntax-highlighting-teaser.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-archive-grid-view-example.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-author-profile-reddit-color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-author-profile-reddit-gs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-author-sidebar-example.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-breadcrumbs-example.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-browser-mockups.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-bundle-install.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-custom-sidebar-example.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-custom-sidebar-nav.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-customizable-feature.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-free-feature.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-gh-pages.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-github-copy-repo-url.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-github-edit-config.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-header-overlay-black-filter.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-header-overlay-red-filter.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-home-page-feature.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-home-post-pagination-example.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-layout-archive-taxonomy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-layout-archive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-layout-examples.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-layout-single-header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-layout-single-meta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-layout-single.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-layout-splash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-paragraph-indent-example.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-portfolio-collection-example.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-priority-plus-masthead.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-read-time-example.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-responsive-feature.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-single-header-example.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-single-header-overlay-example.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-single-header-overlay-fill-example.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-social-share-links-default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-social-share-links-reddit-color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-social-share-links-reddit-gs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-staticman-pr-webhook.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-susy-grid-overlay.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-teaser-images-example.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-theme-fork-repo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-theme-post-600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-theme-post-750.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-toc-helper-example.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-twitter-card-summary-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-twitter-card-summary-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-ui-text-labels.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/page-header-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/page-header-og-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/page-header-overlay-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/page-header-teaser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/paragraph-indent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/paragraph-no-indent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/safari-pinned-tab.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-gallery-image-1-th.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-gallery-image-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-gallery-image-2-th.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-gallery-image-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-gallery-image-3-th.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-gallery-image-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-gallery-image-4-th.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-gallery-image-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/unsplash-image-9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot-layouts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticman.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +67,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -309,14 +126,7 @@
       <workItem from="1593885012825" duration="1284000" />
       <workItem from="1593960171889" duration="279000" />
       <workItem from="1594054528363" duration="612000" />
-      <workItem from="1596292068712" duration="1754000" />
-    </task>
-    <task id="LOCAL-00084" summary="WHMS-29 WHMS-30 WHMS-32 WHMS-33&#10;도커 데몬 이해 포스팅">
-      <created>1583424777045</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1583424777045</updated>
+      <workItem from="1596292068712" duration="3762000" />
     </task>
     <task id="LOCAL-00085" summary="WHMS-29 WHMS-30 WHMS-32 WHMS-33&#10;경미한 문장 오류 수정">
       <created>1583476079907</created>
@@ -654,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593006314413</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="블로그 파일 정리">
+      <created>1596296570922</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1596296570922</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,6 +493,7 @@
         <entry key="1">
           <value>
             <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -704,6 +522,11 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -721,7 +544,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="KUB-54 clusterIP 타입 최초 반영" />
     <MESSAGE value="KUB-54 clusterIP 타입에서 다른 노드에 있는 pod와 통신이 안 되는 현상 반영" />
     <MESSAGE value="KUB-55 NodePort 최초 반영" />
     <MESSAGE value="KUB-54 deployments 탬플릿 추가" />
@@ -746,13 +568,30 @@
     <MESSAGE value="미반영 분 반영 완료" />
     <MESSAGE value="MSA Category 최초 생성" />
     <MESSAGE value="SWA-2 스프링클라우드 컨피그" />
-    <option name="LAST_COMMIT_MESSAGE" value="SWA-2 스프링클라우드 컨피그" />
+    <MESSAGE value="블로그 파일 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="블로그 파일 정리" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2042" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596296262080">
+    <state x="2042" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596296987106">
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
-    <state x="2042" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596296262080" />
+    <state x="2042" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596296987106" />
+    <state x="1444" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1596298620707">
+      <screen x="1344" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1444" y="100" width="1720" height="880" key="DiffContextDialog/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596298620707" />
+    <state x="1813" y="179" key="SettingsEditor" timestamp="1596298085558">
+      <screen x="1344" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1813" y="179" key="SettingsEditor/1344.0.1920.1080/0.23.1344.817@1344.0.1920.1080" timestamp="1596298085558" />
+    <state x="2157" y="460" key="VCS.ChangelistChooser" timestamp="1596298561132">
+      <screen x="1344" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2157" y="460" key="VCS.ChangelistChooser/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596298561132" />
+    <state x="1904" y="280" key="Vcs.Push.Dialog.v2" timestamp="1596296573761">
+      <screen x="1344" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1904" y="280" key="Vcs.Push.Dialog.v2/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596296573761" />
   </component>
   <component name="masterDetails">
     <states>
