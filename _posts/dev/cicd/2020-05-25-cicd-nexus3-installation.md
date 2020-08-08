@@ -2,13 +2,11 @@
 title: "CICD - Nexus 3 Installation"
 date: 2020-05-25 00:00:00 +0800
 
-categories: cicd
+categories: 
+ - cicd
 tags:
   - nexus 3
   - repository
-sidebar:
-  title: "Development"
-  nav: "dev-sidebar"
 ---
 
 Window 10 플랫폼에서 Nexus 3 설치 및 기동에 관한 가이드 입니다. <br>

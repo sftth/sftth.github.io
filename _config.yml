@@ -244,7 +244,6 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -255,24 +254,29 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
+#category_archive:
+#  type: liquid
+#  path: /categories/
+#tag_archive:
+#  type: liquid
+#  path: /tags/
 category_archive:
-  type: liquid
+  type: jekyll-arcives
   path: /categories/
 tag_archive:
-  type: liquid
+  type: jekyll-arcives
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
    enabled:
      - categories
-#     - tags
+     - tags
    layouts:
      category: archive-taxonomy
-#     tag: archive-taxonomy
+     tag: archive-taxonomy
    permalinks:
      category: /:categories/:name/
-#     tag: /tags/:name/
-
+     tag: /tags/:name/
 
 # HTML Compression
 # - https://jch.penibelst.de/
@@ -285,13 +289,16 @@ compress_html:
 collections:
   it:
     output: true
-    permalink: /:categories/:path/
+    permalink: /:collection/:path/
   dev:
     output: true
-    permalink: /:categories/:path/
+    permalink: /:collection/:path/
   pe:
     output: true
-    permalink: /:categories/:path/
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -302,9 +309,61 @@ defaults:
     values:
       layout: single
       author_profile: false
-      read_time: false
+      read_time: true
       comments:  true
       share: true
       related: true
       toc: true
       toc_sticky: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+      related: true
+      toc: true
+      toc_sticky: true
+  # _dev
+  - scope:
+      path: "_dev"
+      type: dev
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+      related: true
+      toc: true
+      toc_sticky: true
+  # _it
+  - scope:
+      path: ""
+      type: it
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _pe
+  - scope:
+      path: ""
+      type: pe
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: tag
+    values:
+      author_profile: true
+  - scope:
+      path: ""
+      type: category
+    values:
+      comments: false

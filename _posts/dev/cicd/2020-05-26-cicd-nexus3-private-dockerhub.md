@@ -2,7 +2,8 @@
 title: "CICD - Nexus 3 Private Docker Hub"
 date: 2020-05-26 00:00:00 +0800
 
-categories: cicd
+categories: 
+  - cicd
 tags:
   - nexus 3
   - registry

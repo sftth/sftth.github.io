@@ -1,8 +1,10 @@
 ---
-title: "HW"
-layout: category-it-hw
-permalink: /it/hw/
+title: HW
+layout: category
+permalink: /categories/hw/
+taxonomy: hw
 author_profile: false
+classes: wide
 sidebar:
   title: "IT"
   nav: "it-sidebar"

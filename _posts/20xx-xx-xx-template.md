@@ -1,12 +1,17 @@
 ---
-title: "Docker - 01.기본"
-date: 2020-02-09 00:00:00 +0800
-categories: docker
-sidebar:
-  title: "Development"
-  nav: "dev-sidebar"
+title: 
+date: 20xx-xx-xx 00:00:00 +0800
+excerpt: 
+header:
+  teaser: 
+  overlay_image: 
+  overlay_filter: 0.5
+  og_image: https:
+  caption: "Photo credit: [**Flickr***](https://live.staticflickr.com)"
+categories: 
+tags:
+  - 
 ---
-Docker Container 다루기
 
 ## 0. Install Docker
 

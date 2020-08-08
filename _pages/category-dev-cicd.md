@@ -1,8 +1,8 @@
 ---
-title: Jekyll
+title: Jenkins
 layout: category
-permalink: /categories/jekyll/
-taxonomy: jekyll
+permalink: /categories/cicd/
+taxonomy: cicd
 author_profile: false
 classes: wide
 sidebar:

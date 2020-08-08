@@ -1,8 +1,10 @@
 ---
-title: "Java"
-layout: category-it-java
-permalink: /it/java/
+title: Java
+layout: category
+permalink: /categories/java/
+taxonomy: java
 author_profile: false
+classes: wide
 sidebar:
   title: "IT"
   nav: "it-sidebar"

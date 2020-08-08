@@ -1,8 +1,11 @@
 ---
-title: "TensorFlow"
-layout: category-pe-tf
-permalink: /ai/tensorflow/
+title: TensorFlow
+layout: category
+permalink: /categories/tensorFlow/
+taxonomy: tensorFlow
 author_profile: false
+classes: wide
 sidebar:
-  nav: "pe-sidebar"
+  title: PE
+  nav: pe-sidebar
 ---

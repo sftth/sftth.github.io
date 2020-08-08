@@ -1,8 +1,10 @@
 ---
-title: "Tomcat"
-layout: category-it-tomcat
-permalink: /it/tomcat/
+title: Tomcat
+layout: category
+permalink: /categories/tomcat/
+taxonomy: tomcat
 author_profile: false
+classes: wide
 sidebar:
   title: "IT"
   nav: "it-sidebar"

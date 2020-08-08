@@ -16,55 +16,55 @@ it-sidebar:
    - title: SW
      children:
        - title: 오픈소스
-         url: /it/sw/
+         url: /categories/sw/
    - title: HW
      children:
        - title: 아두이노
-         url: /it/hw/
+         url: /categories/hw/
    - title: 신기술
      children:
        - title: Cloud
-         url: /it/cloud/
+         url: /categories/cloud/
    - title: Middleware
      children:
        - title: Tomcat
-         url: /it/tomcat/
+         url: /categories/tomcat/
        - title: Apache
-         url: /it/apache/
+         url: /categories/apache/
        - title: Java
-         url: /it/java/
+         url: /categories/java/
    - title: Architecture
      children:
        - title: MSA
-         url: /it/msa/
+         url: /categories/msa/
 dev-sidebar:
    - title: Framework
      children:
        - title: Springboot
-         url: /dev/springboot/
+         url: /categories/springboot/
        - title: SpringFramework
-         url: /dev/springframework/
+         url: /categories/springframework/
    - title: Jekyll
      children:
        - title: Jekyll
-         url: /dev/jekyll/
+         url: /categories/jekyll/
    - title: 가상화
      children:
        - title: Docker
-         url: /dev/docker/
+         url: /categories/docker/
        - title: Kubernetes
-         url: /dev/kubernetes/
+         url: /categories/kubernetes/
    - title: CICD
-     children:
-       - title: Jenkins
-         url: /dev/jenkins/
+     url: /categories/cicd
+#     children:
+#       - title: Jenkins
+#         url: /categories/jenkins/
    - title: IDE
      children:
        - title: Eclipse
-         url: /dev/ide/
-
+         url: /categories/ide/
 pe-sidebar:
    - title: AI
      children:
        - title: TensorFlow
-         url: /ai/tensorflow/
+         url: /categories/tensorflow/
