@@ -19,110 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="gemspec 파일 복구">
-      <change afterPath="$PROJECT_DIR$/_includes/breadcrumbs-single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/archive-home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/single-1.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_pages/categories.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_pages/category-dev-cicd.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_pages/category-tags.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_pages/collection-dev.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_pages/collection-it.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_pages/collection-pe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_pages/splash-sampe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_pages/tags-dev.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_pages/year-archive.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/00_main/main-001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="sftth ver1.0">
+      <change afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001-old.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/2020-02-12-cicd-series001.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/cicd/2020-02-12-cicd-series001.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/framework/2020-01-28-springboot-interceptor.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/framework/2020-01-29-springboot-logback.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/framework/2020-02-05-springboot-environment.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/framework/2020-02-05-springboot-session.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/framework/2020-02-17-springboot-test.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/framework/2020-03-01-springboot-dependency.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/framework/2020-03-01-springboot-intro.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/ide/2020-02-28-ide-eclipse001.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/jekyll/2020-01-31-jekyll-localsetup.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/컨테이너기술/2020-02-09-docker-basic001.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/20xx-xx-xx-template.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/컨테이너기술/2020-02-10-docker-basic002.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/컨테이너기술/2020-02-11-docker-basic003.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/컨테이너기술/2020-02-14-docker-basic004.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/컨테이너기술/2020-02-14-docker-basic005.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/컨테이너기술/2020-02-15-docker-basic006.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/컨테이너기술/2020-02-19-docker-basic007.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/컨테이너기술/2020-02-22-kubernetes001.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/컨테이너기술/2020-02-23-kubernetes002.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/컨테이너기술/2020-02-28-kubernetes003.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/컨테이너기술/2020-03-04-docker-basic008.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/컨테이너기술/2020-03-10-docker-basic009.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/컨테이너기술/2020-03-12-docker-basic010.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev/컨테이너기술/2020-03-13-docker-basic011.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/archive-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/archive-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/categories-dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/categories-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/category-dev-docker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/category-dev-ide.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/category-dev-jenkins.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/category-dev-jk.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/category-dev-kubernetes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/category-dev-sb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/category-dev-spring.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/category-it-apache.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/category-it-cloud.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/category-it-hw.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/category-it-java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/category-it-msa.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/category-it-sw.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/category-it-tomcat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/category-pe-tf.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-dev-docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-dev-docker.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-dev-ide.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-dev-ide.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-dev-jekyll.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-dev-jekyll.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-dev-jenkins.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-dev-jenkins.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-dev-kubernetes.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-dev-kubernetes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-dev-sb.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-dev-sb.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-dev-spring.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-dev-spring.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-dev.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-dev.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-it-apache.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-it-apache.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-it-cloud.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-it-cloud.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-it-hw.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-it-hw.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-it-java.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-it-java.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-it-msa.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-it-msa.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-it-sw.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-it-sw.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-it-tomcat.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-it-tomcat.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-it.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-it.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-pe-tf.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-pe-tf.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-pe.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-pe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_portfolio/foo-bar-website.md" beforeDir="false" afterPath="$PROJECT_DIR$/_portfolio/foo-bar-website.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/cicd/2020-02-12-cicd-series001.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/cicd/2020-02-12-cicd-series001.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/cicd/2020-05-25-cicd-nexus3-installation.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/cicd/2020-05-25-cicd-nexus3-installation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/cicd/2020-05-26-cicd-nexus3-private-dockerhub.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/cicd/2020-05-26-cicd-nexus3-private-dockerhub.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-02-09-docker-basic001.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-02-09-docker-basic001.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-02-10-docker-basic002.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-02-10-docker-basic002.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-02-11-docker-basic003.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-02-11-docker-basic003.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-02-14-docker-basic004.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-02-14-docker-basic004.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-02-14-docker-basic005.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-02-14-docker-basic005.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-02-15-docker-basic006.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-02-15-docker-basic006.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-02-19-docker-basic007.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-02-19-docker-basic007.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-03-04-docker-basic008.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-03-04-docker-basic008.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-03-10-docker-basic009.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-03-10-docker-basic009.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-03-12-docker-basic010.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-03-12-docker-basic010.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-03-13-docker-basic011.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-03-13-docker-basic011.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_archive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_archive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_sidebar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +50,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_includes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts/dev/kubernetes" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -159,11 +61,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts/dev/kubernetes" />
       <recent name="$PROJECT_DIR$/_includes" />
       <recent name="$PROJECT_DIR$/_layouts" />
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/_pages" />
-      <recent name="$PROJECT_DIR$/_posts/it/architecture" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
@@ -215,14 +117,7 @@
       <workItem from="1593960171889" duration="279000" />
       <workItem from="1594054528363" duration="612000" />
       <workItem from="1596292068712" duration="27520000" />
-      <workItem from="1596549871437" duration="30239000" />
-    </task>
-    <task id="LOCAL-00086" summary="WHMS-48 sftth3220-cicd-server dockerfile 작업 포스팅">
-      <created>1584120788680</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1584120788682</updated>
+      <workItem from="1596549871437" duration="43598000" />
     </task>
     <task id="LOCAL-00087" summary="WHMS-48 sftth3220-cicd-server dockerfile 작업 포스팅">
       <created>1584181101119</created>
@@ -560,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596298775415</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="sftth ver1.0">
+      <created>1596892151742</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1596892151743</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,7 +535,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="KUB-55 NodePort 최초 반영" />
     <MESSAGE value="KUB-54 deployments 탬플릿 추가" />
     <MESSAGE value="KUB-56 loadbalancer 최초 반영" />
     <MESSAGE value="KUB-57 externalname 최초 반영" />
@@ -658,7 +559,8 @@
     <MESSAGE value="SWA-2 스프링클라우드 컨피그" />
     <MESSAGE value="블로그 파일 정리" />
     <MESSAGE value="gemspec 파일 복구" />
-    <option name="LAST_COMMIT_MESSAGE" value="gemspec 파일 복구" />
+    <MESSAGE value="sftth ver1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="sftth ver1.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2042" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596296987106">
@@ -681,14 +583,14 @@
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
     <state x="2157" y="460" key="VCS.ChangelistChooser/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596298716672" />
-    <state x="1904" y="280" key="Vcs.Push.Dialog.v2" timestamp="1596298778409">
+    <state x="1904" y="280" key="Vcs.Push.Dialog.v2" timestamp="1596892156336">
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
-    <state x="1904" y="280" key="Vcs.Push.Dialog.v2/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596298778409" />
-    <state x="1444" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596885370154">
+    <state x="1904" y="280" key="Vcs.Push.Dialog.v2/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596892156336" />
+    <state x="1444" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596892570557">
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
-    <state x="1444" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596885370154" />
+    <state x="1444" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596892570557" />
     <state x="299" y="86" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596556715678">
       <screen x="0" y="23" width="1344" height="776" />
     </state>
@@ -697,11 +599,11 @@
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
     <state x="2107" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596884209846" />
-    <state x="1877" y="28" width="855" height="1023" key="find.popup" timestamp="1596885162580">
+    <state x="1877" y="28" width="855" height="1023" key="find.popup" timestamp="1596909712627">
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
     <state x="373" y="43" width="598" height="735" key="find.popup/0.23.1344.776@0.23.1344.776" timestamp="1596552652807" />
-    <state x="1877" y="28" width="855" height="1023" key="find.popup/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596885162580" />
+    <state x="1877" y="28" width="855" height="1023" key="find.popup/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596909712627" />
   </component>
   <component name="masterDetails">
     <states>

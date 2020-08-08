@@ -1,15 +1,14 @@
 ---
 title: Kubernetes 기본 01
-excerpt: 쿠버네티스 설치
 date: 2020-02-22 00:00:00 +0800
-last_modified_at: 2020-08-09 00:00:00 +0800
+excerpt: 쿠버네티스 설치
 header:
   teaser: https://live.staticflickr.com/65535/50118270208_9de7c7ed9d_c.jpg
   overlay_image: https://live.staticflickr.com/65535/50118270208_9de7c7ed9d_c.jpg
   overlay_filter: 0.5
   og_image: https://live.staticflickr.com/65535/50118270208_9de7c7ed9d_c.jpg
   caption: "Photo credit: [**Flickr***](https://live.staticflickr.com)"
-categories: kubernetes
+#categories: kubernetes
 ---
 
 ## 개요
@@ -29,18 +28,16 @@ categories: kubernetes
 구성하고 싶을 때가 있습니다. 그래서 간단하게 쿠버네티스 기본 기능 정도를 학습해 볼 목적으로 말입니다. 이러한 목적으로 쿠버네티스를 1대의 노드에 설치하는 방법에는 
 **Docker Desktop**을 이용하는 방법과 **Minikube**를 이용하는 방법이 있습니다. 각각 설치 방법을 알아보겠습니다.
 
-### 설치환경 
 
-해당 설치 작업은 macOS 환경에서 이루어 집니다. Window 환경에서 작업은 우선 macOS 환경에서 이루어지는 과정을 정리한 후에 추가적으로 Window 환경에서
-이루어지는 작업을 정리하도록 하겠습니다.
+### Docker Desktop을 통한 설치 방법
+
+#### 설치환경 
 
 | 항목                | 설명 |
 | ---                | --- |
 | OS | macOS Catalina v10.15.5 | 
 | CPU | Intel Core i9 2.3GHz 8Core |
 | Memory | DDR4 16GB 2667MHz |
-
-### Docker Desktop을 통한 설치 방법
 
 #### 다운로드
 
@@ -74,55 +71,130 @@ categories: kubernetes
 
 #### kubernetes 설치 확인
 
-아래 영상을 참고하여 커멘트 입력을 통해 도커 데스크탑에서 kubernetes 활성화가 정상적으로 완료됐는지 확인합니다. 확인 방법은 **kuberctl version**을 
-입력했을 때 Client version과 Server version이 정상적으로 출력되지 확인하면 됩니다.
+아래 영상을 참고하여 커멘트 입력을 통해 도커 데스크탑에서 kubernetes 활성화가 정상적으로 완료됐는 확인합니다.
 
 <script id="asciicast-EtyVcEFxHPhWUhqJ2coFxJLMj" src="https://asciinema.org/a/EtyVcEFxHPhWUhqJ2coFxJLMj.js" async></script>
 
-### Minikube 통한 설치 방법
+#### VM 생성
 
-#### kubectl 설치 및 설정
-macOS 환경에서 kubernetes client 설치는 바이너리 설치 및 brew 명령어를 통한 설치를 지원합니다.
-먼저 바이너리 설치 방법은 아래 순서로 이루어집니다.
+- VM 생성은 중첩 가상화가 가능한 VM이 필요하므로 아래 내용을 참고하여 생성
 
-- 최신 kubectl 바이너리를 설치합니다. 
 
-```sh 
-curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl"
-```
+[참고: VM 인스턴스용 중첩 가상화 사용 설정](https://cloud.google.com/compute/docs/instances/enable-nested-virtualization-vm-instances#starting_a_nested_vm) <br>
 
-- kubectl 바이너리를 실행 가능하도록 설정합니다.
+- GCP CLOUD SHELL에서 아래 스크립트 실행
 
-```sh 
-chmod +x ./kubectl
-```
-- 바이너리를 PATH가 설정된 디렉토리로 이동시킵니다.
+**Notice:** GCP CLOUD SHELL은 리눅스 VM 중, SSH 콤보박스의 gcloud 명령보기 메뉴를 선택하면 사용할 수 있고 최초 접속시 client의 pub key 등록이 필요하므로
+ssh-keygen -t rsa -f ~/.ssh/[KEY_FILENAME] -C [USERNAME] 명령어로 미리 client에 rsa pub key를 만들어 둔다.
+{: .notice--info}
+
+- 수행 스크립트 
 
 ```sh 
-sudo mv ./kubectl /usr/local/bin/kubectl
+
+# 디스크 생성
+gcloud compute disks create disk1 --image-project centos-cloud --image-family centos-7 --zone us-central1-b
+
+# 디스크 기반으로 이미지 생성
+gcloud compute images create nested-vm-image \
+  --source-disk disk1 --source-disk-zone us-central1-b \
+  --licenses "https://compute.googleapis.com/compute/v1/projects/vm-options/global/licenses/enable-vmx"
+
+# 이미지로 VM 생성
+gcloud compute instances create gcp-minikube-vm --zone us-central1-b \
+              --min-cpu-platform "Intel Haswell" \
+              --image nested-vm-image
+
+# VM 접속
+gcloud compute ssh gcp-minikube-vm 
 ```
-- 설치한 버전을 확인합니다.
 
-```sh
-kubectl version --client
-```
+## 3. Dependency 설정
 
-다음으로 brew 명령어를 통한 설치 방법은 아래와 같습니다. 개인적으로 macOS에서는 brew 명령어로 설치하는 것이 
-간단하고 효율적이여서 추천드립니다.
+[참고](http://tonychungblogtest.blogspot.com/2017/10/to-remove-virtualbox-sudo-dpkg-list.html) <br>
 
-- brew 설치 명령을 실행합니다.
+- 필요한 패키지를 설치
 
 ```sh 
-brew install kubernetes-cli
+sudo yum update -y
+sudo yum install wget
+sudo yum install gcc make patch  dkms qt libgomp
+sudo yum install kernel-headers kernel-devel fontforge binutils glibc-headers glibc-devel
 ```
 
-- 설치 버전을 확인합니다.
+- 재부팅
 
 ```sh 
-kubectl version --client
+sudo reboot
 ```
 
-아래 영상은 brew 명령어를 통해 kubernetes client 설치 방법에 관한 것입니다. 영상에서 나오는 환경에는 이미 kbuernetes client가 설치되어있어서
-설치가 진행되지는 않습니다. 다만, 진행 과정을 참고하시면 될것 같습니다.
+- 콘솔 재접속 후에 아래 명령어를 통해 새로운 커널로 기동 
 
-<script id="asciicast-sageWkCMOasKEki4CqyvjyWZZ" src="https://asciinema.org/a/sageWkCMOasKEki4CqyvjyWZZ.js" async></script>
+```sh 
+export KERN_DIR=/usr/src/kernels/`uname -r`
+```
+
+## 4. VirtualBox
+
+```sh 
+# yum repository 경로 등록을 위해 디렉토리 이동
+[*** ]$ cd /etc/yum.repos.d/
+
+# yum으로 virtualbox 설치를 위해 virtualbox repo를 등록
+[*** yum.repos.d]$ sudo wget http://download.virtualbox.org/virtualbox/rpm/rhel/virtualbox.repo
+
+#virtualbox 설치
+[*** yum.repos.d]$ sudo yum install VirtualBox-6.1
+```
+
+## 5. Minikube
+
+```sh 
+[*** yum.repos.d]$ sudo curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64   && sudo chmod +x minikube
+[*** yum.repos.d]$ sudo mkdir -p /usr/local/bin/
+[*** yum.repos.d]$ sudo install minikube /usr/local/bin/
+```
+
+### 6. Kubectl
+
+```sh 
+[*** yum.repos.d]$ sudo curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+[*** yum.repos.d]$ sudo chmod +x ./kubectl
+[*** yum.repos.d]$ sudo mv ./kubectl /usr/local/bin/kubectl
+
+#kubectl 버전 확인 
+[*** yum.repos.d]$ kubectl version --client
+```
+
+## 7. minikube 가상 머신 설치
+
+
+```sh 
+minikube start
+```
+
+## 8. 결과 화면
+
+```sh 
+[*** yum.repos.d]$ minikube start
+😄  minikube v1.7.3 on Centos 7.7.1908
+✨  Automatically selected the virtualbox driver
+💿  Downloading VM boot image ...
+    > minikube-v1.7.3.iso.sha256: 65 B / 65 B [--------------] 100.00% ? p/s 0s
+    > minikube-v1.7.3.iso: 167.39 MiB / 167.39 MiB [] 100.00% 163.22 MiB p/s 2s
+🔥  Creating virtualbox VM (CPUs=2, Memory=2000MB, Disk=20000MB) ...
+🐳  Preparing Kubernetes v1.17.3 on Docker 19.03.6 ...
+💾  Downloading kubelet v1.17.3
+💾  Downloading kubeadm v1.17.3
+💾  Downloading kubectl v1.17.3
+🚀  Launching Kubernetes ...
+🌟  Enabling addons: default-storageclass, storage-provisioner
+⌛  Waiting for cluster to come online ...
+🏄  Done! kubectl is now configured to use "minikube"
+```
+
+## 9. 동작 확인 
+
+```sh 
+kubectl get nodes
+```
