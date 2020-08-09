@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="sftth ver1.0">
-      <change afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001-old.md" afterDir="false" />
+    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="k8s 기본-01 modified">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_page.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +43,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -117,14 +115,8 @@
       <workItem from="1593960171889" duration="279000" />
       <workItem from="1594054528363" duration="612000" />
       <workItem from="1596292068712" duration="27520000" />
-      <workItem from="1596549871437" duration="43598000" />
-    </task>
-    <task id="LOCAL-00087" summary="WHMS-48 sftth3220-cicd-server dockerfile 작업 포스팅">
-      <created>1584181101119</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1584181101120</updated>
+      <workItem from="1596549871437" duration="46139000" />
+      <workItem from="1596965572961" duration="4760000" />
     </task>
     <task id="LOCAL-00088" summary="GIT-23 dev 메뉴 하위 카테고리별 size 표시 기능 추가">
       <created>1584261215110</created>
@@ -462,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596892151743</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="k8s 기본-01 modified">
+      <created>1596911740113</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1596911740114</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +534,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="KUB-54 deployments 탬플릿 추가" />
     <MESSAGE value="KUB-56 loadbalancer 최초 반영" />
     <MESSAGE value="KUB-57 externalname 최초 반영" />
     <MESSAGE value="KUB-58 headless-server 최초 반영" />
@@ -560,7 +558,8 @@
     <MESSAGE value="블로그 파일 정리" />
     <MESSAGE value="gemspec 파일 복구" />
     <MESSAGE value="sftth ver1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="sftth ver1.0" />
+    <MESSAGE value="k8s 기본-01 modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="k8s 기본-01 modified" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2042" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596296987106">
@@ -583,10 +582,10 @@
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
     <state x="2157" y="460" key="VCS.ChangelistChooser/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596298716672" />
-    <state x="1904" y="280" key="Vcs.Push.Dialog.v2" timestamp="1596892156336">
+    <state x="1904" y="280" key="Vcs.Push.Dialog.v2" timestamp="1596911742362">
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
-    <state x="1904" y="280" key="Vcs.Push.Dialog.v2/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596892156336" />
+    <state x="1904" y="280" key="Vcs.Push.Dialog.v2/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596911742362" />
     <state x="1444" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596892570557">
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
@@ -599,11 +598,11 @@
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
     <state x="2107" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596884209846" />
-    <state x="1877" y="28" width="855" height="1023" key="find.popup" timestamp="1596909712627">
+    <state x="1877" y="28" width="855" height="1023" key="find.popup" timestamp="1596969889195">
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
     <state x="373" y="43" width="598" height="735" key="find.popup/0.23.1344.776@0.23.1344.776" timestamp="1596552652807" />
-    <state x="1877" y="28" width="855" height="1023" key="find.popup/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596909712627" />
+    <state x="1877" y="28" width="855" height="1023" key="find.popup/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596969889195" />
   </component>
   <component name="masterDetails">
     <states>
