@@ -19,9 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="k8s 기본-01 modified">
+    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="리스트 타입에서 teaser 표출 잠시 중단&#10;Home 이미지 변경&#10;ver 0.1 에서 ver 1.0 으로 수정">
+      <change afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001-2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001-3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001-4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001-5.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001-old.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-23-kubernetes002.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-23-kubernetes002.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +48,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -60,10 +66,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts/dev/kubernetes" />
+      <recent name="$PROJECT_DIR$/_posts/it/architecture" />
       <recent name="$PROJECT_DIR$/_includes" />
       <recent name="$PROJECT_DIR$/_layouts" />
       <recent name="$PROJECT_DIR$/_posts" />
-      <recent name="$PROJECT_DIR$/_pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
@@ -116,28 +122,8 @@
       <workItem from="1594054528363" duration="612000" />
       <workItem from="1596292068712" duration="27520000" />
       <workItem from="1596549871437" duration="46139000" />
-      <workItem from="1596965572961" duration="4760000" />
-    </task>
-    <task id="LOCAL-00088" summary="GIT-23 dev 메뉴 하위 카테고리별 size 표시 기능 추가">
-      <created>1584261215110</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1584261215114</updated>
-    </task>
-    <task id="LOCAL-00089" summary="GIT-23 dev 메뉴 하위 카테고리별 size 표시 기능 추가">
-      <created>1584262103477</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1584262103477</updated>
-    </task>
-    <task id="LOCAL-00090" summary="GIT-24 it 메뉴 하위 카테고리별 size 표시 기능 추가">
-      <created>1584262503537</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1584262503537</updated>
+      <workItem from="1596965572961" duration="10784000" />
+      <workItem from="1597632934381" duration="8813000" />
     </task>
     <task id="LOCAL-00091" summary="GIT-25 pe 메뉴 하위 카테고리별 size 표시 기능 추가">
       <created>1584263194800</created>
@@ -461,7 +447,28 @@
       <option name="project" value="LOCAL" />
       <updated>1596911740114</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="k8s 기본-01 modified #2">
+      <created>1596972376182</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1596972376182</updated>
+    </task>
+    <task id="LOCAL-00138" summary="MSA References">
+      <created>1597071123674</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1597071123674</updated>
+    </task>
+    <task id="LOCAL-00139" summary="리스트 타입에서 teaser 표출 잠시 중단&#10;Home 이미지 변경&#10;ver 0.1 에서 ver 1.0 으로 수정">
+      <created>1597418100192</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1597418100192</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,9 +541,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="KUB-56 loadbalancer 최초 반영" />
-    <MESSAGE value="KUB-57 externalname 최초 반영" />
-    <MESSAGE value="KUB-58 headless-server 최초 반영" />
     <MESSAGE value="Tensorflow 수정" />
     <MESSAGE value="KUB-60 KUB-61 KUB-62 인그레스 최초 반영" />
     <MESSAGE value="TensorFlow for Java 최초 반영" />
@@ -559,20 +563,33 @@
     <MESSAGE value="gemspec 파일 복구" />
     <MESSAGE value="sftth ver1.0" />
     <MESSAGE value="k8s 기본-01 modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="k8s 기본-01 modified" />
+    <MESSAGE value="k8s 기본-01 modified #2" />
+    <MESSAGE value="MSA References" />
+    <MESSAGE value="리스트 타입에서 teaser 표출 잠시 중단&#10;Home 이미지 변경&#10;ver 0.1 에서 ver 1.0 으로 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="리스트 타입에서 teaser 표출 잠시 중단&#10;Home 이미지 변경&#10;ver 0.1 에서 ver 1.0 으로 수정" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1622" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597599133130">
+      <screen x="1344" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1622" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog/1344.23.1920.1057/0.23.1344.780@1344.23.1920.1057" timestamp="1597599133130" />
     <state x="2042" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596296987106">
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
     <state x="2042" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596296987106" />
-    <state x="1444" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1596298620707">
-      <screen x="1344" y="0" width="1920" height="1080" />
+    <state x="93" y="121" width="1606" height="860" key="DiffContextDialog" timestamp="1597417956681">
+      <screen x="0" y="23" width="1792" height="1055" />
     </state>
+    <state x="93" y="121" width="1606" height="860" key="DiffContextDialog/0.23.1792.1055@0.23.1792.1055" timestamp="1597417956681" />
     <state x="1444" y="100" width="1720" height="880" key="DiffContextDialog/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596298620707" />
-    <state x="433" y="129" key="RollbackChangesDialog" timestamp="1596383066167">
-      <screen x="0" y="0" width="1344" height="840" />
+    <state width="221" height="457" key="HiddenNamespacesPopup" timestamp="1597598922572">
+      <screen x="1344" y="23" width="1920" height="1057" />
     </state>
+    <state width="221" height="457" key="HiddenNamespacesPopup/1344.23.1920.1057/0.23.1344.780@1344.23.1920.1057" timestamp="1597598922572" />
+    <state x="577" y="185" key="RollbackChangesDialog" timestamp="1597417933636">
+      <screen x="0" y="23" width="1792" height="1055" />
+    </state>
+    <state x="577" y="185" key="RollbackChangesDialog/0.23.1792.1055@0.23.1792.1055" timestamp="1597417933636" />
     <state x="433" y="129" key="RollbackChangesDialog/1344.0.1920.1080/0.0.1344.840@0.0.1344.840" timestamp="1596383066167" />
     <state x="1813" y="179" key="SettingsEditor" timestamp="1596298085558">
       <screen x="1344" y="0" width="1920" height="1080" />
@@ -582,10 +599,12 @@
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
     <state x="2157" y="460" key="VCS.ChangelistChooser/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596298716672" />
-    <state x="1904" y="280" key="Vcs.Push.Dialog.v2" timestamp="1596911742362">
-      <screen x="1344" y="0" width="1920" height="1080" />
+    <state x="523" y="297" key="Vcs.Push.Dialog.v2" timestamp="1597418102149">
+      <screen x="0" y="23" width="1792" height="1055" />
     </state>
-    <state x="1904" y="280" key="Vcs.Push.Dialog.v2/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596911742362" />
+    <state x="392" y="218" key="Vcs.Push.Dialog.v2/0.0.1344.840@0.0.1344.840" timestamp="1597071125336" />
+    <state x="523" y="297" key="Vcs.Push.Dialog.v2/0.23.1792.1055@0.23.1792.1055" timestamp="1597418102149" />
+    <state x="1904" y="280" key="Vcs.Push.Dialog.v2/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596972378404" />
     <state x="1444" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596892570557">
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
@@ -598,10 +617,11 @@
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
     <state x="2107" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596884209846" />
-    <state x="1877" y="28" width="855" height="1023" key="find.popup" timestamp="1596969889195">
-      <screen x="1344" y="0" width="1920" height="1080" />
+    <state x="497" y="50" width="798" height="1000" key="find.popup" timestamp="1597417432051">
+      <screen x="0" y="23" width="1792" height="1055" />
     </state>
     <state x="373" y="43" width="598" height="735" key="find.popup/0.23.1344.776@0.23.1344.776" timestamp="1596552652807" />
+    <state x="497" y="50" width="798" height="1000" key="find.popup/0.23.1792.1055@0.23.1792.1055" timestamp="1597417432051" />
     <state x="1877" y="28" width="855" height="1023" key="find.popup/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596969889195" />
   </component>
   <component name="masterDetails">
