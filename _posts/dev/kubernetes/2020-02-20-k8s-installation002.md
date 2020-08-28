@@ -1,7 +1,7 @@
 ---
-title: Kubernetes 기본 1-2
-excerpt: 쿠버네티스 설치(GCP)
-date: 2020-02-22 01:00:00 +0800
+title: k8s 기본 1-3
+excerpt: Minikube 설치하기 
+date: 2020-02-20 02:00:00 +0800
 last_modified_at: 2020-08-17 00:00:00 +0800
 header:
   teaser: https://live.staticflickr.com/65535/50118270208_9de7c7ed9d_c.jpg

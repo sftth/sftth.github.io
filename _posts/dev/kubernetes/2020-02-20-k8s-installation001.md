@@ -1,7 +1,7 @@
 ---
-title: Kubernetes 기본 1-1
-excerpt: 쿠버네티스 설치(on Mac)
-date: 2020-02-22 00:00:00 +0800
+title: k8s 기본 1-2
+excerpt: Docker Desktop을 이용한 쿠버네티스 설치
+date: 2020-02-20 01:00:00 +0800
 last_modified_at: 2020-08-09 00:00:00 +0800
 header:
   teaser: https://live.staticflickr.com/65535/50118270208_9de7c7ed9d_c.jpg

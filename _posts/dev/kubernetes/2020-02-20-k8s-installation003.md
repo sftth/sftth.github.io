@@ -1,0 +1,66 @@
+---
+title: k8s 기본 1-4
+excerpt: 쿠버네티스 GKS 사용하기
+date: 2020-02-20 03:00:00 +0800
+last_modified_at: 2020-08-17 00:00:00 +0800
+header:
+  teaser: https://live.staticflickr.com/65535/50118270208_9de7c7ed9d_c.jpg
+  overlay_image: https://live.staticflickr.com/65535/50118270208_9de7c7ed9d_c.jpg
+  overlay_filter: 0.5
+  og_image: https://live.staticflickr.com/65535/50118270208_9de7c7ed9d_c.jpg
+  caption: "Photo credit: [**Flickr***](https://live.staticflickr.com)"
+categories: kubernetes
+---
+### GKS(Google Kubernetes Service) 클러스터 생성하기 
+
+- Kubernetes Engine > 클러스터 선택
+- 이름, 영역 설정 
+![GKS](https://live.staticflickr.com/65535/50262603991_916bdaa4a9_b.jpg)
+
+- 마스터 버전 선택 > Create
+
+![GKS](https://live.staticflickr.com/65535/50262813272_ef093f6afa_b.jpg)
+
+- [연결] 클릭 
+
+![GKS](https://live.staticflickr.com/65535/50261978823_40c15d83fe_b.jpg)
+
+- gcloud command 복사 > 커멘드 창에 복사 > 실행 
+
+![GKS](https://live.staticflickr.com/65535/50262832072_79c50becc3_b.jpg)
+
+```sh 
+summit@mac-pro template % gcloud container clusters get-credentials cluster-1 --zone asia-northeast1-a --project XXXXX-project
+Fetching cluster endpoint and auth data.
+kubeconfig entry generated for cluster-1.
+summit@mac-pro template % kubectl get nodes
+NAME                                       STATUS   ROLES    AGE   VERSION
+gke-cluster-1-default-pool-69ebb363-j345   Ready    <none>   49s   v1.15.12-gke.2
+gke-cluster-1-default-pool-69ebb363-qv5n   Ready    <none>   49s   v1.15.12-gke.2
+gke-cluster-1-default-pool-69ebb363-x9m1   Ready    <none>   49s   v1.15.12-gke.2
+```
+
+### 서비스 LoadBalancer 유형 설정 
+
+작업 부하 : whms-deployment 생성 완료
+서비스 및 수신 : whms-loadbalancer 생성 완료
+
+#### GKS 클러스터 부하분산기(LoadBalancer) 정보 
+
+| 클러스터 IP | 10.0.4.212 |
+| 부하 분산기 IP | 34.84.147.18 |
+| 부하 분산기 | a93aa |
+
+#### GCP LoadBalancer 설정 
+
+| 프로토콜 | IP | 
+| --- | --- |
+| TCP | 34.84.147.18:80 |
+
+
+#### Compute Engine 상태 확인 설정 
+
+| 프로토콜 | 포트 | 요청경로 |  
+| --- | --- | --- |
+| HTTP | 10256 | /healthz | 
+

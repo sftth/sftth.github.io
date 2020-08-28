@@ -1,7 +1,7 @@
 ---
 title: Kubernetes 기본 3-1
 excerpt: 컨트롤러 - Replicaset
-date: 2020-02-23 00:00:00 +0800
+date: 2020-02-22 00:00:00 +0800
 last_modified_at: 2020-08-20 00:00:00 +0800
 header:
   teaser: https://live.staticflickr.com/65535/50208492052_5430e07e89_b.jpg

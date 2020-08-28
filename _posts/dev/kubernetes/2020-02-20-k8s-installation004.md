@@ -1,15 +1,15 @@
 ---
-title: "KUB-시작#4 쿠버네티스 클러스터 직접 구성"
-date: 2020-03-17 00:00:00 +0800
+title: k8s 기본 1-5
+excerpt: Kubespray를 이용한 쿠버네티스 클러스터링 구성하기 
+date: 2020-02-20 04:00:00 +0800
+last_modified_at: 2020-08-25 00:00:00 +0800
+header:
+  teaser: https://live.staticflickr.com/65535/50118270208_9de7c7ed9d_c.jpg
+  overlay_image: https://live.staticflickr.com/65535/50118270208_9de7c7ed9d_c.jpg
+  overlay_filter: 0.5
+  og_image: https://live.staticflickr.com/65535/50118270208_9de7c7ed9d_c.jpg
+  caption: "Photo credit: [**Flickr***](https://live.staticflickr.com)"
 categories: kubernetes
-tag: 
-- container
-- orchestration
-- kubespray
-- kubectl
-sidebar:
-  title: "Development"
-  nav: "dev-sidebar"
 ---
 쿠버네티스를 직접 구성해야 할 때를 대비하여 직접 구성하는 방법을 알아보겠습니다. <br>
 

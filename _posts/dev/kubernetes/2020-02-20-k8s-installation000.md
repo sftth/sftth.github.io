@@ -1,15 +1,15 @@
 ---
-title: "KUB-시작#1 쿠버네티스 설치 없이 사용하기"
-date: 2020-03-17 00:00:00 +0800
+title: k8s 기본 1-1
+excerpt: 설치 없이 쿠버네티스 경험하기  
+date: 2020-02-20 00:00:00 +0800
+last_modified_at: 2020-08-25 00:00:00 +0800
+header:
+  teaser: https://live.staticflickr.com/65535/50118270208_9de7c7ed9d_c.jpg
+  overlay_image: https://live.staticflickr.com/65535/50118270208_9de7c7ed9d_c.jpg
+  overlay_filter: 0.5
+  og_image: https://live.staticflickr.com/65535/50118270208_9de7c7ed9d_c.jpg
+  caption: "Photo credit: [**Flickr***](https://live.staticflickr.com)"
 categories: kubernetes
-tag: 
-- container
-- orchestration
-- katacoda
-- play with kubernetes
-sidebar:
-  title: "Development"
-  nav: "dev-sidebar"
 ---
 
 쿠버네티스는 해보고 싶으나 설치할 시간이 없을 때
