@@ -1,8 +1,8 @@
 ---
-title: K8s 기본 - Dashboard
+title: K8s 기본-8.Dashboard
+excerpt: Kubernetes Dashboard
 date: 2020-08-25 01:00:00 +0800
 last_modified_at: 2020-08-25 00:00:00 +0800
-excerpt: Kubernetes Dashboard
 categories: kubernetes
 header:
   teaser: https://live.staticflickr.com/65535/49986203617_8b099459c5_k.jpg

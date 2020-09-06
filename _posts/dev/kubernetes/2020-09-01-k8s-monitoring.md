@@ -1,8 +1,8 @@
 ---
-title: K8s 기본 - Monitoring
+title: K8s 기본-10.Monitoring(1)
+excerpt: Prometheus 
 date: 2020-08-25 01:00:00 +0800
 last_modified_at: 2020-08-25 00:00:00 +0800
-excerpt: Monitorting
 categories: kubernetes
 header:
   teaser: https://live.staticflickr.com/65535/49986203617_8b099459c5_k.jpg
@@ -480,3 +480,177 @@ $ kubectl patch svc prometheus-app-svc \
 - 접속 및 Execute 결과 화면 
 
   <img src="/assets/images/kubenetes/k8s-prometheus002.png" width="600" height="584" alt="k8s-prometheus">
+
+### kube State Metrics 배포
+
+- prometheus 가 모니터링하고 있는 타겟 중 kube-state-metric가 아직 Up 상태가 아님
+- kube-state-metrics는 Pod 상태 정보를 모니터링하기 위해서 Up 상태여야 함
+
+#### ClusterRole 탬플릿 
+
+    ```yaml
+    # kube-state-cluster-role.yaml
+    
+    apiVersion: rbac.authorization.k8s.io/v1
+    kind: ClusterRoleBinding
+    metadata:
+      name: kube-state-metrics
+    roleRef:
+      apiGroup: rbac.authorization.k8s.io
+      kind: ClusterRole
+      name: kube-state-metrics
+    subjects:
+    - kind: ServiceAccount
+      name: kube-state-metrics
+      namespace: kube-system
+    ---
+    apiVersion: rbac.authorization.k8s.io/v1
+    kind: ClusterRole
+    metadata:
+      name: kube-state-metrics
+    rules:
+    - apiGroups:
+      - ""
+      resources: ["configmaps", "secrets", "nodes", "pods", "services", "resourcequotas", "replicationcontrollers", "limitranges", "persistentvolumeclaims", "persistentvolumes", "namespaces", "endpoints"]
+      verbs: ["list","watch"]
+    - apiGroups:
+      - extensions
+      resources: ["daemonsets", "deployments", "replicasets", "ingresses"]
+      verbs: ["list", "watch"]
+    - apiGroups:
+      - apps
+      resources: ["statefulsets", "daemonsets", "deployments", "replicasets"]
+      verbs: ["list", "watch"]
+    - apiGroups:
+      - batch
+      resources: ["cronjobs", "jobs"]
+      verbs: ["list", "watch"]
+    - apiGroups:
+      - autoscaling
+      resources: ["horizontalpodautoscalers"]
+      verbs: ["list", "watch"]
+    - apiGroups:
+      - authentication.k8s.io
+      resources: ["tokenreviews"]
+      verbs: ["create"]
+    - apiGroups:
+      - authorization.k8s.io
+      resources: ["subjectaccessreviews"]
+      verbs: ["create"]
+    - apiGroups:
+      - policy
+      resources: ["poddisruptionbudgets"]
+      verbs: ["list", "watch"]
+    - apiGroups:
+      - certificates.k8s.io
+      resources: ["certificatesigningrequests"]
+      verbs: ["list", "watch"]
+    - apiGroups:
+      - storage.k8s.io
+      resources: ["storageclasses", "volumeattachments"]
+      verbs: ["list", "watch"]
+    - apiGroups:
+      - admissionregistration.k8s.io
+      resources: ["mutatingwebhookconfigurations", "validatingwebhookconfigurations"]
+      verbs: ["list", "watch"]
+    - apiGroups:
+      - networking.k8s.io
+      resources: ["networkpolicies"]
+      verbs: ["list", "watch"]
+    ```
+#### service account 탬플릿
+
+    ```yaml
+    apiVersion: v1
+    kind: ServiceAccount
+    metadata:
+      name: kube-state-metrics
+      namespace: kube-system
+    ```
+    
+#### deployment 탬플릿 
+
+    ```yaml
+    # kube-state-deployment.yaml
+    
+    apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      labels:
+        app: kube-state-metrics
+      name: kube-state-metrics
+      namespace: kube-system
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          app: kube-state-metrics
+      template:
+        metadata:
+          labels:
+            app: kube-state-metrics
+        spec:
+          containers:
+          - image: quay.io/coreos/kube-state-metrics:v1.8.0
+            livenessProbe:
+              httpGet:
+                path: /healthz
+                port: 8080
+              initialDelaySeconds: 5
+              timeoutSeconds: 5
+            name: kube-state-metrics
+            ports:
+            - containerPort: 8080
+              name: http-metrics
+            - containerPort: 8081
+              name: telemetry
+            readinessProbe:
+              httpGet:
+                path: /
+                port: 8081
+              initialDelaySeconds: 5
+              timeoutSeconds: 5
+          nodeSelector:
+            kubernetes.io/os: linux
+          serviceAccountName: kube-state-metrics
+    ```
+
+#### service 탬플릿
+
+    ```yaml
+    # kube-state-svc.yaml
+    
+    apiVersion: v1
+    kind: Service
+    metadata:
+      labels:
+        app: kube-state-metrics
+      name: kube-state-metrics
+      namespace: kube-system
+    spec:
+      clusterIP: None
+      ports:
+      - name: http-metrics
+        port: 8080
+        targetPort: http-metrics
+      - name: telemetry
+        port: 8081
+        targetPort: telemetry
+      selector:
+        app: kube-state-metrics
+    ``` 
+
+#### 배포 
+    
+    ```sh 
+    $ kubectl apply -f kube-state-cluster-role.yaml
+    $ kubectl apply -f kube-state-deployment.yaml
+    $ kubectl apply -f kube-state-svcaccount.yaml
+    $ kubectl apply -f kube-state-svc.yaml
+    
+    $ kubectl get pod -n kube-system
+    NAME                                  READY   STATUS    RESTARTS   AGE
+    ...
+    kube-state-metrics-6dc8f4d86d-c2gjp   1/1     Running   1          2d19h
+    ```
+    
