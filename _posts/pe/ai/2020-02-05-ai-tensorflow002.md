@@ -6,7 +6,7 @@ sidebar:
   nav: "pe-sidebar"
 ---
 
-### Python 설치 확인
+## Python 설치 확인
 
 Mac에는 기본적으로 Python이 설치되어 있습니다. 아래 명령어를 통해 파이선 버전을 확인 합니다.
  
@@ -26,7 +26,7 @@ Mac에는 기본적으로 Python이 설치되어 있습니다. 아래 명령어�
 
 확인 결과 Python 3.5~3.8 이면 사용 가능 합니다.
 
-### Python 수동 설치 
+## Python 수동 설치 
 수동 설치된 Pyhon 버전을 변경하거나 다른 이유로 인해 수동 설치가 필요한 경우 아래 순서대로 진행합니다.
 
 Python 설치를 위해 [https://www.python.org/](https://www.python.org/)에서 Downloads > Mac OS X 메뉴를 선택합니다.
@@ -49,7 +49,7 @@ Python 설치를 위해 [https://www.python.org/](https://www.python.org/)에서
 <img src="/assets/images/tensorflow/tf110.png" width="200" height="184" alt="tf-insallation-mac">
 <img src="/assets/images/tensorflow/tf111.png" width="200" height="184" alt="tf-insallation-mac">
 
-### pip package manager 업그레이드
+## pip package manager 업그레이드
 
 다음으로 pip package manager를 20.0.2 버전으로 업그레이드가 필요합니다. 아래 과정을 통해 pip package manager 버전 확인 및 업그레이드를 수행합니다.
 
@@ -84,8 +84,11 @@ Python 설치를 위해 [https://www.python.org/](https://www.python.org/)에서
     ***Note*** pip 업그레이드 후, 버전 확인 시 원하는 버전이 표시되지 않거나 이전 버전이 보일 수 있습니다. 그것은 실제 업그레이드한 버전이 아닌 다른 버전의 python에 대한 정보일 수 있습니다. 
     이 경우 위 스크립트 처럼 tensorflow에 사용 할 python3.8.x에 종속된 pip3.8을 명시하여 버전을 확인해야 정확한 확인이 가능합니다.
     {: .notice--warning}
+    ***Note*** pip 명령어 수행이 되지 않고 전체 경로를 포함한 경우에만 pip 명령어가 수행된다면 ~/.bash_profile을 생성하여 
+    "export PATH=${PATH}:pip경로" 를 추가 후 커멘드 화면을 재실행 후 진행합니다.
+    {: .notice--warning}
 
-### 2.2 Install tensorflow
+## Install tensorflow
 이제 mac 환경에 tensorflow를 위 기본적인 설치가 완료되었습니다. 다음 스크립트 실행하여 CPU 기반 Tensorflow를 설치합니다.
 
 ```sh 
@@ -130,7 +133,7 @@ Collecting tf-nightly
 <중략>
 Successfully installed flatbuffers-1.12 tb-nightly-2.4.0a20201001 tf-estimator-nightly-2.4.0.dev2020100101 tf-nightly-2.4.0.dev20200930 typing-extensions-3.7.4.3
 ```
-## 3. Test
+## Test
 아래 Python 스크립트를 통해 설치된 TensorFlow를 검증합니다.
 
 ```sh 
