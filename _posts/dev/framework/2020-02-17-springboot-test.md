@@ -8,7 +8,9 @@ sidebar:
 
 다음은 springboot 환경에서 테스트 코드를 작성하는 기본적인 내용입니다.
 
-## 1. 의존성 확인
+### 의존성 확인
+
+SpringBoot Test를 위해 의존성 설정 
 
 ```xml
 <dependency>
@@ -21,37 +23,41 @@ sidebar:
 **Info Notice:** test 관련 lib의 버전은 spring-boot-starter-parent 의 spring-boot-dependencies 에 설정
 {: .notice--info}
 
-## 2. WebEnv: Mock
+### 기본 구성
 
-- Web환경을 위한 Dispatchservlet을 Mockup으로 구동
+SpringBoot 기본 구성 
 
-```java 
-import...
-
+```java
 @RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment =  SpringBootTest.WebEnvironment.MOCK)
-@ActiveProfiles("test")
-@AutoConfigureMockMvc
-public class SampleControllerTest {
-    /**
-     * MockMvc 활용 예제
-     * @AutoConfigureMockMvc 추가 필요
-     *
-     */
-    @Autowired
-    MockMvc mockMvc;
+@SpringBootTest
+public class LessonServiceTest {
 
-    @Test
-    public void hello() throws Exception {
-        mockMvc.perform(get("/sample/hello"))
-                .andExpect(status().isOk())
-                .andExpect(content().string("hello Jacob"))
-                .andDo(print());
-    }
+}
 ```
 
-## 3. WebEnv: RANDOM_PORT
+### WebEnv: Mock
 
+Web환경을 위해 Dispatchservlet을 Mockup으로 구동하기 위한 가장 쉬운 방법 
+
+```java 
+@RunWith(SpringRunner.class)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
+@AutoConfigureMockMvc
+public class LessonServiceTest {
+    @Autowired
+    MockMvc mockMvc; <-- mock 객체 생성 
+
+    @Test
+    public void webTest() throws Exception{
+        mockMvc.perform(get("/get/hello"))
+                .andExpect(status().isOk())
+                .andExpect(content().string("hello jacob"));
+    }
+}
+```
+
+### WebEnv: RANDOM_PORT
+- mock이 아닌 실제 servlet이 기동 함 
 - 테스트용 RestTemplate, 테스트용 WebClient 사용 필요
 - Random Port를 사용하여 Mockup이 아닌 Dispatchservelt이 기동 됨
 
@@ -59,31 +65,43 @@ public class SampleControllerTest {
 import...
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment =  SpringBootTest.WebEnvironment.RANDOM_PORT)
-@ActiveProfiles("test")
-public class SampleControllerTest {
-    /**
-     * TestRestTemplate 활용 예제
-     */
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@AutoConfigureMockMvc
+public class LessonServiceTest {
+    @Autowired
+    TestRestTemplate testRestTemplate;
+
+    @Test
+    public void randomPortTest() throws Exception {
+        String result = testRestTemplate.getForObject("/get/hello", String.class);
+        assertThat(result).isEqualTo("hello jacob");
+    }
+}
+```
+
+- 테스트가 Service까지 가지 않고 Controller까지만 진행 방법
+- Application Context Bean을 MocBean으로 교체 
+
+```java 
     @Autowired
     TestRestTemplate testRestTemplate;
 
     @MockBean
-    SampleService mockSampleService;
+    LessonService mockLessionService;
 
     @Test
-    public void hello() throws Exception {
-        when(mockSampleService.getName()).thenReturn("Summit");
+    public void randomPortTest() throws Exception {
+        when(mockLessionService.getName()).thenReturn("summit");
 
-        String result = testRestTemplate.getForObject("/sample/hello", String.class);
-        assertThat(result).isEqualTo("hello Summit");
+        String result = testRestTemplate.getForObject("/get/hello", String.class);
+        assertThat(result).isEqualTo("hello summit");
     }
-}
 ```
-## 4. WebTestClient
+
+### WebTestClient
 
 - web flux lib에 있는 RestClient 중 하나
-- 비동기, 콜백 활용 처리
+- 기존 RestClient는 동기방식인 반면에 이 클래스는 비동기, 콜백 활용 처리
 - 사용을 위해서는 dependency 추가 필요
 
 ```xml
@@ -91,6 +109,25 @@ public class SampleControllerTest {
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-webflux</artifactId>
 </dependency>
+```
+
+- WebTestClient를 활용한 샘플 테스트 코드
+
+```java 
+    @Autowired
+    WebTestClient webTestClient;
+
+    @MockBean
+    LessonService mockLessionService;
+
+    @Test
+    public void webClientTest() throws Exception {
+        when(mockLessionService.getName()).thenReturn("summit");
+
+        webTestClient.get().uri("/get/hello").exchange().expectStatus().isOk()
+                .expectBody(String.class).isEqualTo("hello summit");
+
+    }
 ```
 
 ## 5. 슬라이스 테스트

@@ -1,10 +1,16 @@
 ---
+
 title: "Tomcat 서버설정- Context 두 개 설정"
-date: 2020-01-26 11:00:00 +0800
+#excerpt: AWS Autoscale 기본 설정  
+date: 2020-02-26 11:00:00 +0800
+last_modified_at: 2020-02-26 11:00:00 +0800
+header:
+  teaser: /assets/images/01_teaser/cat-brown.png
+  overlay_image: /assets/images/01_teaser/cat-brown.png
+  overlay_filter: 0.5
+  og_image: /assets/images/01_teaser/cat-brown.png
+  caption: "Photo credit: [**Flickr***](https://live.staticflickr.com)"
 categories: tomcat
-sidebar:
-  title: "IT"
-  nav: "it-sidebar"
 ---
 ## 1. 개요
 - 톰켓 단일 인스턴스에 두 개의 다른 소스를 소스 디렉토리에 위치시키고 context 설정을 통해

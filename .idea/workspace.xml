@@ -19,22 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="deployment post 수정">
-      <change afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-20-k8s-installation003.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-20-k8s-installation005.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-28-k8s-svc001.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-08-25-k8s-dashboard.md" afterDir="false" />
+    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="TensorFlow 설치 on Mac 업데이트">
+      <change afterPath="$PROJECT_DIR$/_pages/category-dev-scdf.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/dev/framework/scdf/2020-09-23-scdf-001-install.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/dev/framework/scdf/2020-09-23-scdf-002-deploySpringBatch.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-20-k8s-installation002.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-21-k8s-pod001.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-21-k8s-pod002.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-21-k8s-pod003.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-kubernetes001.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-20-k8s-installation001.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-23-kubernetes002-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-22-k8s-replicaset.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-23-kubernetes002-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-23-k8s-deploy001.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-28-kubernetes003.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-28-k8s-svc002.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-03-17-kubernetes004.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-20-k8s-installation000.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-03-18-kubernetes006.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/kubernetes/2020-02-20-k8s-installation004.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/archive-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/archive-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/categories-dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/categories-dev.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/20xx-xx-xx-template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-01-28-springboot-interceptor.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/2020-01-28-springboot-interceptor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-01-29-springboot-logback.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/2020-01-29-springboot-logback.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-02-05-springboot-environment.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/2020-02-05-springboot-environment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-02-17-springboot-test.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/2020-02-17-springboot-test.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/jekyll/2020-01-31-jekyll-localsetup.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/jekyll/2020-01-31-jekyll-localsetup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/it/cloud/2020-01-21-aws-autoscale.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/it/cloud/2020-01-21-aws-autoscale.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/it/cloud/2020-01-29-aws-autoscale2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/it/cloud/2020-01-29-aws-autoscale2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/it/cloud/2020-01-29-aws-autoscale3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/it/cloud/2020-01-29-aws-autoscale3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/it/middleware/2020-02-03-tomcat-logging001.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/it/middleware/2020-02-03-tomcat-logging001.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/it/middleware/2020-02-26-tomcat-context.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/it/middleware/2020-02-26-tomcat-context.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/it/middleware/2020-05-09-tomcat-parameters.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/it/middleware/2020-05-09-tomcat-parameters.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/pe/ai/2020-02-05-ai-tensorflow001.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/pe/ai/2020-02-05-ai-tensorflow001.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_archive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_archive.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +68,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts/dev/kubernetes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts/dev/framework/scdf" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -73,20 +79,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts/dev/framework/scdf" />
+      <recent name="$PROJECT_DIR$/_pages" />
+      <recent name="$PROJECT_DIR$/_posts/dev/cicd" />
       <recent name="$PROJECT_DIR$/_posts/dev/kubernetes" />
       <recent name="$PROJECT_DIR$/_posts/it/architecture" />
-      <recent name="$PROJECT_DIR$/_includes" />
-      <recent name="$PROJECT_DIR$/_layouts" />
-      <recent name="$PROJECT_DIR$/_posts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/kubenetes" />
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/_pe" />
       <recent name="$PROJECT_DIR$/_it" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/_sample" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -133,63 +140,16 @@
       <workItem from="1596965572961" duration="10784000" />
       <workItem from="1597632934381" duration="8813000" />
       <workItem from="1597854868628" duration="40923000" />
-      <workItem from="1598369465273" duration="6855000" />
-    </task>
-    <task id="LOCAL-00093" summary="GIT-27 GIT-28 GIT-29 _posts 디렉토리 내에 카타고리별로 디렉토리 분리">
-      <created>1584271083904</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1584271083904</updated>
-    </task>
-    <task id="LOCAL-00094" summary="GIT-27 hw category .md 및 layout 파일 추가">
-      <created>1584274710299</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1584274710300</updated>
-    </task>
-    <task id="LOCAL-00095" summary="GIT-27 GIT-28 GIT-29 메뉴별 카테고리 메뉴 리뉴얼">
-      <created>1584275531584</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1584275531584</updated>
-    </task>
-    <task id="LOCAL-00096" summary="GIT-27 GIT-28 GIT-29 카테고리 별 subtitle font size 조정">
-      <created>1584286244826</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1584286244826</updated>
-    </task>
-    <task id="LOCAL-00097" summary="docker, kubernetes 분리">
-      <created>1584456844764</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1584456844765</updated>
-    </task>
-    <task id="LOCAL-00098" summary="KUB-24 포스트 이미지 변경">
-      <created>1584721184787</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1584721184788</updated>
-    </task>
-    <task id="LOCAL-00099" summary="KUB-33 쿠버네티스 아키텍처 이해 최초 반영">
-      <created>1584803343523</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1584803343528</updated>
-    </task>
-    <task id="LOCAL-00100" summary="KUB-33 KUB-34 KUB-35 쿠버네티스 아키텍처 이해 최초 반영">
-      <created>1584803462883</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1584803462883</updated>
+      <workItem from="1598369465273" duration="27713000" />
+      <workItem from="1599117058793" duration="14165000" />
+      <workItem from="1600528518394" duration="2253000" />
+      <workItem from="1600531331155" duration="3305000" />
+      <workItem from="1600869247799" duration="5865000" />
+      <workItem from="1602300686744" duration="5859000" />
+      <workItem from="1603078742471" duration="598000" />
+      <workItem from="1603102001206" duration="463000" />
+      <workItem from="1603988621505" duration="3779000" />
+      <workItem from="1604108629072" duration="12709000" />
     </task>
     <task id="LOCAL-00101" summary="KUB-36 KUB-37 KUB-38 KUB-39 파드 이해 최초 반영">
       <created>1584809484953</created>
@@ -478,11 +438,67 @@
       <option name="project" value="LOCAL" />
       <updated>1597940784145</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="k8s post modified">
+      <created>1598628329920</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1598628329920</updated>
+    </task>
+    <task id="LOCAL-00143" summary="k8s post 추가">
+      <created>1599150237857</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1599150237857</updated>
+    </task>
+    <task id="LOCAL-00144" summary="k8s post renaming &amp; monitoring 추가">
+      <created>1599397803102</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1599397803102</updated>
+    </task>
+    <task id="LOCAL-00145" summary="k8s post renaming &amp; monitoring 추가">
+      <created>1599397870911</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1599397870911</updated>
+    </task>
+    <task id="LOCAL-00146" summary="SWA-10 gitlab docker-compose 작성">
+      <created>1600594200820</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1600594200821</updated>
+    </task>
+    <task id="LOCAL-00147" summary="SWA-11 gitlab runner docker-compose 작성">
+      <created>1600594223127</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1600594223127</updated>
+    </task>
+    <task id="LOCAL-00148" summary="TensorFlow 설치 on Mac 업데이트">
+      <created>1602306073809</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1602306073809</updated>
+    </task>
+    <task id="LOCAL-00149" summary="TensorFlow 설치 on Mac 업데이트">
+      <created>1602306768169</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1602306768169</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -551,12 +567,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TensorFlow for Java 최초 반영" />
-    <MESSAGE value="WHMS-52 스프링부트 시작 수정 사항 반영" />
-    <MESSAGE value="WHMS-53 스프링부트 자동설정의 이해 최초 반영" />
-    <MESSAGE value="WHMS-52 스프링부트 시작 수정" />
-    <MESSAGE value="WHMS-53 날짜수정" />
-    <MESSAGE value="WHMS-53 스프링부트 자동설정의 이해2 반영" />
     <MESSAGE value="WHMS-54 내장웹서버 이해 추가" />
     <MESSAGE value="WHMS-54 내장 웹 서버 이해 추가" />
     <MESSAGE value="WHMS-55 스프링부트 활용 - SpringApplication" />
@@ -576,20 +586,28 @@
     <MESSAGE value="리스트 타입에서 teaser 표출 잠시 중단&#10;Home 이미지 변경&#10;ver 0.1 에서 ver 1.0 으로 수정" />
     <MESSAGE value="K8S 포스트 수정" />
     <MESSAGE value="deployment post 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="deployment post 수정" />
+    <MESSAGE value="k8s post modified" />
+    <MESSAGE value="k8s post 추가" />
+    <MESSAGE value="k8s post renaming &amp; monitoring 추가" />
+    <MESSAGE value="SWA-10 gitlab docker-compose 작성" />
+    <MESSAGE value="SWA-11 gitlab runner docker-compose 작성" />
+    <MESSAGE value="TensorFlow 설치 on Mac 업데이트" />
+    <option name="LAST_COMMIT_MESSAGE" value="TensorFlow 설치 on Mac 업데이트" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1622" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597599133130">
-      <screen x="1344" y="23" width="1920" height="1057" />
+    <state x="259" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600875102050">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state x="259" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1600875102050" />
     <state x="1622" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog/1344.23.1920.1057/0.23.1344.780@1344.23.1920.1057" timestamp="1597599133130" />
     <state x="2042" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596296987106">
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
     <state x="2042" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596296987106" />
-    <state x="93" y="121" width="1606" height="860" key="DiffContextDialog" timestamp="1597417956681">
-      <screen x="0" y="23" width="1792" height="1055" />
+    <state x="106" y="119" width="1836" height="1044" key="DiffContextDialog" timestamp="1604150448269">
+      <screen x="0" y="0" width="2048" height="1280" />
     </state>
+    <state x="106" y="119" width="1836" height="1044" key="DiffContextDialog/0.0.2048.1280@0.0.2048.1280" timestamp="1604150448269" />
     <state x="93" y="121" width="1606" height="860" key="DiffContextDialog/0.23.1792.1055@0.23.1792.1055" timestamp="1597417956681" />
     <state x="1444" y="100" width="1720" height="880" key="DiffContextDialog/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596298620707" />
     <state width="221" height="457" key="HiddenNamespacesPopup" timestamp="1597598922572">
@@ -609,13 +627,17 @@
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
     <state x="2157" y="460" key="VCS.ChangelistChooser/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596298716672" />
-    <state x="392" y="218" key="Vcs.Push.Dialog.v2" timestamp="1597940787722">
-      <screen x="0" y="0" width="1344" height="840" />
+    <state x="392" y="229" key="Vcs.Push.Dialog.v2" timestamp="1602306769826">
+      <screen x="0" y="23" width="1344" height="792" />
     </state>
     <state x="392" y="218" key="Vcs.Push.Dialog.v2/0.0.1344.840@0.0.1344.840" timestamp="1597940787722" />
+    <state x="523" y="290" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1599150240461" />
     <state x="392" y="224" key="Vcs.Push.Dialog.v2/0.23.1344.775@0.23.1344.775" timestamp="1597854916231" />
+    <state x="392" y="229" key="Vcs.Push.Dialog.v2/0.23.1344.792@0.23.1344.792" timestamp="1602306769826" />
     <state x="523" y="297" key="Vcs.Push.Dialog.v2/0.23.1792.1055@0.23.1792.1055" timestamp="1597418102149" />
-    <state x="1904" y="280" key="Vcs.Push.Dialog.v2/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596972378404" />
+    <state x="392" y="218" key="Vcs.Push.Dialog.v2/1344.0.1920.1080/0.0.1344.840@0.0.1344.840" timestamp="1600594251544" />
+    <state x="1904" y="280" key="Vcs.Push.Dialog.v2/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1599397873630" />
+    <state x="392" y="225" key="Vcs.Push.Dialog.v2/1344.23.1920.1057/0.23.1344.779@0.23.1344.779" timestamp="1598628332450" />
     <state x="1444" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596892570557">
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
@@ -628,12 +650,22 @@
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
     <state x="2107" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596884209846" />
-    <state x="497" y="50" width="798" height="1000" key="find.popup" timestamp="1597417432051">
-      <screen x="0" y="23" width="1792" height="1055" />
+    <state x="417" y="67" width="912" height="1213" key="find.popup" timestamp="1604157403925">
+      <screen x="0" y="0" width="2048" height="1280" />
     </state>
+    <state x="417" y="67" width="912" height="1213" key="find.popup/0.0.2048.1280@0.0.2048.1280" timestamp="1604157403925" />
     <state x="373" y="43" width="598" height="735" key="find.popup/0.23.1344.776@0.23.1344.776" timestamp="1596552652807" />
     <state x="497" y="50" width="798" height="1000" key="find.popup/0.23.1792.1055@0.23.1792.1055" timestamp="1597417432051" />
-    <state x="1877" y="28" width="855" height="1023" key="find.popup/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596969889195" />
+    <state x="1877" y="28" width="855" height="1023" key="find.popup/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1598704842488" />
+    <state x="367" y="208" key="git4idea.merge.GitPullDialog" timestamp="1602300700971">
+      <screen x="0" y="23" width="1344" height="792" />
+    </state>
+    <state x="367" y="208" key="git4idea.merge.GitPullDialog/0.23.1344.792@0.23.1344.792" timestamp="1602300700971" />
+    <state x="752" y="200" width="670" height="479" key="search.everywhere.popup" timestamp="1602305580119">
+      <screen x="0" y="23" width="1344" height="792" />
+    </state>
+    <state x="1003" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600870614133" />
+    <state x="752" y="200" width="670" height="479" key="search.everywhere.popup/0.23.1344.792@0.23.1344.792" timestamp="1602305580119" />
   </component>
   <component name="masterDetails">
     <states>

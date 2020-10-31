@@ -8,7 +8,7 @@ sidebar:
 TensorFlow 활용을 위한 설치 가이드
 
 ## 1. Environment
-TensorFlow2는 설치 환경 확인이 중요
+TensorFlow2는 설치 환경 확인
 - Python 3.5-3.7
 - Window 7 or later
 - macOS 10.12.6 (Sierra) or later (no GPU support) <br>

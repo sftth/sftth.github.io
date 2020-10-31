@@ -1,9 +1,15 @@
 ---
 title: "Springboot 구현 - 01.환경 구성"
+#excerpt: Springboot 환경에서 Interceptor 설정 하기  
 date: 2020-02-05 00:00:00 +0800
+last_modified_at: 2020-02-05 00:00:00 +0800
+header:
+  teaser: /assets/images/01_teaser/joy.jpg
+  overlay_image: /assets/images/01_teaser/joy.jpg
+  overlay_filter: 0.5
+  og_image: /assets/images/01_teaser/joy.jpg
+  caption: "Photo credit: [**Flickr***](https://live.staticflickr.com)"
 categories: springboot
-sidebar:
-  nav: "dev-sidebar"
 ---
 springboot 구현에 대한 이해를 돕고자 springboot 기반 업무관리 시스템을 만들고자 합니다. 이 포스팅은 시스템 구현을 위한 환경 구성에 관한 것입니다.
 

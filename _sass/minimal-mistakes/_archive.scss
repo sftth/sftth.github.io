@@ -20,6 +20,9 @@
 
 .archive__item {
   position: relative;
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
 
   a {
     position: relative;
@@ -88,6 +91,7 @@
 
 .archive__item-teaser {
   position: relative;
+  //max-width: 30rem;
   border-radius: $border-radius;
   overflow: hidden;
   //height: 300px;

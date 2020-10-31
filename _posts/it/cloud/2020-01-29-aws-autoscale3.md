@@ -1,9 +1,15 @@
 ---
-title: "AWS Autoscaling - AMI 내부 구성"
+title: AWS Autoscale
+excerpt: AMI 내부 구성  
 date: 2020-01-29 11:00:00 +0800
+last_modified_at: 2020-01-21 11:00:00 +0800
+header:
+  teaser: /assets/images/01_teaser/clouds-gray.jpg
+  overlay_image: /assets/images/01_teaser/clouds-gray.jpg
+  overlay_filter: 0.5
+  og_image: /assets/images/01_teaser/clouds-gray.jpg
+  caption: "Photo credit: [**Flickr***](https://live.staticflickr.com)"
 categories: cloud
-sidebar:
-  nav: "it-sidebar"
 ---
 
 AWS Autoscale 환경에서 동적으로 기동하는 인스턴스는 소스의 최신 버전을 능동적으로 갱신하여 기동할 수 있어야 합니다. 

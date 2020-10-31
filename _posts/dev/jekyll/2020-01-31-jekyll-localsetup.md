@@ -1,9 +1,15 @@
----
-title: "Jekyll - 로컬 실행환경 구성"
+---  
+title: 로컬 실행환경 구성
+excerpt: Jekyll 실행 환경을 로컬에 구성하기  
 date: 2020-01-21 11:00:00 +0800
-categories: jekyll
-sidebar:
-  nav: "dev-sidebar"
+last_modified_at: 2020-01-21 11:00:00 +0800
+header:
+  teaser: /assets/images/01_teaser/jekyll.jpeg
+  overlay_image: /assets/images/01_teaser/jekyll.jpeg
+  overlay_filter: 0.5
+  og_image: /assets/images/01_teaser/jekyll.jpeg
+  caption: "Photo credit: [**Flickr***](https://live.staticflickr.com)"
+categories: jekyll  
 ---
 
 Jekyll 작업의 어려움은 수정 작업 후 Github로 푸시하고 몇 분은 기다려야 

@@ -1,9 +1,15 @@
 ---
 title: "Tomcat 로그설정 - Catalina.out 관리 방법 "
-date: 2020-01-21 11:00:00 +0800
-categories: tomcat
-sidebar:
-  nav: "it-sidebar"
+#excerpt: AWS Autoscale 기본 설정  
+date: 2020-02-03 11:00:00 +0800
+last_modified_at: 2020-02-03 11:00:00 +0800
+header:
+  teaser: /assets/images/01_teaser/cat-black.png
+  overlay_image: /assets/images/01_teaser/cat-black.png
+  overlay_filter: 0.5
+  og_image: /assets/images/01_teaser/cat-black.png
+  caption: "Photo credit: [**Flickr***](https://live.staticflickr.com)"
+categories: tomcat  
 ---
 
 Tomcat은 Catalina.out에 로그를 남긴다. 이 파일은 단일 파일로 생성되고 

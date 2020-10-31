@@ -1,9 +1,15 @@
 ---
 title: "Springboot Interceptor 설정"
+excerpt: Springboot 환경에서 Interceptor 설정 하기  
 date: 2020-01-28 11:00:00 +0800
+last_modified_at: 2020-01-28 11:00:00 +0800
+header:
+  teaser: /assets/images/01_teaser/street.jpg
+  overlay_image: /assets/images/01_teaser/street.jpg
+  overlay_filter: 0.5
+  og_image: /assets/images/01_teaser/street.jpg
+  caption: "Photo credit: [**Flickr***](https://live.staticflickr.com)"
 categories: springboot
-sidebar:
-  nav: "dev-sidebar"
 ---
 # Session 확인을 위한 Interceptor 설정
 ## 1. 구현

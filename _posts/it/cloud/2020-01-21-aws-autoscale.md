@@ -1,9 +1,15 @@
 ---
-title: "AWS Autoscaling - AWS 기본 설정"
+title: AWS Autoscale
+excerpt: AWS Autoscale 기본 설정  
 date: 2020-01-21 11:00:00 +0800
+last_modified_at: 2020-01-21 11:00:00 +0800
+header:
+  teaser: /assets/images/01_teaser/clouds-during-sunset.jpg
+  overlay_image: /assets/images/01_teaser/clouds-during-sunset.jpg
+  overlay_filter: 0.5
+  og_image: /assets/images/01_teaser/clouds-during-sunset.jpg
+  caption: "Photo credit: [**Flickr***](https://live.staticflickr.com)"
 categories: cloud
-sidebar:
-  nav: "it-sidebar"
 ---
 AWS Autoscaling 설정은 크게 3가지로 구성된다. 이 포스팅은 AWS Autoscaling 설정을 위한 
 가장 기본적인 3가지 과정에 관한 것이다.

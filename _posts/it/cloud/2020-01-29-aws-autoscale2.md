@@ -1,9 +1,15 @@
 ---
-title: "AWS Autoscaling - CICD를 위한 Jenkins구성"
+title: AWS Autoscale
+excerpt: CICD를 위한 Jenkins구성  
 date: 2020-01-29 11:00:00 +0800
+last_modified_at: 2020-01-21 11:00:00 +0800
+header:
+  teaser: /assets/images/01_teaser/clouds.jpg
+  overlay_image: /assets/images/01_teaser/clouds.jpg
+  overlay_filter: 0.5
+  og_image: /assets/images/01_teaser/clouds.jpg
+  caption: "Photo credit: [**Flickr***](https://live.staticflickr.com)"
 categories: cloud
-sidebar:
-  nav: "it-sidebar"
 ---
 
 Autoscale 환경의 인스턴스에 최신 소스를 반영하는 문제는 고민거리이다. 인스턴스는 동적으로 생성/소멸되기 때문에 소스 반영을 위한 고정된 목적지를 알 수가 없기 때문이다. 이 포스팅은 Jenkins을 활용하여 해당 문제 해결 방법을 제시하고자 한다. 
