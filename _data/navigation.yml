@@ -44,7 +44,7 @@ dev-sidebar:
          url: /categories/springboot/
        - title: SpringFramework
          url: /categories/springframework/
-       - title: SpringFramework
+       - title: SpringCloudDataFlow
          url: /categories/scdf/
    - title: Jekyll
      children:

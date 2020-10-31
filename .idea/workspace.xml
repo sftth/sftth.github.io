@@ -19,28 +19,34 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="TensorFlow 설치 on Mac 업데이트">
-      <change afterPath="$PROJECT_DIR$/_pages/category-dev-scdf.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/dev/framework/scdf/2020-09-23-scdf-001-install.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/dev/framework/scdf/2020-09-23-scdf-002-deploySpringBatch.md" afterDir="false" />
+    <list default="true" id="cdf67b8c-cce3-4add-afba-4729842eecf3" name="Default Changelist" comment="GIT-33 Github Page 1.1 만들기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/archive-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/archive-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/categories-dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/categories-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/20xx-xx-xx-template.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-01-28-springboot-interceptor.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/2020-01-28-springboot-interceptor.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-01-29-springboot-logback.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/2020-01-29-springboot-logback.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-02-05-springboot-environment.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/2020-02-05-springboot-environment.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-02-17-springboot-test.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/2020-02-17-springboot-test.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/dev/jekyll/2020-01-31-jekyll-localsetup.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/jekyll/2020-01-31-jekyll-localsetup.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/it/cloud/2020-01-21-aws-autoscale.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/it/cloud/2020-01-21-aws-autoscale.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/it/cloud/2020-01-29-aws-autoscale2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/it/cloud/2020-01-29-aws-autoscale2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/it/cloud/2020-01-29-aws-autoscale3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/it/cloud/2020-01-29-aws-autoscale3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/it/middleware/2020-02-03-tomcat-logging001.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/it/middleware/2020-02-03-tomcat-logging001.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/it/middleware/2020-02-26-tomcat-context.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/it/middleware/2020-02-26-tomcat-context.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/it/middleware/2020-05-09-tomcat-parameters.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/it/middleware/2020-05-09-tomcat-parameters.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/pe/ai/2020-02-05-ai-tensorflow001.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/pe/ai/2020-02-05-ai-tensorflow001.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_archive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_archive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/category-dev-docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/category-dev-docker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-02-09-docker-basic001.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-02-09-docker-basic001.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-02-10-docker-basic002.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-02-10-docker-basic002.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-02-11-docker-basic003.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-02-11-docker-basic003.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-02-14-docker-basic004.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-02-14-docker-basic004.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-02-14-docker-basic005.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-02-14-docker-basic005.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-02-15-docker-basic006.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-02-15-docker-basic006.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-02-19-docker-basic007.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-02-19-docker-basic007.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-03-04-docker-basic008.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-03-04-docker-basic008.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-03-10-docker-basic009.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-03-10-docker-basic009.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-03-12-docker-basic010.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-03-12-docker-basic010.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/docker/2020-03-13-docker-basic011.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/docker/2020-03-13-docker-basic011.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-01-28-springboot-interceptor.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/springboot/2020-01-28-springboot-interceptor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-01-29-springboot-logback.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/springboot/2020-01-29-springboot-logback.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-02-05-springboot-environment.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/springboot/2020-02-05-springboot-environment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-02-05-springboot-session.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/springboot/2020-02-05-springboot-session.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-02-17-springboot-test.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/springboot/2020-02-17-springboot-test.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-03-01-springboot-dependency.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/springboot/2020-03-01-springboot-dependency.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-03-01-springboot-intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/springboot/2020-03-01-springboot-intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-04-05-springboot-autoconfiguration.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/springboot/2020-04-05-springboot-autoconfiguration.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-04-05-springboot-tomcatinspringboot.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/springboot/2020-04-05-springboot-tomcatinspringboot.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-04-06-springboot-externalizedconfig.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/springboot/2020-04-06-springboot-externalizedconfig.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-04-06-springboot-profile.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/springboot/2020-04-06-springboot-profile.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-04-06-springboot-springapplication.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/springboot/2020-04-06-springboot-springapplication.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/dev/framework/2020-04-30-springframework-ioc001.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/dev/framework/springfw/2020-04-30-springframework-ioc001.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +84,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts/dev/framework/springfw" />
+      <recent name="$PROJECT_DIR$/_posts/dev/framework/springboot" />
+      <recent name="$PROJECT_DIR$/assets/images/kubenetes" />
+      <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$/_pe" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts/dev/framework/scdf" />
       <recent name="$PROJECT_DIR$/_pages" />
@@ -85,13 +98,19 @@
       <recent name="$PROJECT_DIR$/_posts/dev/kubernetes" />
       <recent name="$PROJECT_DIR$/_posts/it/architecture" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images/kubenetes" />
-      <recent name="$PROJECT_DIR$/_posts" />
-      <recent name="$PROJECT_DIR$/_pe" />
-      <recent name="$PROJECT_DIR$/_it" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -149,14 +168,7 @@
       <workItem from="1603078742471" duration="598000" />
       <workItem from="1603102001206" duration="463000" />
       <workItem from="1603988621505" duration="3779000" />
-      <workItem from="1604108629072" duration="12709000" />
-    </task>
-    <task id="LOCAL-00101" summary="KUB-36 KUB-37 KUB-38 KUB-39 파드 이해 최초 반영">
-      <created>1584809484953</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1584809484954</updated>
+      <workItem from="1604108629072" duration="14613000" />
     </task>
     <task id="LOCAL-00102" summary="타이틀 수정">
       <created>1584809516812</created>
@@ -494,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602306768169</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="GIT-33 Github Page 1.1 만들기">
+      <created>1604163589033</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1604163589033</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +586,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="WHMS-54 내장웹서버 이해 추가" />
     <MESSAGE value="WHMS-54 내장 웹 서버 이해 추가" />
     <MESSAGE value="WHMS-55 스프링부트 활용 - SpringApplication" />
     <MESSAGE value="WHMS-56 스프링부트 활용 - 외부 설정" />
@@ -592,13 +610,15 @@
     <MESSAGE value="SWA-10 gitlab docker-compose 작성" />
     <MESSAGE value="SWA-11 gitlab runner docker-compose 작성" />
     <MESSAGE value="TensorFlow 설치 on Mac 업데이트" />
-    <option name="LAST_COMMIT_MESSAGE" value="TensorFlow 설치 on Mac 업데이트" />
+    <MESSAGE value="GIT-33 Github Page 1.1 만들기" />
+    <option name="LAST_COMMIT_MESSAGE" value="GIT-33 Github Page 1.1 만들기" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="259" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600875102050">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="296" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604164316236">
+      <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state x="259" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1600875102050" />
+    <state x="296" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1280@0.0.2048.1280" timestamp="1604164316236" />
     <state x="1622" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog/1344.23.1920.1057/0.23.1344.780@1344.23.1920.1057" timestamp="1597599133130" />
     <state x="2042" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596296987106">
       <screen x="1344" y="0" width="1920" height="1080" />
@@ -627,11 +647,12 @@
       <screen x="1344" y="0" width="1920" height="1080" />
     </state>
     <state x="2157" y="460" key="VCS.ChangelistChooser/1344.0.1920.1080/0.0.1344.840@1344.0.1920.1080" timestamp="1596298716672" />
-    <state x="392" y="229" key="Vcs.Push.Dialog.v2" timestamp="1602306769826">
-      <screen x="0" y="23" width="1344" height="792" />
+    <state x="597" y="333" key="Vcs.Push.Dialog.v2" timestamp="1604163591319">
+      <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state x="392" y="218" key="Vcs.Push.Dialog.v2/0.0.1344.840@0.0.1344.840" timestamp="1597940787722" />
     <state x="523" y="290" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1599150240461" />
+    <state x="597" y="333" key="Vcs.Push.Dialog.v2/0.0.2048.1280@0.0.2048.1280" timestamp="1604163591319" />
     <state x="392" y="224" key="Vcs.Push.Dialog.v2/0.23.1344.775@0.23.1344.775" timestamp="1597854916231" />
     <state x="392" y="229" key="Vcs.Push.Dialog.v2/0.23.1344.792@0.23.1344.792" timestamp="1602306769826" />
     <state x="523" y="297" key="Vcs.Push.Dialog.v2/0.23.1792.1055@0.23.1792.1055" timestamp="1597418102149" />

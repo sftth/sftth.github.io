@@ -1,12 +1,15 @@
 ---
 title: "SpringFramework Core - IoC"
+#excerpt: Springboot 환경에서 Interceptor 설정 하기  
 date: 2020-04-30 00:00:00 +0800
-categories: 
- - springframework
-tags:
- - ioc
-sidebar:
-  nav: "dev-sidebar"
+last_modified_at: 2020-04-30 00:00:00 +0800
+header:
+  teaser: /assets/images/01_teaser/home.jpg
+  overlay_image: /assets/images/01_teaser/home.jpg
+  overlay_filter: 0.5
+  og_image: /assets/images/01_teaser/home.jpg
+  caption: "Photo credit: [**Flickr***](https://live.staticflickr.com)"
+categories: springframework
 ---
 
 ### 1부 스프링 IoC 컨테이너와 빈 
