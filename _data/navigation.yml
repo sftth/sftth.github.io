@@ -65,6 +65,10 @@ dev-sidebar:
      children:
        - title: Eclipse
          url: /categories/ide/
+   - title: FrontEnd
+     children:
+       - title: React
+         url: /categories/react/
 pe-sidebar:
    - title: AI
      children:

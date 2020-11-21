@@ -1,8 +1,8 @@
 ---
-title: SpringCloudDataFlow
+title: React
 layout: category
-permalink: /categories/scdf/
-taxonomy: springCloudDataFlow
+permalink: /categories/react/
+taxonomy: react
 author_profile: false
 classes: wide
 sidebar:
