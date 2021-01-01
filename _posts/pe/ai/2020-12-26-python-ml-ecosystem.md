@@ -1,5 +1,5 @@
 ---  
-title: Python Ecosystem for ML 
+title: Python Ecosystem for ML #2
 excerpt:  머신러닝 학습을 위한 환경 구성   
 date: 2020-12-26 00:00:00 +0800
 last_modified_at: 2020-12-26 00:00:00 +0800
@@ -12,7 +12,29 @@ header:
   caption: "Photo credit: [**Flickr***](https://live.staticflickr.com)"
 ---
 
-# 개발환경 
+# 머신러닝 학습 환경 구성 방법
+
+- 내 클라이언트에 패키지를 설치
+- 가상환경 설정하기
+
+## 내 클라이언트에 패키지를 설치
+
+- 한 가지 프로젝트 진행 시 문제 없으나 여러개 진행 시 필요한 패키지 관리가 안 됨
+- 설치 과정에서 버전 문제, 호환성 문제, 물리적인 환경상 제약으로 예기치 못한 문제가 작업 지연으로 작용
+
+## 가상환경 설정하기
+
+- 상대적 편의성 제공
+- 프로젝트 별 패키지 관리 가능
+- 호환성, 버전 문제 해결
+
+# 가상환경 설정 방법
+
+- virtualenv
+- conda
+- 둘다 나름 장/단점이 있으나 여기에서는 좀 더 대중적인 conda를 활용
+
+# miniconda를 활용한 개발환경 구축  
 
 ## 개요
 - 일반적으로 pyhon 기반 AI 학습에 사용하는 개발 환경을 구축하기 
@@ -108,3 +130,62 @@ header:
    >>> import matplotlib
    >>> exit()
    ```
+## matplotlib 예제
+
+- test_matplotlib.py 작성 
+
+    ```sh
+    import matplotlib.pyplot as plt
+    plt.plot([1,2,3,4])
+    plt.ylabel('some numbers')
+    plt.show()
+    ```
+  
+- miniconda 가상환경 실행
+
+   ```sh 
+   source activate ml_scratch
+   ```
+- python 파일 실행 
+
+  ```sh 
+  python test_matplotlib.py
+  ```
+
+## atom에 hydrogen plugin 설치 
+
+1. conda 프로젝트 활성화
+
+   ```sh 
+   source activate ml_scratch
+   ```
+
+2. conda 명령어로 jupter를 설치
+
+    ```sh 
+    conda install jupyter
+    ```
+3. 커널 명령어 실행
+
+   ```sh 
+   python -m ipykernel install --user
+   ```
+4. jupyer notebook 실행
+
+   ```sh 
+   jupyter notebook
+   ```
+   
+5. Kernel 확인
+   ```sh 
+   Jupyter 화면 > Kernel > Change kernel > Python3    
+   ```
+   
+6. atom 실행
+
+   ```sh 
+   atom .
+   ```
+7. hydrogen 설치
+
+- atom > preference > Install > Hydrogen > Install 
