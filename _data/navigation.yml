@@ -1,76 +1,50 @@
 # main links
 main:
-  - title: "IT"
-    url: /it/
-  - title: "Dev"
-    url: /dev/
-  - title: "PE"
-    url: /pe/
-  - title: "Book"
-    url: /book/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Tags"
+    url: /tags/
+  - title: "Architecture"
+    url: /categories/msa/
+  - title: "Programing"
+    url: /categories/java/
+  - title: "Cloud"
+    url: /categories/aws/
+  - title: "AI"
+    url: /categories/python/
+#  - title: "Cloud"
+#    url: /cloud/
+#  - title: "Collections"
+#    url: /collaction-archive/
   - title: "About"
     url: /about/
 
 #sidebar it category links
-it-sidebar:
-   - title: SW
-     children:
-       - title: 오픈소스
-         url: /categories/sw/
-   - title: HW
-     children:
-       - title: 아두이노
-         url: /categories/hw/
-   - title: 신기술
-     children:
-       - title: Cloud
-         url: /categories/cloud/
-   - title: Middleware
-     children:
-       - title: Tomcat
-         url: /categories/tomcat/
-       - title: Apache
-         url: /categories/apache/
-       - title: Java
-         url: /categories/java/
-   - title: Architecture
-     children:
-       - title: MSA
-         url: /categories/msa/
+arch-sidebar:
+  - title: Architecture
+    children:
+      - title: MSA
+        url: /categories/msa/
 dev-sidebar:
-   - title: Framework
-     children:
-       - title: Springboot
-         url: /categories/springboot/
-       - title: SpringFramework
-         url: /categories/springframework/
-       - title: SpringCloudDataFlow
-         url: /categories/scdf/
-   - title: Jekyll
-     children:
-       - title: Jekyll
-         url: /categories/jekyll/
-   - title: 가상화
-     children:
-       - title: Docker
-         url: /categories/docker/
-       - title: Kubernetes
-         url: /categories/kubernetes/
-   - title: CICD
-     url: /categories/cicd
-#     children:
-#       - title: Jenkins
-#         url: /categories/jenkins/
-   - title: IDE
-     children:
-       - title: Eclipse
-         url: /categories/ide/
-   - title: FrontEnd
-     children:
-       - title: React
-         url: /categories/react/
-pe-sidebar:
+  - title: Programing
+    children:
+      - title: Java
+        url: /categories/java/
+cloud-sidebar:
+  - title: Cloud
+    children:
+      - title: AWS
+        url: /categories/aws/
+      - title: Docker
+        url: /categories/docker/
+      - title: Kubernetes
+        url: /categories/kubernetes/
+      - title: Openshift
+        url: /categories/openshift/
+ai-sidebar:
    - title: AI
      children:
        - title: TensorFlow
          url: /categories/tensorflow/
+       - title: Python
+         url: /categories/python/
