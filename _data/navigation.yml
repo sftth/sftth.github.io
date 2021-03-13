@@ -25,6 +25,8 @@ arch-sidebar:
     children:
       - title: MSA
         url: /categories/msa/
+      - title: CNCF
+        url: /categories/cncf/
 dev-sidebar:
   - title: Programing
     children:
