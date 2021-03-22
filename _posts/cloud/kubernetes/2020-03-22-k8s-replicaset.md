@@ -9,7 +9,9 @@ header:
   overlay_filter: 0.5
   og_image: https://live.staticflickr.com/65535/50208492052_5430e07e89_b.jpg
   caption: "Photo credit: [**Flickr***](https://live.staticflickr.com)"
-categories: kubernetes  
+categories: kubernetes
+tag:
+- kubernetes
 ---
 
 컨트롤러는 파드를 관리하는 역할

@@ -4,6 +4,8 @@ excerpt: Jenkins pipeline에 SonarQube 연동 설정하기
 date: 2020-12-21 00:00:00 +0800
 last_modified_at: 2020-12-21 00:00:00 +0800
 categories: cicd
+tag:
+- cicd
 header:
   teaser: https://live.staticflickr.com/1872/44696258862_8135bd2fdf_k.jpg
   overlay_image: https://live.staticflickr.com/1872/44696258862_8135bd2fdf_k.jpg
