@@ -1,21 +1,23 @@
 ---
-title: "Java - HeapDump"
+title: "Java HeapDump"
+excerpt: Java HeapDump 생성 방법 
 date: 2020-05-10 11:00:00 +0800
-categories: 
+last_modified_at: 2020-05-10 00:00:00 +0800
+categories: java 
+tag:
   - java
-tags:
-  - java
-  - heapdump
-sidebar:
-  title: "IT"
-  nav: "it-sidebar"
+header:
+  teaser: /assets/images/01_teaser/michael.jpeg
+  overlay_image: /assets/images/01_teaser/michael.jpeg
+  overlay_filter: 0.5
+  og_image: /assets/images/01_teaser/michael.jpeg
+  caption: "Photo by Michael Haddad on Unsplash"
 ---
 
 ### 1. 생성 방법
 
 - Oracle Hopspot
-
-```xml
+```sh
 5.0 이하 
 -XX:+HeapDumpOnCtrlBreak 
 Unix: kill -3 PID 
@@ -36,7 +38,7 @@ Win: Ctrl + Break
 
 - IBM
 
-```xml
+```sh 
 export IBM_HEAP_DUMP=true
 export IBM_HEAPDUMP=true
 Unix: kill -3 PID 
