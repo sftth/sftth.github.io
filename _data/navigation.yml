@@ -7,7 +7,7 @@ main:
   - title: "Architecture"
     url: /categories/msa/
   - title: "Programing"
-    url: /categories/java/
+    url: /categories/cos/
   - title: "Cloud"
     url: /categories/aws/
   - title: "AI"
@@ -27,11 +27,13 @@ arch-sidebar:
         url: /categories/msa/
       - title: CNCF
         url: /categories/cncf/
+      - title: Java
+        url: /categories/java/
 dev-sidebar:
   - title: Programing
     children:
-      - title: Java
-        url: /categories/java/
+      - title: COS Pro L1
+        url: /categories/cos/
 cloud-sidebar:
   - title: Cloud
     children:
